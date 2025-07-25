@@ -1,0 +1,2587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dr. Selim Çağatay - Publications and Research Papers">
+    <meta name="keywords" content="publications, research papers, academic articles, journals">
+    <meta name="author" content="Dr. Selim Çağatay">
+    
+    <!-- Cache-busting headers for development -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Publications - Dr. Selim Çağatay</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css?v=2.0.0">
+    
+    <!-- Favicon placeholder -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <h1>Prof. Dr. Selim Çağatay</h1>
+                </div>
+                
+                <!-- Mobile Menu Toggle -->
+                <div class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                
+                <!-- Navigation Menu -->
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="cv.html" class="nav-link">CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="publications.html" class="nav-link active">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                            <span class="theme-icon" id="themeIcon">🌙</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">Publications</h1>
+                <p class="page-subtitle">Research Papers, Articles, and Academic Contributions</p>
+            </div>
+        </section>
+
+        <!-- Publications Filter and Search -->
+        <section class="publications-controls">
+            <div class="container">
+                <div class="controls-wrapper">
+                    <!-- Search Bar -->
+                    <div class="search-container">
+                        <input 
+                            type="text" 
+                            id="publicationSearch" 
+                            class="search-input" 
+                            placeholder="Search publications by title, author, or keyword..."
+                            aria-label="Search publications">
+                        <button class="search-btn" onclick="searchPublications()" aria-label="Search">
+                            <span class="search-icon">🔍</span>
+                        </button>
+                    </div>
+                    
+                    <!-- Filters -->
+                    <div class="filters-container">
+                        <div class="filter-group">
+                            <label for="yearFilter">Year:</label>
+                            <select id="yearFilter" class="filter-select" aria-label="Filter by year">
+                                <option value="">All Years</option>
+                                <option value="2024">2024</option>
+                                <option value="2023">2023</option>
+                                <option value="2022">2022</option>
+                                <option value="2021">2021</option>
+                                <option value="2020">2020</option>
+                                <option value="2019">2019</option>
+                                <option value="2018">2018</option>
+                                <option value="2017">2017</option>
+                                <option value="2016">2016</option>
+                                <option value="2015">2015</option>
+                                <option value="2014">2014</option>
+                                <option value="2013">2013</option>
+                                <option value="2012">2012</option>
+                                <option value="2011">2011</option>
+                                <option value="2010">2010</option>
+                                <option value="2009">2009</option>
+                                <option value="2008">2008</option>
+                                <option value="2007">2007</option>
+                                <option value="2006">2006</option>
+                                <option value="2005">2005</option>
+                                <option value="2004">2004</option>
+                                <option value="2003">2003</option>
+                                <option value="2002">2002</option>
+                                <option value="2001">2001</option>
+                                <option value="2000">2000</option>
+                                <option value="1999">1999</option>
+                                <option value="1998">1998</option>
+                                <option value="1997">1997</option>
+                                <option value="1996">1996</option>
+                            </select>
+                        </div>
+                        
+                        <div class="filter-group">
+                            <label for="typeFilter">Type:</label>
+                            <select id="typeFilter" class="filter-select" aria-label="Filter by publication type">
+                                <option value="">All Types</option>
+                                <option value="journal">Journal Articles</option>
+                                <option value="book">Books/Edited Volumes</option>
+                                <option value="chapter">Book Chapters</option>
+                                <option value="conference">Conference Papers</option>
+                                <option value="report">Research Reports</option>
+                            </select>
+                        </div>
+                        
+                        <div class="filter-group">
+                            <label for="sortFilter">Sort by:</label>
+                            <select id="sortFilter" class="filter-select" aria-label="Sort publications">
+                                <option value="year-desc">Newest First</option>
+                                <option value="year-asc">Oldest First</option>
+                                <option value="title-asc">Title A-Z</option>
+                                <option value="title-desc">Title Z-A</option>
+                            </select>
+                        </div>
+                        
+                        <button class="btn btn-secondary" onclick="clearFilters()" aria-label="Clear all filters">
+                            Clear Filters
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications Statistics -->
+        <section class="publications-stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number" id="totalPublications">474</span>
+                        <span class="stat-label">Total Publications</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="journalArticles">79</span>
+                        <span class="stat-label">Journal Articles</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="conferencePapers">272</span>
+                        <span class="stat-label">Conference Papers</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="bookChapters">52</span>
+                        <span class="stat-label">Books & Chapters</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications List -->
+        <section class="publications-list">
+            <div class="container">
+                <div class="publications-results">
+                    <div class="results-header">
+                        <h2>Publications</h2>
+                        <div class="results-info">
+                            <span id="resultsCount">Showing all publications</span>
+                        </div>
+                    </div>
+                    
+                    <div class="publications-container" id="publicationsContainer">
+                        <!-- 2024 Publications -->
+                        <div class="year-section" data-year="2024">
+                            <h3 class="year-title">2024</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2024" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">“A Synthesis on Impact Assessment Models from the Perspective of Evolution of the EU Common Agricultural Policy”, <strong>Çağatay, S</strong>., Koç, A.A., Bayaner, A., Uysal, P. and Arslan, S., Tarım Ekonomisi Araştırmaları Dergisi, cilt.30, sa.1, ss.69-87, 2024.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2024" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">“A Synthesis on Agent-Based Impact Assessment Models from the Perspective of the EU Rural Development Policy Measures”, Ali Koç, <strong>Selim Çağatay</strong>, Mario Veneziani, Pablo Baez Gonzales, Carlos Leyva Guerrero, Peyman Uysal, Rosalia Filippini, Journal of Agricultural Sciences, 30(4), p. 628-643, 2024.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2024" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">“Fossil fuel and resource use impacts of raw material substitution and recycling in tourism sector in Türkiye: evidence from circular economy adjusted input-output matrix”, Hasan Gül, <strong>Selim Çağatay</strong>, William C. Gartner, Current Issues in Tourism, July 2024. DOI: <a href="https://doi.org/10.1080/13683500.2024.2376887." target="_blank">10.1080/13683500.2024.2376887.</a> “The Relationship Between Poverty and Violence Against Women: Causality Contrary to</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2024" data-type="chapter">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📖 Book Chapter</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">in <em>Koç</em>, Ş.A. and Şiriner, İ. (eds.), Essays on Economics and Political Economy, IJOPEC, Publication, İstanbul, Önder, K., Aytekin, M., Akın, B., Hatırlı, S.A., <strong>Çağatay, S</strong>. and Demirel, O. (2024).</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2024" data-type="chapter">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📖 Book Chapter</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Agricultural Economics, Anadolu University Printing house, Eskişehir, <strong>Çağatay, S</strong>. (2024). “Antalya Sanayii ve Dijital Dönüşüm-Endüstri 4.0 (Antalya Industry and Digital</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2024" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Çakaloğlu, M. and <strong>Çağatay, S</strong>. (2024). Türkiye Ara Girdi Dış Ticaretinin Global Üretim Açısından Önemi: Ülkelerarası İleri ve Geri Bağ Katsayıları İle Ampirik Bir Analiz (The Importance of Turkey&#x27;s Foreign Trade in Intermediate Inputs for Global Production: An Empirical Analysis with Intercountry Forward and Backward Link Coefficients). Econanadolu 2024 (VII. Anadolu International Conference on Economics- EconAnadolu’24). 31.05.2024-02.06.2024, Eskişehir.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2024" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">June 2024-…: Critical Insights in Agriculture (Associate Editor) 2016 October-2020 February: Akdeniz University Journal of Economics and</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2024" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">May 2023-April 2024:Visiting Research Fellow</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2023 Publications -->
+                        <div class="year-section" data-year="2023">
+                            <h3 class="year-title">2023</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2023" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Expectations”, Mehmet Zanbak, <strong>Selim Çağatay</strong>, Şebnem Arık, Beyhan Akay, Woman and Criminal Justice Journal , cilt.33, ss.1-29, 2023. DOI: <a href="https://doi.org/10.1080/08974454.2023.2291640." target="_blank">10.1080/08974454.2023.2291640.</a> “Impact assessment of Agri-Environment-Climate Measure (M10) of RDP 2014-2020 on</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2023" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Polish farmers’ perception of environmental and climatic policies implementation”, Jaromir Krzyszczak, Piotr Baranowski, Krzysztof Lamorski, Cezary Sławiński , Anna Siedliska, Waldemar Bojar, Wojciech Żarski, Jacek Żarski, Renata Kuśmierek-Tomaszewska, Ahmet Ali Koç, <strong>Selim Çağatay</strong>, Peyman Uysal, Christos Staboulis, Nastis Stefanos A., Theofilou Asterios, Mattas Konstadinos, Carlos Leyva, Pablo Báez-González, Álvaro Ojeda Roldán, Obdulia Parra, Przemysław Tkaczyk, International Agrophysics Journal, V. 37, 311-323, 2023. “Göçle Gelen Nüfusun Eğitim Seviyesinin İl Yaşam Standardi Üzerindeki Etkilerinin</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2023" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Ampirik Analizi (The Effects of the Education Level of the Migrant Population on the Provincial Living Standards Empirical Analysis)”, Nevin Taştekin, <strong>Selim Çağatay</strong> ve Şebnem Arık, Sosyoyloji Araştırmaları Dergisi, Cilt 26, Sayı 2, s. 254-272, 2023. “Girdi-Çıktı Analizinde Varsayımsal Çıkarma Yöntemi: Batı Akdeniz Bölgesi’nde (TR61)</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2023" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Sektörel Kapanmanın Etki Analizi (Hypothetical Extraction Method in Input-Output Analysis: Western Mediterranean Region (TR61) Impact Analysis of Sectoral Closure)”, Zafer B. Gül, Şebnem Arık, Mehmet Kula, <strong>Selim Çağatay</strong>, Şükrü Erdem, Sosyoekonomi Dergisi, Cilt 31(56), s. 241-277, 2023. “Environmental and Economic Impact Analysis of Reducing Greenhouse Gas</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2022 Publications -->
+                        <div class="year-section" data-year="2022">
+                            <h3 class="year-title">2022</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2022" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Emissions Via Energy Substitution and Carbon Tax”, Reyhan Özeş Özgür, <strong>Selim Çağatay</strong>, Journal of Research in Economics, Cilt 6(1), s. 46-60, 2022. “Yurtiçi Göçmenlerin Demografik Özelliklerinin Sektörel Ücretler Üzerindeki Etkisi:</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2022" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Türkiye’de İl Düzeyinde Ekonometrik Bir Analiz (The Effect of Demographic Characteristics of Domestic Migrants on Sectoral Wages: An Econometric Analysis at the Provincial Level in Turkey)”, Nevin Taştekin ve <strong>Selim Çağatay</strong>, Çalışma ve Toplum Dergisi, Cilt 2(73), p. 965-978, 2022.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2022" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Şahin, M.T., Ertürk, M., <strong>Çağatay, S</strong>., Özden Varol, Ç. ve Özelçi Eceral, T. (2022). Covid- 19 Krizinin KOBİ’ler Üzerinde Etkisinin Sektörel Ölçekte Analizi: Antalya Örneği (Sectoral Scale Analysis of the Impact of Covid-19 Crisis on SMEs: The Case of Antalya). 21. Ulusal Bölge Bilimi ve Bölge Planlama Kongresi (21st National Regional Science and Regional Planning Congress). Gazi University, Ankara, May 2022.</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2021 Publications -->
+                        <div class="year-section" data-year="2021">
+                            <h3 class="year-title">2021</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2021" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Çikti Tablosu İle Analizi (Regional Input of the Effects of the Covid-19 Pandemic on the Economy of the Western Mediterranean Region- Analysing with Output Table)&quot;, Şebnem Arik, Zafer Barış Gül, Mehmet Kula, Şükrü Erdem, <strong>Selim Çağatay</strong>, Hacettepe University İİBF Dergisi, 2021, Cilt 39 (4), Sayfa: 537-559. “Increasing Number of Children and Poverty: A Multidimensional Approach”, Ege</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2021" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Akademik Bakış Dergisi, . Zanbak M. ve Çağatay S., 21(4), 299-317, 2021. “Covid-19 Pandemisinin Sektörel Kapanma Etkileri: Varsayımsal Çıkarma (Hypothetical</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2021" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Çağatay, Celal Taşdoğan, Çağaçan Değer, Şebnem Arık, Hüsnü Can Dural, No 124, Şubat, 2021. “Transatlantik Ticaret ve Yatırım Ortaklığı Anlaşmasının Çeşitli Mamul Eşya Endüstrisi</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2021" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">A.; <strong>Cagatay, S</strong>., 2021. Ontologies in the Agri-Food Sector: Why a New Approach is Needed? 11th AIEAA Congress, 16-17 June, Tuscia, Italy.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2021" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Filippini R., 2021. A Synthesis on Agent-Based Impact Assessment Models from the Perspective of the EU Rural Development Policy (RDP) Measures. 179th</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2021" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Cagatay, 2021. Ontologies in agri-food sector: why a new approach is needed. 179th EAAE Seminar, 09 and 10 September, Crete, Greece.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2021" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>., Koç, A.A., Bayaner, A., Uysal, P., Arslan, S. (2021) A Synthesis on Impact</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2021" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>., Arık, Ş., Gül, Z.B., Kula, M., Erdem, Ş. 2021. The Effects of Industrial</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2021" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Dural, C., Şebnem Arık, Zafer Barış Gül, Çağaçan Değer, Celal Taşdoğan, <strong>Selim Çağatay</strong>, 2021. Covid-19’un Daraltıcı Etkilerinin Telafisi: Alternatif Politikaların Etki Analizi (Compensation for the Contractionary Effects of Covid-19: Impact Analysis of Alternative Policies), Türkiye Ekonomi Kurumu 7. Uluslararası Ekonomi Konferansı (Turkish Economic Association 7th International Economics Conference), 9-11 April, Online.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2021" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Arık, Şebnem, Zafer Barış Gül, Mehmet Kula, Şükrü Erdem, <strong>Selim Çağatay</strong>, 2021. Covid- 19 Pandemisinin Batı Akdeniz Bölge Ekonomisine Etkileri (Effects of the Covid-19 Pandemic on the Economy of the Western Mediterranean Region), Türkiye Ekonomi Kurumu 7. Uluslararası Ekonomi Konferansı (Turkish Economic Association 7th International Economics Conference), 9-11 April, Online.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2021" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Oct. 2016-Jun. 2021 Chair, Department of Economics, Faculty of Economics and</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2021" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Oct. 2016-Jun. 2021 Board Member, Faculty of Economics and Administrative Sciences,</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2020 Publications -->
+                        <div class="year-section" data-year="2020">
+                            <h3 class="year-title">2020</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2020" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Dış Ticaretine Olası Etkileri (Possible Foreign Trade Effects of Transatlantic Trade and Investment Partnership Agreement on Miscellaneous Manufactured Articles )”, Ekonomik Yaklaşım, Öner Öz, <strong>Selim Çağatay</strong>, Erhan Pişkin, 31(114): 51-95, 2020. “Determinants of Industry and Region Based Open Innovation in Turkey”, Istanbul</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2020" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Business Research, Seyfettinoğlu, Ü., Arık, Ş. &amp; <strong>Çağatay, S</strong>., vol. 49 (1), pp. 1-35, 2020. “Karbon Vergisinin İktisadi Daralma Etkilerinin Giderilmesi İçin Alternatif Politika</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2020" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Önerileri: Türkiye İçin Sosyal Hesaplar Matrisi Temelinde Bir Analiz (Alternative Policy Proposals for Eliminating the Economic Contraction Effects of Carbon Tax: An Analysis Based on the Social Accounts Matrix for Turkey)”, Dokuz September Üniversitesi Sosyal Bilimler Enstitüsü Dergisi, Reyhan Özeş, <strong>Selim Çağatay</strong>, 22(1): 171-197, 2020. “İktisat Bölümlerinin Giderek Daha Az Tercih Edilmesi, İktisat Böülümü Mezunlarının</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2020" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Özeş, R. ve <strong>Çağatay, S</strong>. 2020. Karbon Vergisinin İktisadi Daralma Etkilerinin Giderilmesi İçin Alternatif Politika Önerileri: Türkiye İçin Sosyal Hesaplar Matrisi Temelinde Bir Analiz (Eliminating the Economic Contraction Effects of Carbon Tax Alternative Policy Recommendations for Turkey: An Analysis Based on the Social Accounts Matrix for Turkey), 19th International Conference of MEEA, 9-11/October, İstanbul.</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2019 Publications -->
+                        <div class="year-section" data-year="2019">
+                            <h3 class="year-title">2019</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2019" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">İş Bulamaması Normal Mi? (Is It Normal That Graduates of Economics Departments Cannot Find a Job and thoese Departments are Less Preferred?)”, İktisat ve Toplum Dergisi, <strong>Selim Çağatay</strong>, Mehmet Zanbak, Ümit K. Seyfettinoğlu, No 104, June, 2019. “Sanayi Politikası Olarak Açık Yenilik (Open Innovation as Industrial Policy)”, İktisat</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2019" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">ve Toplum Dergisi, Seyfettinoğlu, Ü., Arık, Ş. ve <strong>Çağatay, S</strong>., Number 105-106, (2019). “Türkiye’de Gerçekleştirilen İnovasyon Odaklı Çalışmalara İlişkin Yazın Özeti: Ampirik</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2019" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Bulgular, Problemler, Öneriler (Literature Review on Innovation-Focused Studies Conducted in Turkey: Empirical Findings, Problems, Suggestions)”, EFIL Journal, <strong>S. Çağatay</strong> ve R. Özeş, Vol 2(6), 2019. “Remittances Impacts on Schooling in Jordan: Analyses with respect to Migrant</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2019" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Koska, Andrés Artal-Tur, No: 2, (2019). “İller Arasında Farklılaşan Sosyoekonomik Yapının Orta Gelir Tuzağına Etkileri (The</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2019" data-type="book">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📚 Book/Edited Volume</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">(eds.), 2019.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2019" data-type="book">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📚 Book/Edited Volume</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Wigley, A.A. and <strong>Çağatay, S</strong>. (eds.), 2019.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2019" data-type="chapter">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📖 Book Chapter</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Transformation-Industry 4.0)” in <em>Erdem</em>, M.Ş., <strong>Çağatay, S</strong>. and Sekreter, S. (eds.), Antalya 4.0, Antalya Ticaret ve Sanayi Odası, <strong>Çağatay, S</strong>., Çetin, K., Töngür, Ü. and Tuncay A. (2019). “Impacts of Inter-regional and International Trade on Regional Per Capita Income Gap</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2019" data-type="chapter">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📖 Book Chapter</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Emerging Economies: The Case of Turkey, Routledge, London, Gül, Z.B. and <strong>Çağatay, S</strong>. (2019).</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2019" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Selim Çağatay</strong>, Murat Genç, Erhan Pişkin, Öner Öz, 2019. The Impacts of Possible TTIP</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2019" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Sep. 2016-Jun. 2019: Part time Professor</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2019" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Oct. 2016-Jun. 2019 Executive Board Member, Faculty of Economics and</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2018 Publications -->
+                        <div class="year-section" data-year="2018">
+                            <h3 class="year-title">2018</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2018" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Effects of Differentiated Socioeconomic Structure among Provinces on Middle Income Trap)”, İktisat ve Toplum Dergisi, <strong>Çağatay, S</strong>., Zanbak, M. and Seyfettinoğlu, Ü., Number 81, p. 7-13, (2018). “Sera Gazı Azaltımı için Alternatif Karbon Vergisi Uygulamaları Etki Analizi (Impact</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2018" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Analysis of Alternative Carbon Tax Policies to Reduce Greenhouse Gas Emissions)”, METU Studies in Development, Özeş, R. and <strong>S. Çağatay</strong>, Vol 45 (December), 2018. “Analyzing the Impact of Targeted Bio-Ethanol Blending Ratio in Turkey”, Bio-Based</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2018" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">M., Çağatay S., 8(90), ss.14-27, (2018). http://www.iktisatvetoplum.com/iktisat- ve-toplum-dergisi-90-sayi/ “Coğrafi İşaretler ve Marka Değerine Sahip Ürünlere Yönelik Tüketici Algısı: Finike</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2018" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Administrative Sciences (Editor) 2012 January-September 2018: New MEDIT (Editorial Board Member) 2011 August-January 2013: Akdeniz University Journal of Economics and</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2018" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Sep. 2015-May 2018 Executive Board Member, The European Union Research</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2017 Publications -->
+                        <div class="year-section" data-year="2017">
+                            <h3 class="year-title">2017</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2017" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">and Applied Economics, <strong>S. Çağatay</strong>, C. Taşdoğan, R. Özeş, Vol 6 (2), p. 209-227, (2017).</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2017" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">towards Geographical Indications and Products with Brand Value: Finike Orange and Antalya Rabbit Heart Olive Cases)”, Tarım Ekonomisi Araştırmaları Dergisi, Cilt 3(1), June, s 52-65, Mısra Çakaloğlu ve <strong>S. Çağatay</strong> 2017.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2017" data-type="book">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📚 Book/Edited Volume</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Kayalıca, Ö., <strong>Çağatay, S</strong>. and Mıhçı, H. (eds.), 2017.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2017" data-type="book">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📚 Book/Edited Volume</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Tarımsal Ekonomi ve Politika Geliştirme Enstitüsü, Yayın No: 284, Başaran, D. ve <strong>Çağatay, S</strong>., 2017.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2017" data-type="chapter">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📖 Book Chapter</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Environmental Agreements: A Critical Approach, Routledge, London, Onur Tutulmaz and <strong>Selim Çağatay</strong> (2017). “To What Extent are Rural Development Policies Compatible with Achieving</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2017" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Özeş, R. ve <strong>Çağatay, S</strong>. 2017. Sera Gazı Azaltımında Karbon Vergisi Seçeneği ve Nötr</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2017" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">V. Anadolu International Conference in Economics 11-13 May 2017, Eskişehir.</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2016 Publications -->
+                        <div class="year-section" data-year="2016">
+                            <h3 class="year-title">2016</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2016" data-type="book">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📚 Book/Edited Volume</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Problems), TÜSİAD, Yayın No: TÜSİAD-T/2016,09 – 578, September, İstanbul, <strong>Çağatay, S</strong>. and Mert, M., 2016.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2016" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Dural, H.C. and <strong>S. Çağatay</strong>, 2016. Sosyo-Ekonomik Faktörlerin İl Bazında Göç</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2016" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Dural, H.C. and <strong>Çağatay, S</strong>., 2016. Changing Impact of Human Capital on Socio-</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2016" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>., 2016. Understanding Turkish Food and Beverages Industry Companies’</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2016" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Organized Conferences/Seminars: 4. Uluslararası Antalya Coğrafi İşaretler Semineri (4th International Antalya Geographical Indications Seminar), 27-28 October 2016, Antalya-Turkey</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2015 Publications -->
+                        <div class="year-section" data-year="2015">
+                            <h3 class="year-title">2015</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2015" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Emisyon ve Ekonomik Etkileri (Economic and Emission Impacts of Alternative Energy Use in Transportation Industry and Household Energy Consumption)&quot;, METU (Middle East Technical University) Studies in Development, August, Özeş, R. and Çağatay S. 2015. “Impact Analysis of Demand-Driven Shocks in Turkey’s Tourism Industry within the</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2015" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">H. and <strong>S. Çağatay</strong>. 2015. “International Migration, Remittances, and the Human Capital Formation of Egyptian</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2015" data-type="chapter">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📖 Book Chapter</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Development, Springer, <strong>Çağatay, S</strong>., Kıymaz, T. and Özeş, R., (2015).</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2015" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>., Seyfettinoğlu, Ü. ve Zanbak, M., 2015. Batı Akdeniz Bölgesi Tarım</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2015" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Taşdan, K., <strong>Çağatay, S</strong>. and Gökovalı, U., 2015. GI Products and Rural Development:</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2015" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>. and Dural, H.C., 2015. Impacts of Spatial Characteristics on Regional</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2015" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Taşdan, K., <strong>Çağatay, S</strong>. and Gökovalı, U., 2015. Producers&#x27; Perception towards GI</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2014 Publications -->
+                        <div class="year-section" data-year="2014">
+                            <h3 class="year-title">2014</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2014" data-type="chapter">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📖 Book Chapter</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Jordi Bacaría-Colom, <strong>Selim Çağatay</strong>, and Vicente Pallardó-López, (2014).</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2014" data-type="chapter">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📖 Book Chapter</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Market, Springer, <strong>Çağatay, S</strong>, S. Değirmen, M. Genç, O.A. Koska, B. Lucke and P.Ö. Saygın, (2014). “Binyıl Kalkınma Hedefleri” ve Türkiye: Seçilmiş Göstergelerde Kır ve Kent Ayrımında</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2014" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Taşdoğan, C., <strong>Çağatay, S</strong>. and Gül, Z.B., 2014. Son Teşvik Programında Tanımlanan</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2014" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Stratejik Sektörlerin Dış Ticaret Açığı Ve İstihdam Üzerindeki Etkileri (The Effects of Strategic Sectors Defined in the Latest Incentive Programme on Foreign Trade Deficit and Employment), presented in the Türkiye Ekonomi Kurumu 5. Uluslararası Ekonomi Konferansı (Turkish Economic Association 5th International Economic Conference), 17-19 October 2014, Antalya, Turkey.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2014" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Özeş, R. and <strong>Çağatay, S</strong>., 2014. Endüstriyel Faktör Yoğunluğu Ve İkili Dış Ticaretin</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2014" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Faktör İçeriği: Leontıef Paradoksu’ Nun Türkiye İçin Test Edilmesi (Factor Content of Industrial Factor Intensity and Bilateral Foreign Trade : Testing the Leontıef Paradox for Turkey), presented in the Türkiye Ekonomi Kurumu 5. Uluslararası Ekonomi Konferansı (Turkish Economic Association 5th International Economic Conference), 17-19 October 2014, Antalya, Turkey.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2014" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>., M. Mert, O. Koska and P.Ö. Saygın, 2014. Remittances Impacts on</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2014" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Gül, Z.B., <strong>S. Çağatay</strong> and C. Taşdoğan, 2014. Input-Output Analysis of Turkish</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2014" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>., O. Koska, P.Ö. Saygın and A. Artal-tur February, 2014 International</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2013 Publications -->
+                        <div class="year-section" data-year="2013">
+                            <h3 class="year-title">2013</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2013" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Koska, O. A., Saygin, P.Ö., <strong>Çağatay, S</strong>. and Artal-Tur, A. 2013. ““Yetenek” Yaklaşımı Temelinde Yoksulluğun Ölçülmesi: Mersin ve Erzurum İllerinde</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2013" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Measurement: Missing Dimensions of Poverty in Mersin and Erzurum Provinces)”, İktisat, İşletme ve Finans journal, Vol. 28 (327), p. 9-40. Zanbak, M. ve <strong>Çağatay, S</strong>. 2013. “La migración y el efecto de creación de comercio”, Foreign Affairs Latinoamerica, volumen 12, número 3, p. 71-80, julio-septiembre, Pallardó, V., Artal, A. ve</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2013" data-type="book">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📚 Book/Edited Volume</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Çağatay S. (eds.), 2013.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2013" data-type="book">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📚 Book/Edited Volume</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Tozanlı S. and Çağatay S. (eds.), 2013.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2013" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Selim Çağatay</strong>, Paula Horne, Taylan Kıymaz, Abderraouf Laajimi, Javier Martinez-Vega, Perttu Pyykkönen, Ibrahim Soliman, Boubaker Thabet (2013). “Sustainable Agriculture and Forestry in the Mediterranean Partner Countries and Turkey: Factors, Indicators and Challanges”, PTT Working Papers 151, Helsinki 2013</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2013" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Andres, A., <strong>Çağatay, S</strong>. and Gonaim, A., 2013. “Tourism Industry as an Engine for</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2013" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Lucke, B., <strong>Çağatay, S</strong>. and Genç, M., 2013. “Macroeconomic Allocations and International Factor</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2013" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>., Lucke, B., Genç, M. and Değirmen, S, 2013. “Analyzing the Immigration-</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2013" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>., Murat, G.and O. Koska, 2013. The Impact of Immigration on International</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2013" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Trade in Europe: The Case of the EU-Mediterranean-Eastern Europe Zone, presented in the 2nd Multidisciplinary Academic Conference, 6-7 December 2013, Prague, Check Rep.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2013" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Gül, Z.B., Taşdoğan, C. and <strong>Çağatay, S</strong>., 2013. Using a Class-Based Social Accounting</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2013" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Gül, H. and S. Cagatay, 2013. Impact Analysis of Demand-Driven Shocks in Turkey’s</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2013" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Eruygur, O. and <strong>Çağatay, S</strong>. 2013. Impacts of Agricultural Trade Liberalization Between</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2013" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>. and Murat, G. 2013. Decomposing the Bilateral Agricultural Trade Costs</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2013" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>., Kıymaz, T. ve Özeş, R. 2013. How Compatible are the Rural Development</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2013" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>., Murat, G. and O. Koska, 2013. The Impact of Immigration on International</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2013" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Özeş, R. and <strong>S. Çağatay</strong>, 2013. Ulaştirma Sektörü Enerji Tüketiminde Alternatif</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2013" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Özeş, R. and <strong>S. Çağatay</strong>, 2013. Hanehalki Tüketiminde Enerji İkamesi Ve Sera Gazi</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2013" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Reyhan Özeş ve <strong>Selim Çağatay</strong>, 2013. Ulaştırma Sektörü ve Hanehalkı Enerji</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2013" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Policy, 16 - 18 May 2013, Nevşehir.</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2012 Publications -->
+                        <div class="year-section" data-year="2012">
+                            <h3 class="year-title">2012</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2012" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Cagatay, S</strong>., 2012. “Hane İçi Kaynak Dağılımının Yoksul Olma Olasılığı ve Yoksulluk Açığı Üzerindeki</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2012" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Dergisi, V. 15, Sayı 1, p. 1-15, Spring, <strong>Çağatay, S</strong>. ve Zanbak, M., 2012. “Karbondioksit emisyonu üzerinden çevre baskısı değerlendirmesi: Çevresel Kuznets eğrisine panel veri uygulaması (Evaluation of Environmental Pressure on</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2012" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Carbondioxide Emissions : Kuznets Curve Analysis by using Panel Data)”, İktisat, İşletme ve Finans journal, V. 27 (314), p.35-72, Tutulmaz, O., Şahinöz, A. ve <strong>Çağatay, S</strong>. 2012. “The determinants of foreign direct investment outflows from the European Union</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2012" data-type="book">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📚 Book/Edited Volume</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Y., <strong>Cagatay, S</strong>. and Tozanlı, S. (eds.), 2012.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2012" data-type="book">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📚 Book/Edited Volume</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Changes in World and Turkish Bio-energy Markets on Turkish Agricultural and Livestock Industries and Creating Policy Suggestions), TEPGE Yayınları No: 204, June, <strong>Çağatay, S</strong>., Kıymaz, T., Koç, A., Bölük, G. and Bilgin D., 2012.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2012" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>., Taşdoğan, C. and Özeş, R., 2012. “Türkiye Akaryakıt Tüketiminde Biyo-</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2012" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Lucke, B., Değirmen., S. and <strong>Çağatay, S</strong>., 2012. “Convergence beyond the economic sphere: Effects and feedbacks of Euro-Med integration”, Project Report No. FEM34-21-CP2010 for</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2012" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>., Erdem, Ş., Koska, O. and Mert, M., 2012. “Akdeniz için Birlik Anlaşması:</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2012" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Onur Koska, Selim Cagatay, Murat Genc, Perihan Saygin, 2012. Immigration, enterprises and employment in the EU, European Trade Study Group 14th</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2012" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Zanbak M. and <strong>S. Çağatay</strong>, 2012. &quot;Yetenek&quot; Yaklaşımı Temelinde Yoksulluğun Ölçülmesi: Mersin ve Erzurum İllerinde Yoksulluğun Kayıp Boyutları (The &quot;Capability&quot; Approach to Poverty Measurement: Missing Dimensions of Poverty in Mersin and Erzurum Provinces), Türkiye Ekonomi Kurumu 3. Uluslararası Ekonomi Konferansı (Turkey Economics Institution 3rd International Economics Conference), 1-3 November, İzmir.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2012" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">May 2012-…: Full-time Professor</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2012" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Aug. 2007-May 2012:Full-time Associate Professor</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2012" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Jan. 2009-Dec. 2012 Director, Centre for Economics Research on Mediterranean</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2011 Publications -->
+                        <div class="year-section" data-year="2011">
+                            <h3 class="year-title">2011</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2011" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">S. and Koska, O. 2011.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2011" data-type="chapter">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📖 Book Chapter</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Kat Edilen Mesafe (Millennium Development Goals and Turkey: Measures in <em>Selected Indicators in Rural and Urban Areas)”</em>, sayfa 205-228, içinde Hakan Mıhçı (ed.) İktisada Dokunmak, İbrahim Tanyeri’ye Armağan, Phoenix Yayınevi, Ankara, <strong>Çağatay, S</strong>. and M. Zanbak, (2011). “Measuring Sectoral Share of Green House Gases (Ghgs) Emissions from Fossil Fuel</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2011" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>., Erdem, Ş., Koska, O. and Mert, M., 2011. “Akdeniz İçin Birlik Anlaşması ve</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2011" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Construction Industry by using World Input-Output Database for 2002-2011 Period, presented in the 22nd Input-Output Society Conference, 17-19 July, Portugal.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2011" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Gül, H., Blake, A. and <strong>Cagatay, S</strong>. 2011. Effects of Foreign Demand Increase on</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2011" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Bhutto, N.A., S. Cagatay and Siddiqui, N.A., 2011. Can Natural Gas Substitution in</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2011" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Administrative Sciences (Editor) 2008 August-2011 August: Journal of Development and Agricultural Economics (Assoc.</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2010 Publications -->
+                        <div class="year-section" data-year="2010">
+                            <h3 class="year-title">2010</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2010" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">(Developments in Bio-fuel Markets: Impact Analysis by Utilizing a Global Partial Equilibrium Model)&quot;, METU (Middle East Technical University) Studies in Development, August, Kıymaz, T., <strong>Cagatay, S</strong>. and Bilgin, D. 2010. “Assessment Of Sustainability Of The European Union And Turkish Agricultural</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2010" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Ulucan, A., 2010. “Demographic and Structural Effects on Labor Demand in Incomplete Markets: Testing “Seperability Hypothesis” in Turkish Agricultural Labor Markets”, İktisat, İşletme ve</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2010" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Finans journal, V. 25 (292), p.71-95, Saygın, P.Ö. ve <strong>Çağatay, S</strong>. 2010. “2001-2008 Yıllarında Türkiye’de Uygulanan Alternatif Tarım Politikalarının Gelir Çarpan</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2010" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Journal, V 19., Taşdoğan, C., <strong>Çağatay, S</strong>. and Şahinöz, A., 2010. “Tarım Sigortalarının Geleceği (Future of Agriculture and Agricultural Insurance), forthcoming in TSEV Sigorta Araştırmaları Dergisi, March, Kıymaz, T. and S.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2010" data-type="book">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📚 Book/Edited Volume</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Publishing, Germany, <strong>Çağatay, S</strong>., 2010.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2010" data-type="chapter">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📖 Book Chapter</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Llop (ed.) Air Pollution: Economic Modelling and Control Policies, Bentham Books, Bhutto, N. and <strong>S. Çağatay</strong>, 2010. “Faktör Piyasaları ve Gelir Dağılımı”, Bölüm 20 içinde S. Işık, M. Aslan, C. Dişbudak, A.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2010" data-type="chapter">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📖 Book Chapter</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Ateş ve K. Türkcan (eds.) Mikro İktisat (Microeconomics) (2. Basımdan çeviri), Palme Yayıncılık, Ankara, <strong>Çağatay, S</strong>., 2010.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2010" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>., 2010. “The OECD Methodology of Estimating Commodity Market</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2010" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>, Kıymaz, T., Koç, A., Bölük, G. and Bilgin, D., 2010. “Dünya ve Türkiye Biyo- enerji Piyasalarındaki Gelişmelerin ve Potansiyel Değişikliklerin Türk Tarım ve Hayvancılık</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2010" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Cagatay, S</strong>. and Kiymaz, T., 2010. “Are Feedstock Prices Independent from End-use</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2010" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Sep. 2009-Jun. 2010: Part-time Associate Professor</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2009 Publications -->
+                        <div class="year-section" data-year="2009">
+                            <h3 class="year-title">2009</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2009" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Çağatay 2009. “Possible Effect on the EU and Turkey of Set-Aside Removal and Severe Draught”, New</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2009" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Medit, Vol. VIII, n.2, p.46-56, Kıymaz, T. and <strong>S. Çağatay</strong>, 2009. “Dünya Ticaret Örgütü Kısıtları Kapsamında Türk Tarımda Fark Ödeme Desteği</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2009" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>., P.Ö. Saygın, 2009. “Türkiye’de Tarımsal Asimetrik Arz Tepkisinin Test</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2009" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Derya Bilgin, Taylan Kıymaz and <strong>Selim Çağatay</strong>, 2009. Dünya Biyo-Enerji Piyasalarında</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2009" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Hedefler ve Dünya Gıda Fiyatları Üzerine Olası Etkileri (World Bio-Energy Markets&#x27; Targets and Their Potential Impact on World Food Prices). Presented at the Econanadolu 2009, Anadolu International Conference in Economics, 17-19 June, Eskişehir, Türkiye.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2009" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Kaye-Blake, W., Caroline Saunders and Selim Cagatay, 2009. Analyzing Drivers of</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2009" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Anita Wreford, Selim Cagatay and Caroline Saunders, 2009. Climate change and agriculture: Integrating greenhouse gas emissions from livestock into an</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2009" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Anita Wreford, Selim Cagatay and Caroline Saunders, 2009. Climate change and agriculture: the economic and environmental implications of extreme weather</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2009" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Caroline Saunders, William Kaye-Blake and Selim Cagatay, 2009. Analyzing Drivers of</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2009" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Perihan Ö. Saygın and <strong>Selim Çağatay</strong>, 2009. Demographic and Structural Effects on</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2009" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Presented at the Econanadolu 2009, Anadolu International Conference in</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2009" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Mehmet Zanbak, <strong>Selim Çağatay</strong> and Koray Duman, 2009. TR61 Bölgesinde Yoksulluk</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2009" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Profili ve Hane İçi Kaynak Dağılımının Yoksulluk Üzerindeki Etkisi. Presented at the Econanadolu 2009, Anadolu International Conference in Economics, 17-19 June, Eskişehir, Türkiye.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2009" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Bhutto, N.A., S. Cagatay and Siddiqui, N.A., 2009. The Opportunity Cost of Ratifying</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2009" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Nov. 2007-Nov. 2009 Faculty Executive Board Member, Faculty of Economics and</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2008 Publications -->
+                        <div class="year-section" data-year="2008">
+                            <h3 class="year-title">2008</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2008" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Agricultural Policies Implemented in Turkey in 2001-2008 and Policy</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2008" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Sciences Journal Vol. 7 (15). pp. 87-111, Teoman, Ö. and <strong>S. Çağatay</strong>, 2008. “Genetic Modification Technology and Producer Returns: The Impacts of Productivity,</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2008" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Saunders, C., W. Kaye-Blake and S. Cagatay, 2008. “Trade Liberalization and Greenhouse Gas Emissions: The Case of Dairying in the EU and New Zealand”, Australian Journal of Agricultural and Resource Economics, Vol. 50</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2008" data-type="book">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📚 Book/Edited Volume</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Türk Sigorta Enstitüsü Vakfı, İstanbul, <strong>Çağatay, S</strong>., 2008.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2008" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>., P.Ö. Saygın, 2008. “Türkiye’de Tarımsal İşgücü Piyasalarında “Ayrılabilirlik İlkesi”nin Test Edilmesi (Testing the &quot;Principle of Separability&quot; in Agricultural Labour Markets in Turkey)”, Project Report No. 107K180 for The Scientific and Technological Research Council of Turkey (TÜBİTAK), Social Sciences and Humanities Research Group (SOBAG).</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2008" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Bhutto, N.A. and S. Cagatay, 2008. Controlling Greenhouse Gases Emissions via</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2008" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Koska, O., T. Kıymaz and <strong>S. Çağatay</strong>, 2008. Removal of Obligatory Set-Aside in the</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2008" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Jun. 2008-Aug. 2008:Visiting Research Fellow</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2008" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Mar. 2008-Dec. 2008 Vice Director, Centre for Economic Research on Mediterranean</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2008" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Nov. 2007-Dec. 2008 Vice Chair, Department of Economics, Faculty of Economics and</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2007 Publications -->
+                        <div class="year-section" data-year="2007">
+                            <h3 class="year-title">2007</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2007" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Şahinöz, A., <strong>S. Çağatay</strong> and Ö. Teoman, 2007. “Türkiye’de Tarimsal Destekleme</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2007" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Koska, O., D. Atahan and S. Cagatay, 2007. Impact of Agricultural Policy Reform on</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2007" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Tasdogan, Celal, S. Cagatay and D. Atahan, 2007. Agricultural Policy Reform in</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2007" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Bhutto, N.A. and S. Cagatay, 2007. Recent Developments in the WTO Agricultural</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2007" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Bhutto, N.A. and S. Cagatay, 2007. Characteristics of the Agri-Food Industry in Turkey in the context of Sustainable Rural Development and in relation to the EU</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2007" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Member Countries, IAMO Forum 2007, 27-29 June, Halle, Germany.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2007" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">May 2006-July 2007: Full-time Associate Professor</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2007" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Sep. 2006-Jun. 2007: Part time Associate Professor</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2007" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Dec. 2006-July 2007 Member of Education Commission of the Hacettepe University, Representative of the Faculty of Economics and Administrative</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2006 Publications -->
+                        <div class="year-section" data-year="2006">
+                            <h3 class="year-title">2006</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2006" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">(4), pp. 538-555, Saunders, C., A. Wreford and S. Cagatay, 2006. “Restructuring Sugar Beet Market in Turkey: Increasing Transfer Efficiency via</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2006" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Teoman, 2006. “Degree of Environmental Stringency and Impact on Trade Patterns”, Journal of Economic</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2006" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Studies, Vol. 33 (1), p.30-51, <strong>Cagatay, S</strong>. and H. Mihci, 2006. “The Impact Of Environmental Stringency on Foreign Direct Investments of the OECD</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2006" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>., 2006. “Household Income, Consumption Expenditures and Household</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2006" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Mihci, H., S. Cagatay and O. Koska, 2006. FDI-Trade-Environment Linkages:</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2006" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Feb. 2006-Jul. 2006: Part time Assistant Professor</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2006" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Sep. 2005-Feb. 2006: Full-time Assistant Professor</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2006" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Aug. 2002-Apr. 2006:Full-time Assistant Professor</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2006" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Apr. 2005-Dec. 2006 Vice Chair, Department of Economics, Faculty of Economics and</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2005 Publications -->
+                        <div class="year-section" data-year="2005">
+                            <h3 class="year-title">2005</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2005" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Countries”, International Journal of Environmental Assessment Policy and Management, Vol. 7 (4), p.679-704, Mihci, H., S. Cagatay and O. Koska, 2005. “An Empirical, Small Scale “Traded-Nontraded Goods” Model for New Zealand”,</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2005" data-type="book">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📚 Book/Edited Volume</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Türkiye Ziraat Odaları Birliği (TZOB), Ankara, Şahinöz A., <strong>S. Çağatay</strong>, Ö. Teoman and T. Kıymaz, 2005.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2005" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>. and Ö. Teoman, 2005. Transfer Efficiency of Agricultural Policy</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2005" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>., 2005. Measurement of Agriculture Based Environmental Pollution and</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2004 Publications -->
+                        <div class="year-section" data-year="2004">
+                            <h3 class="year-title">2004</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2004" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Economic Modelling, Vol. 21 (6), p. 991-98, <strong>Cagatay, S</strong>. and R. Lattimore, 2004.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2004" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Vol 6 (3), p.339-365, Saunders, C.S. and S. Cagatay, 2004. “Industrial Pollution, Environmental Suffering and Policy Measures: An Index of</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2004" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Saunders, C., S. Cagatay and A.P. Moxey, 2004. “Trade and the Environment: Economic and</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2004" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Mihci, H., S. Cagatay and O. Koska, 2004. The Impact Of Environmental Regulations</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2004" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Saunders, C., W. Kaye-Blake and S. Cagatay, 2004. GM Crop Adoption and Possible</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2003 Publications -->
+                        <div class="year-section" data-year="2003">
+                            <h3 class="year-title">2003</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2003" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Environmental Assessment Policy and Management, Vol. 5 (2), p.205-245, <strong>Çağatay, S</strong>., and H. Mıhçı, 2003. “Commercial Release of GM Food Products in New Zealand: Using a Partial Equilibrium</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2003" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">S. Cagatay, 2003.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2003" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Cagatay, S</strong>., 2003. “Developing and Structuring “CountryStat” in Turkey: Determining the</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2003" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>., and A. Guzel, 2003. “Review of Agriculture and Trade Policies in Turkey”,</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2003" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Saunders, C., W. Kaye-Blake and S. Cagatay, 2003. “Economic Impacts on New Zealand of GM</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2003" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Cagatay, S</strong>. and C. Saunders, 2003. “Lincoln Trade and Environment Model (LTEM): Linking</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2003" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Cagatay, S</strong>. and C. Saunders, 2003. “Lincoln Trade and Environment Model (LTEM): An</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2003" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Cagatay, S</strong>. and H. Mihci, 2003. Degree of Environmental Stringency and Impact on</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2002 Publications -->
+                        <div class="year-section" data-year="2002">
+                            <h3 class="year-title">2002</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2002" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Saunders, C., A. Wreford, and S. Cagatay, 2002. Greenhouse Gas Emissions from</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2002" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Saunders, C.; Wreford, A.; <strong>Cagatay, S</strong>., 2002. Agricultural Trade Liberalisation and</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2001 Publications -->
+                        <div class="year-section" data-year="2001">
+                            <h3 class="year-title">2001</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2001" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Saunders, C. and S. Cagatay, 2001. The Impacts on New Zealand Agriculture of Alternative</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2001" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Saunders, C. and <strong>S. Çağatay</strong>, 2001. “Economic Analysis of Issues Surrounding Commercial Release of</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2001" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Cagatay, S</strong>. and R. Lattimore, 2001. Alternative Strategies on the Sequencing of</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2001" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Presented at the AIRAANZ (Association of Industrial Relations Academics of Australia and New Zealand) 2001 Annual Conference, January 31-February 3, Wollongong, Australia, Volume 2, p. 31-42.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2001" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Saunders, C., A. Wreford, and S. Cagatay, 2001. Trade and the Environment: Linking</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2001" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Cagatay, S</strong>. and R. Lattimore, 2001. Impacts of Trade Liberalization on New</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2001" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Saunders, C., A. Wreford, S. Cagatay and R. Amor, 2001. Agricultural Production-</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2001" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Saunders, C., A. Wreford, and S. Cagatay, 2001. Trade and the Environment: Linking</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2001" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Equilibrium Trade Model, Presented at the NZAE (New Zealand Association of Economists) Conference 2001, June 27-29, Christchurch, New Zealand.</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 2000 Publications -->
+                        <div class="year-section" data-year="2000">
+                            <h3 class="year-title">2000</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="2000" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Saunders, C.M., A. Moxey, V. Roningen, and S. Cağatay, 2000. Trade and the</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 1999 Publications -->
+                        <div class="year-section" data-year="1999">
+                            <h3 class="year-title">1999</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="1999" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>. and R. Lattimore, 1999. “New Zealand Trade Liberalization, Unemployment and Real</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="1999" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Lattimore, R. and <strong>S. Çağatay</strong>, 1999. “Trade and Wages in Australia”, Commerce</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="1999" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>., and H. Mıhçı, 1999. Measurement of Industry Based Environmental</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 1998 Publications -->
+                        <div class="year-section" data-year="1998">
+                            <h3 class="year-title">1998</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="1998" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>. and R. Lattimore, 1998. “A New Zealand Trade Share Database, 1966-96”,</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 1997 Publications -->
+                        <div class="year-section" data-year="1997">
+                            <h3 class="year-title">1997</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="1997" data-type="conference">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">🎤 Conference Paper</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Nov. 1993-Feb 1997: Research and Teaching Assistant</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- 1996 Publications -->
+                        <div class="year-section" data-year="1996">
+                            <h3 class="year-title">1996</h3>
+                            <div class="publications-year">
+                                <article class="publication-item" data-year="1996" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Technical University) Studies in Development, No. 23 (2), Ankara, <strong>Çağatay, S</strong>., 1996.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="1996" data-type="book">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📚 Book/Edited Volume</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">Chambers and Markets) publications, no. 314:01, Ankara, Erdemil, C., S. Işık, and <strong>S. Çağatay</strong>, 1996.</p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="1996" data-type="report">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📊 Research Report</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text"><strong>Çağatay, S</strong>., 1996. “Analysis of Turkish Agricultural and Related Sectors’ Databases and Designing a Functional Database for Policy Analysis for MARA (The Turkish Ministry of Agriculture and Rural Affairs)”, Working Paper for TCP/TUR/4552, FAO.</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- No Results Message -->
+                    <div class="no-results" id="noResults" style="display: none;">
+                        <h3>No publications found</h3>
+                        <p>Try adjusting your search criteria or filters to find relevant publications.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- External Links -->
+        <section class="external-links">
+            <div class="container">
+                <h2 class="section-title">Connect</h2>
+                <div class="links-grid">
+                    <a href="https://www.linkedin.com/in/selim-%C3%A7a%C4%9Fatay-b34889170/" class="external-link" target="_blank" rel="noopener noreferrer">
+                        <div class="link-icon">💼</div>
+                        <div class="link-content">
+                            <h3>LinkedIn</h3>
+                            <p>Professional network and updates</p>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/selimcagatay35/" class="external-link" target="_blank" rel="noopener noreferrer">
+                        <div class="link-icon">📷</div>
+                        <div class="link-content">
+                            <h3>Instagram</h3>
+                            <p>Personal updates and moments</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Office Address</h3>
+                    <p>Akdeniz University<br>
+                    Faculty of Economics and Administrative Sciences<br>
+                    Department of Economics<br>
+                    Dumlupınar cad. 07058-Antalya, Turkey</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="cv.html">CV</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/selim-%C3%A7a%C4%9Fatay-b34889170/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                        <li><a href="https://www.instagram.com/selimcagatay35/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Prof. Dr. Selim Çağatay. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js?v=2.0.0"></script>
+    <script>
+        // Enhanced search and filter functionality for publications
+        function searchPublications() {
+            const searchTerm = document.getElementById('publicationSearch').value.toLowerCase();
+            const yearFilter = document.getElementById('yearFilter').value;
+            const typeFilter = document.getElementById('typeFilter').value;
+            const sortFilter = document.getElementById('sortFilter').value;
+            
+            filterPublications(searchTerm, yearFilter, typeFilter, sortFilter);
+        }
+        
+        function filterPublications(searchTerm = '', yearFilter = '', typeFilter = '', sortFilter = 'year-desc') {
+            const yearSections = document.querySelectorAll('.year-section');
+            const noResults = document.getElementById('noResults');
+            let visibleCount = 0;
+            
+            yearSections.forEach(section => {
+                const year = section.dataset.year;
+                const publications = section.querySelectorAll('.publication-item');
+                let sectionVisible = false;
+                
+                publications.forEach(pub => {
+                    const pubYear = pub.dataset.year;
+                    const pubType = pub.dataset.type;
+                    const pubText = pub.textContent.toLowerCase();
+                    
+                    let visible = true;
+                    
+                    // Apply filters
+                    if (searchTerm && !pubText.includes(searchTerm)) visible = false;
+                    if (yearFilter && pubYear !== yearFilter) visible = false;
+                    if (typeFilter && pubType !== typeFilter) visible = false;
+                    
+                    if (visible) {
+                        pub.style.display = 'block';
+                        sectionVisible = true;
+                        visibleCount++;
+                    } else {
+                        pub.style.display = 'none';
+                    }
+                });
+                
+                // Show/hide year section based on whether it has visible publications
+                section.style.display = sectionVisible ? 'block' : 'none';
+            });
+            
+            // Update results count
+            document.getElementById('resultsCount').textContent = 
+                `Showing ${visibleCount} publication${visibleCount !== 1 ? 's' : ''}`;
+            
+            // Show/hide no results message
+            noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+        }
+        
+        function clearFilters() {
+            document.getElementById('publicationSearch').value = '';
+            document.getElementById('yearFilter').value = '';
+            document.getElementById('typeFilter').value = '';
+            document.getElementById('sortFilter').value = 'year-desc';
+            filterPublications();
+        }
+        
+        // Add event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('publicationSearch');
+            const yearFilter = document.getElementById('yearFilter');
+            const typeFilter = document.getElementById('typeFilter');
+            const sortFilter = document.getElementById('sortFilter');
+            
+            searchInput.addEventListener('input', searchPublications);
+            yearFilter.addEventListener('change', searchPublications);
+            typeFilter.addEventListener('change', searchPublications);
+            sortFilter.addEventListener('change', searchPublications);
+            
+            // Enter key support for search
+            searchInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    searchPublications();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

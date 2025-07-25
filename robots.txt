@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://selimcagatay.edu.tr/sitemap.xml
+
+# Allow all content
