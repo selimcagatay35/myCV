@@ -262,7 +262,7 @@ a:hover {
 }
 
 .hero-title {
-    font-size: 3rem;
+    font-size: 2.4rem;
     margin-bottom: 0.5rem;
     color: var(--text-primary);
 }
@@ -842,6 +842,40 @@ a:hover {
     gap: 2rem;
 }
 
+/* New CV Layout */
+.cv-summary-grid-top {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.cv-editorial-section {
+    margin-top: 2rem;
+}
+
+.cv-editorial-item {
+    width: 100%;
+    max-width: none;
+}
+
+.cv-reviewer-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.cv-reviewer-list li {
+    padding: 0.25rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.cv-reviewer-list li:last-child {
+    border-bottom: none;
+}
+
 .cv-summary-item {
     background: var(--card-bg);
     padding: 2rem;
@@ -1234,8 +1268,9 @@ a:hover {
 
 .carousel-container {
     position: relative;
-    max-width: 1000px;
+    max-width: 90vw;
     margin: 0 auto;
+    width: 100%;
 }
 
 .carousel-wrapper {
@@ -1244,25 +1279,34 @@ a:hover {
     border-radius: 15px;
     box-shadow: 0 8px 32px var(--shadow);
     background: var(--card-bg);
+    width: 100%;
+    min-height: 300px;
+    max-height: 80vh;
 }
 
 .carousel-track {
     display: flex;
     transition: transform 0.5s ease-in-out;
+    height: 100%;
 }
 
 .carousel-slide {
     min-width: 100%;
-    height: 400px;
+    height: 100%;
     position: relative;
     cursor: pointer;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .carousel-slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
     transition: transform 0.3s ease;
 }
 
@@ -1271,31 +1315,19 @@ a:hover {
 }
 
 .carousel-slide-info {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
-    color: white;
-    padding: 2rem;
-    transform: translateY(100%);
-    transition: transform 0.3s ease;
+    display: none !important;
 }
 
 .carousel-slide:hover .carousel-slide-info {
-    transform: translateY(0);
+    display: none !important;
 }
 
 .carousel-slide-info h3 {
-    margin: 0 0 0.5rem 0;
-    font-size: 1.2rem;
-    color: white;
+    display: none !important;
 }
 
 .carousel-slide-info p {
-    margin: 0;
-    font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.8);
+    display: none !important;
 }
 
 .carousel-btn {
@@ -1471,22 +1503,15 @@ a:hover {
 }
 
 .carousel-modal-info {
-    position: absolute;
-    bottom: -60px;
-    left: 0;
-    right: 0;
-    text-align: center;
-    color: white;
+    display: none !important;
 }
 
 .carousel-modal-info h3 {
-    margin: 0 0 0.5rem 0;
-    color: white;
+    display: none !important;
 }
 
 .carousel-modal-info p {
-    margin: 0;
-    color: rgba(255, 255, 255, 0.8);
+    display: none !important;
 }
 
 /* Dark theme adjustments */
@@ -1505,8 +1530,13 @@ a:hover {
 
 /* Mobile responsive */
 @media (max-width: 768px) {
-    .carousel-slide {
-        height: 300px;
+    .carousel-container {
+        max-width: 95vw;
+    }
+    
+    .carousel-wrapper {
+        min-height: 250px;
+        max-height: 70vh;
     }
     
     .carousel-btn {
@@ -1521,23 +1551,16 @@ a:hover {
     .carousel-btn-next {
         right: 10px;
     }
-    
-    .carousel-slide-info {
-        padding: 1rem;
-    }
-    
-    .carousel-slide-info h3 {
-        font-size: 1rem;
-    }
-    
-    .carousel-slide-info p {
-        font-size: 0.8rem;
-    }
 }
 
 @media (max-width: 480px) {
-    .carousel-slide {
-        height: 250px;
+    .carousel-container {
+        max-width: 98vw;
+    }
+    
+    .carousel-wrapper {
+        min-height: 200px;
+        max-height: 60vh;
     }
     
     .carousel-controls {
@@ -1639,19 +1662,15 @@ a:hover {
 }
 
 .gallery-info {
-    text-align: center;
-    color: white;
-    padding: 1rem;
+    display: none !important;
 }
 
 .gallery-info h3 {
-    margin-bottom: 0.5rem;
-    color: white;
+    display: none !important;
 }
 
 .gallery-info p {
-    margin: 0;
-    color: #e2e8f0;
+    display: none !important;
 }
 
 .gallery-btn {
@@ -1958,6 +1977,15 @@ a:hover {
     .cv-stats {
         flex-direction: column;
     }
+    
+    /* CV Layout Responsive */
+    .cv-summary-grid-top {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .cv-reviewer-list {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1993,6 +2021,11 @@ a:hover {
     .filter-btn {
         width: 100%;
         text-align: center;
+    }
+    
+    /* CV Layout Mobile */
+    .cv-summary-grid-top {
+        grid-template-columns: 1fr;
     }
 }
 

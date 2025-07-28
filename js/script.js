@@ -51,8 +51,8 @@ function initializeThemeToggle() {
     const themeIcon = document.getElementById('themeIcon');
     
     if (themeToggle && themeIcon) {
-        // Load saved theme preference or default to light
-        const savedTheme = localStorage.getItem('theme') || 'light';
+        // Load saved theme preference or default to dark
+        const savedTheme = localStorage.getItem('theme') || 'dark';
         setTheme(savedTheme);
         
         themeToggle.addEventListener('click', function() {
@@ -953,6 +953,10 @@ window.addEventListener('error', function(e) {
 window.addEventListener('resize', debounce(() => {
     updatePhotoCount();
     updateGalleryImages();
+    // Adjust carousel height on resize
+    if (typeof adjustCarouselHeight === 'function') {
+        adjustCarouselHeight();
+    }
 }, 250));
 
 // Photo Carousel functionality
@@ -976,11 +980,11 @@ function initializeCarousel() {
     // Set up event listeners
     setupCarouselEventListeners();
     
+    // Show first slide and adjust height
+    goToCarouselSlide(0);
+    
     // Start auto-play
     startCarousel();
-    
-    // Show first slide
-    goToCarouselSlide(0);
 }
 
 function getRandomPhotos(images, count) {
@@ -1095,8 +1099,42 @@ function goToCarouselSlide(index) {
         indicator.classList.toggle('active', i === currentCarouselIndex);
     });
     
+    // Adjust carousel height based on current image
+    adjustCarouselHeight();
+    
     // Reset progress
     resetCarouselProgress();
+}
+
+function adjustCarouselHeight() {
+    const currentPhoto = carouselPhotos[currentCarouselIndex];
+    if (!currentPhoto) return;
+    
+    const wrapper = document.querySelector('.carousel-wrapper');
+    if (!wrapper) return;
+    
+    // Create a temporary image to get natural dimensions
+    const tempImg = new Image();
+    tempImg.onload = function() {
+        const aspectRatio = this.naturalHeight / this.naturalWidth;
+        const containerWidth = wrapper.offsetWidth;
+        
+        // Calculate ideal height based on aspect ratio
+        let idealHeight = containerWidth * aspectRatio;
+        
+        // Set reasonable bounds
+        const minHeight = 300;
+        const maxHeight = Math.min(window.innerHeight * 0.8, 800);
+        
+        // Constrain height within bounds
+        idealHeight = Math.max(minHeight, Math.min(idealHeight, maxHeight));
+        
+        // Apply the calculated height with smooth transition
+        wrapper.style.transition = 'height 0.5s ease-in-out';
+        wrapper.style.height = `${idealHeight}px`;
+    };
+    
+    tempImg.src = currentPhoto.src;
 }
 
 function startCarousel() {
