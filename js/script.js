@@ -253,7 +253,7 @@ function displayLightboxImage() {
         lightboxImage.alt = image.alt;
         
         if (lightboxTitle) lightboxTitle.textContent = image.title;
-        if (lightboxCaption) lightboxCaption.textContent = image.caption;
+        if (lightboxCaption) lightboxCaption.textContent = '';
     }
 }
 
@@ -271,6 +271,9 @@ function loadMorePhotos() {
             // In a real implementation, this would load more photos from a server
             loadMoreBtn.textContent = 'Load More Photos';
             loadMoreBtn.disabled = false;
+            
+            // Reinitialize image protection for any new images
+            addImageProtection();
             
             // Hide the button if no more photos to load
             // loadMoreBtn.style.display = 'none';
@@ -1007,15 +1010,21 @@ function buildCarouselSlides() {
         const slide = document.createElement('div');
         slide.className = 'carousel-slide';
         slide.innerHTML = `
-            <img src="${photo.src}" alt="${photo.alt}" loading="lazy">
+            <img src="${photo.src}" alt="${photo.alt}" loading="lazy" class="carousel-image">
             <div class="carousel-slide-info">
                 <h3>${photo.title}</h3>
                 <p>${photo.caption}</p>
             </div>
         `;
         
-        // Add click handler for modal
+        // Add click handler for modal (only to the slide container, not the image)
         slide.addEventListener('click', () => openCarouselModal(index));
+        
+        // Apply protection to carousel image
+        const img = slide.querySelector('img');
+        if (img) {
+            addImageProtectionToElement(img);
+        }
         
         track.appendChild(slide);
     });
@@ -1226,8 +1235,12 @@ function openCarouselModal(index) {
     modalImage.src = photo.src;
     modalImage.alt = photo.alt;
     
+    // Apply protection to carousel modal image
+    modalImage.className = 'carousel-modal-image';
+    addImageProtectionToElement(modalImage);
+    
     if (modalTitle) modalTitle.textContent = photo.title;
-    if (modalCaption) modalCaption.textContent = photo.caption;
+    if (modalCaption) modalCaption.textContent = '';
     
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
@@ -1249,6 +1262,275 @@ function closeCarouselModal() {
     }
 }
 
+// New Publications Button Functions
+function filterPublications(type) {
+    // Update active button state
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    document.querySelector(`[data-type="${type}"]`).classList.add('active');
+    
+    // Get all publication items
+    const publications = document.querySelectorAll('.publication-item');
+    let visibleCount = 0;
+    
+    publications.forEach(pub => {
+        const pubType = pub.getAttribute('data-type');
+        
+        if (type === 'all') {
+            pub.style.display = 'block';
+            visibleCount++;
+        } else if (type === 'book' && (pubType === 'book' || pubType === 'chapter')) {
+            // Combine books and chapters for "Book and Book Chapters" filter
+            pub.style.display = 'block';
+            visibleCount++;
+        } else if (type === 'others' && (pubType === 'report' || pubType === 'other')) {
+            // Show reports and other types for "Others" filter
+            pub.style.display = 'block';
+            visibleCount++;
+        } else if (pubType === type) {
+            pub.style.display = 'block';
+            visibleCount++;
+        } else {
+            pub.style.display = 'none';
+        }
+    });
+    
+    // Update results count if element exists
+    const resultsCount = document.getElementById('resultsCount');
+    if (resultsCount) {
+        resultsCount.textContent = visibleCount;
+    }
+}
+
+function sortPublications(sortType) {
+    // Update active button state
+    document.querySelectorAll('.sort-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    document.querySelector(`[data-sort="${sortType}"]`).classList.add('active');
+    
+    const container = document.querySelector('.publications-container');
+    if (!container) return;
+    
+    // Get all year sections
+    const yearSections = Array.from(container.querySelectorAll('.year-section'));
+    
+    // Sort year sections based on sort type
+    yearSections.sort((a, b) => {
+        const yearA = parseInt(a.getAttribute('data-year')) || 0;
+        const yearB = parseInt(b.getAttribute('data-year')) || 0;
+        
+        if (sortType === 'newest') {
+            return yearB - yearA; // Newest first (2024, 2023, 2022...)
+        } else if (sortType === 'oldest') {
+            return yearA - yearB; // Oldest first (1996, 1997, 1998...)
+        }
+        return 0;
+    });
+    
+    // Remove all year sections from container
+    yearSections.forEach(section => {
+        container.removeChild(section);
+    });
+    
+    // Re-append year sections in the new order
+    yearSections.forEach(section => {
+        container.appendChild(section);
+    });
+}
+
+// Image Protection Functions
+function addImageProtectionToElement(img) {
+    // Prevent right-click context menu
+    img.addEventListener('contextmenu', e => {
+        e.preventDefault();
+        return false;
+    });
+    
+    // Prevent drag and drop
+    img.addEventListener('dragstart', e => {
+        e.preventDefault();
+        return false;
+    });
+
+    // Disable selection and dragging
+    img.style.webkitUserSelect = 'none';
+    img.style.mozUserSelect = 'none';
+    img.style.msUserSelect = 'none';
+    img.style.userSelect = 'none';
+    img.style.webkitUserDrag = 'none';
+    img.style.mozUserDrag = 'none';
+    img.style.oUserDrag = 'none';
+    img.style.userDrag = 'none';
+    img.style.webkitTouchCallout = 'none';
+    img.style.pointerEvents = 'auto';
+}
+
+function addImageProtection() {
+    // Prevent right-click context menu on images
+    document.addEventListener('contextmenu', function(e) {
+        if (e.target.tagName === 'IMG' && (
+            e.target.classList.contains('gallery-image') || 
+            e.target.classList.contains('lightbox-image') ||
+            e.target.classList.contains('carousel-image') ||
+            e.target.classList.contains('carousel-modal-image')
+        )) {
+            e.preventDefault();
+            return false;
+        }
+    });
+
+    // Prevent drag and drop on images
+    document.addEventListener('dragstart', function(e) {
+        if (e.target.tagName === 'IMG' && (
+            e.target.classList.contains('gallery-image') || 
+            e.target.classList.contains('lightbox-image') ||
+            e.target.classList.contains('carousel-image') ||
+            e.target.classList.contains('carousel-modal-image')
+        )) {
+            e.preventDefault();
+            return false;
+        }
+    });
+
+    // Prevent keyboard shortcuts for saving images
+    document.addEventListener('keydown', function(e) {
+        // Prevent Ctrl+S (Save)
+        if (e.ctrlKey && e.key === 's') {
+            const lightbox = document.getElementById('lightbox');
+            if (lightbox && lightbox.classList.contains('active')) {
+                e.preventDefault();
+                return false;
+            }
+        }
+        
+        // Prevent F12, Ctrl+Shift+I, Ctrl+U (Developer tools)
+        if (e.key === 'F12' || 
+            (e.ctrlKey && e.shiftKey && e.key === 'I') || 
+            (e.ctrlKey && e.key === 'u')) {
+            const lightbox = document.getElementById('lightbox');
+            if (lightbox && lightbox.classList.contains('active')) {
+                e.preventDefault();
+                return false;
+            }
+        }
+
+        // Prevent Print Screen
+        if (e.key === 'PrintScreen') {
+            const lightbox = document.getElementById('lightbox');
+            if (lightbox && lightbox.classList.contains('active')) {
+                e.preventDefault();
+                return false;
+            }
+        }
+    });
+
+    // Add protection and click handlers to all gallery images
+    const galleryImages = document.querySelectorAll('.gallery-image');
+    galleryImages.forEach(img => {
+        addImageProtectionToElement(img);
+        
+        // Make every gallery image clickable for lightbox
+        const galleryItem = img.closest('.gallery-item');
+        if (galleryItem) {
+            // Add cursor pointer to indicate clickable
+            img.style.cursor = 'pointer';
+            galleryItem.style.cursor = 'pointer';
+            
+            // Remove existing click handlers to avoid conflicts
+            img.onclick = null;
+            galleryItem.onclick = null;
+            
+            // Add click handler to the image itself
+            img.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                
+                // Update gallery images array
+                updateGalleryImages();
+                
+                // Find current image index
+                const allGalleryImages = document.querySelectorAll('.gallery-item img');
+                currentImageIndex = Array.from(allGalleryImages).indexOf(img);
+                
+                // Open lightbox
+                displayLightboxImage();
+                const lightbox = document.getElementById('lightbox');
+                if (lightbox) {
+                    lightbox.classList.add('active');
+                    document.body.style.overflow = 'hidden';
+                }
+            });
+            
+            // Also add click handler to the gallery item wrapper for larger click area
+            galleryItem.addEventListener('click', function(e) {
+                // Only trigger if not clicking a button
+                if (!e.target.classList.contains('gallery-btn') && !e.target.classList.contains('btn-icon')) {
+                    img.click();
+                }
+            });
+        }
+    });
+    
+    // Add protection to carousel images when they're created
+    setTimeout(() => {
+        const carouselImages = document.querySelectorAll('.carousel-image');
+        carouselImages.forEach(img => {
+            addImageProtectionToElement(img);
+        });
+        
+        const carouselModalImage = document.getElementById('carouselModalImage');
+        if (carouselModalImage) {
+            addImageProtectionToElement(carouselModalImage);
+        }
+    }, 1000); // Wait for carousel to be built
+}
+
+// Enhanced lightbox with keyboard navigation
+function enhanceLightbox() {
+    document.addEventListener('keydown', function(e) {
+        const lightbox = document.getElementById('lightbox');
+        if (lightbox && lightbox.classList.contains('active')) {
+            switch(e.key) {
+                case 'Escape':
+                    closeLightbox();
+                    break;
+                case 'ArrowLeft':
+                    previousImage();
+                    break;
+                case 'ArrowRight':
+                    nextImage();
+                    break;
+            }
+        }
+    });
+
+    // Prevent lightbox content clicks from closing lightbox
+    const lightboxContent = document.querySelector('.lightbox-content');
+    if (lightboxContent) {
+        lightboxContent.addEventListener('click', function(e) {
+            e.stopPropagation();
+        });
+    }
+}
+
+// Function to reinitialize gallery images (call this when new images are loaded)
+function initializeGalleryImages() {
+    addImageProtection();
+}
+
+// Initialize protection when DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+    addImageProtection();
+    enhanceLightbox();
+});
+
+// Also run after a short delay to catch any dynamically loaded images
+setTimeout(function() {
+    addImageProtection();
+}, 2000);
+
 // Export functions for global access
 window.openLightbox = openLightbox;
 window.closeLightbox = closeLightbox;
@@ -1260,3 +1542,5 @@ window.clearFilters = clearFilters;
 window.toggleFullscreen = toggleFullscreen;
 window.setTheme = setTheme;
 window.closeCarouselModal = closeCarouselModal;
+window.filterPublications = filterPublications;
+window.sortPublications = sortPublications;

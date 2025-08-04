@@ -53,6 +53,9 @@
                         <a href="publications.html" class="nav-link active">Publications</a>
                     </li>
                     <li class="nav-item">
+                        <a href="research-grants.html" class="nav-link">Research Grants</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="gallery.html" class="nav-link">Gallery</a>
                     </li>
                     <li class="nav-item">
@@ -71,90 +74,47 @@
         <section class="page-header">
             <div class="container">
                 <h1 class="page-title">Publications</h1>
-                <p class="page-subtitle">Research Papers, Articles, and Academic Contributions</p>
+                <p class="page-subtitle">Journal Articles, Boooks and Book Chapters, Conference Papers, Other</p>
             </div>
         </section>
 
-        <!-- Publications Filter and Search -->
+        <!-- Publications Filter Controls -->
         <section class="publications-controls">
             <div class="container">
                 <div class="controls-wrapper">
-                    <!-- Search Bar -->
-                    <div class="search-container">
-                        <input 
-                            type="text" 
-                            id="publicationSearch" 
-                            class="search-input" 
-                            placeholder="Search publications by title, author, or keyword..."
-                            aria-label="Search publications">
-                        <button class="search-btn" onclick="searchPublications()" aria-label="Search">
-                            <span class="search-icon">🔍</span>
-                        </button>
+                    <!-- Publication Type Filter Buttons -->
+                    <div class="filter-buttons-container">
+                        <h3 class="filter-title">Publication Type</h3>
+                        <div class="filter-buttons-group">
+                            <button class="filter-btn active" data-type="all" onclick="filterPublications('all')">
+                                All
+                            </button>
+                            <button class="filter-btn" data-type="journal" onclick="filterPublications('journal')">
+                                Journal Articles
+                            </button>
+                            <button class="filter-btn" data-type="book" onclick="filterPublications('book')">
+                                Book and Book Chapters
+                            </button>
+                            <button class="filter-btn" data-type="conference" onclick="filterPublications('conference')">
+                                Conference Papers
+                            </button>
+                            <button class="filter-btn" data-type="others" onclick="filterPublications('others')">
+                                Others
+                            </button>
+                        </div>
                     </div>
                     
-                    <!-- Filters -->
-                    <div class="filters-container">
-                        <div class="filter-group">
-                            <label for="yearFilter">Year:</label>
-                            <select id="yearFilter" class="filter-select" aria-label="Filter by year">
-                                <option value="">All Years</option>
-                                <option value="2024">2024</option>
-                                <option value="2023">2023</option>
-                                <option value="2022">2022</option>
-                                <option value="2021">2021</option>
-                                <option value="2020">2020</option>
-                                <option value="2019">2019</option>
-                                <option value="2018">2018</option>
-                                <option value="2017">2017</option>
-                                <option value="2016">2016</option>
-                                <option value="2015">2015</option>
-                                <option value="2014">2014</option>
-                                <option value="2013">2013</option>
-                                <option value="2012">2012</option>
-                                <option value="2011">2011</option>
-                                <option value="2010">2010</option>
-                                <option value="2009">2009</option>
-                                <option value="2008">2008</option>
-                                <option value="2007">2007</option>
-                                <option value="2006">2006</option>
-                                <option value="2005">2005</option>
-                                <option value="2004">2004</option>
-                                <option value="2003">2003</option>
-                                <option value="2002">2002</option>
-                                <option value="2001">2001</option>
-                                <option value="2000">2000</option>
-                                <option value="1999">1999</option>
-                                <option value="1998">1998</option>
-                                <option value="1997">1997</option>
-                                <option value="1996">1996</option>
-                            </select>
+                    <!-- Time Sorting Button -->
+                    <div class="sort-buttons-container">
+                        <h3 class="filter-title">Sort by Time</h3>
+                        <div class="sort-buttons-group">
+                            <button class="sort-btn active" data-sort="newest" onclick="sortPublications('newest')">
+                                Newest
+                            </button>
+                            <button class="sort-btn" data-sort="oldest" onclick="sortPublications('oldest')">
+                                Oldest
+                            </button>
                         </div>
-                        
-                        <div class="filter-group">
-                            <label for="typeFilter">Type:</label>
-                            <select id="typeFilter" class="filter-select" aria-label="Filter by publication type">
-                                <option value="">All Types</option>
-                                <option value="journal">Journal Articles</option>
-                                <option value="book">Books/Edited Volumes</option>
-                                <option value="chapter">Book Chapters</option>
-                                <option value="conference">Conference Papers</option>
-                                <option value="report">Research Reports</option>
-                            </select>
-                        </div>
-                        
-                        <div class="filter-group">
-                            <label for="sortFilter">Sort by:</label>
-                            <select id="sortFilter" class="filter-select" aria-label="Sort publications">
-                                <option value="year-desc">Newest First</option>
-                                <option value="year-asc">Oldest First</option>
-                                <option value="title-asc">Title A-Z</option>
-                                <option value="title-desc">Title Z-A</option>
-                            </select>
-                        </div>
-                        
-                        <button class="btn btn-secondary" onclick="clearFilters()" aria-label="Clear all filters">
-                            Clear Filters
-                        </button>
                     </div>
                 </div>
             </div>
@@ -217,7 +177,7 @@
                                         </div>
                                     </div>
                                     <div class="publication-content">
-                                        <p class="publication-text">“A Synthesis on Agent-Based Impact Assessment Models from the Perspective of the EU Rural Development Policy Measures”, Ali Koç, <strong>Selim Çağatay</strong>, Mario Veneziani, Pablo Baez Gonzales, Carlos Leyva Guerrero, Peyman Uysal, Rosalia Filippini, Journal of Agricultural Sciences, 30(4), p. 628-643, 2024.</p>
+                                        <p class="publication-text">“A Synthesis on Agent-Based Impact Assessment Models from the Perspective of the EU Rural Development Policy Measures”, Ali Koç, <strong>Selim Çağatay</strong>, Mario Veneziani, Pablo Baez Gonzales, Carlos Leyva Guerrero, Peyman Uysal, Rosalia Filippini, Journal of Agricultural Sciences, 30(4), p. 628-643, 2024. DOI: <a href="https://doi.org/10.15832/ankutbd.1287221" target="_blank">10.15832/ankutbd.1287221</a></p>
                                     </div>
                                 </article>
                                 <article class="publication-item" data-year="2024" data-type="journal">
@@ -227,7 +187,17 @@
                                         </div>
                                     </div>
                                     <div class="publication-content">
-                                        <p class="publication-text">“Fossil fuel and resource use impacts of raw material substitution and recycling in tourism sector in Türkiye: evidence from circular economy adjusted input-output matrix”, Hasan Gül, <strong>Selim Çağatay</strong>, William C. Gartner, Current Issues in Tourism, July 2024. DOI: <a href="https://doi.org/10.1080/13683500.2024.2376887." target="_blank">10.1080/13683500.2024.2376887.</a> “The Relationship Between Poverty and Violence Against Women: Causality Contrary to</p>
+                                        <p class="publication-text">"Fossil fuel and resource use impacts of raw material substitution and recycling in tourism sector in Türkiye: evidence from circular economy adjusted input-output matrix", Hasan Gül, <strong>Selim Çağatay</strong>, William C. Gartner, Current Issues in Tourism, July 2024. DOI: <a href="https://doi.org/10.1080/13683500.2024.2376887" target="_blank">10.1080/13683500.2024.2376887</a></p>
+                                    </div>
+                                </article>
+                                <article class="publication-item" data-year="2024" data-type="journal">
+                                    <div class="publication-header">
+                                        <div class="publication-meta">
+                                            <span class="publication-type">📄 Journal Article</span>
+                                        </div>
+                                    </div>
+                                    <div class="publication-content">
+                                        <p class="publication-text">"Assessment of the Devastating Kahramanmaraş Earthquake: Estimation of Economic Loss and Identification of Sectors Behind the Spillover Effects", <strong>Selim Çağatay</strong>, Şebnem Arık, Zafer Barış Gül, Şükrü Erdem, Mehmet Kula, Sosyoekonomi, (under review).</p>
                                     </div>
                                 </article>
                                 <article class="publication-item" data-year="2024" data-type="chapter">
@@ -237,7 +207,7 @@
                                         </div>
                                     </div>
                                     <div class="publication-content">
-                                        <p class="publication-text">in <em>Koç</em>, Ş.A. and Şiriner, İ. (eds.), Essays on Economics and Political Economy, IJOPEC, Publication, İstanbul, Önder, K., Aytekin, M., Akın, B., Hatırlı, S.A., <strong>Çağatay, S</strong>. and Demirel, O. (2024).</p>
+                                        <p class="publication-text">"Analysis of Market Power in the Supply Chain of Cucumber in Greenhouse Cultivation" in Koç, Ş.A. and Şiriner, İ. (eds.), Essays on Economics and Political Economy, IJOPEC, Publication, İstanbul, Önder, K., Aytekin, M., Akın, B., Hatırlı, S.A., <strong>Çağatay, S</strong>. and Demirel, O. (2024).</p>
                                     </div>
                                 </article>
                                 <article class="publication-item" data-year="2024" data-type="chapter">
@@ -247,7 +217,7 @@
                                         </div>
                                     </div>
                                     <div class="publication-content">
-                                        <p class="publication-text">Agricultural Economics, Anadolu University Printing house, Eskişehir, <strong>Çağatay, S</strong>. (2024). “Antalya Sanayii ve Dijital Dönüşüm-Endüstri 4.0 (Antalya Industry and Digital</p>
+                                        <p class="publication-text">"Introduction to Production and Resource Use" in Özata, E. and Eruygur, O. (eds.), Agricultural Economics, Anadolu University Printing house, Eskişehir, <strong>Çağatay, S</strong>. (2024).</p>
                                     </div>
                                 </article>
                                 <article class="publication-item" data-year="2024" data-type="conference">
@@ -258,26 +228,6 @@
                                     </div>
                                     <div class="publication-content">
                                         <p class="publication-text">Çakaloğlu, M. and <strong>Çağatay, S</strong>. (2024). Türkiye Ara Girdi Dış Ticaretinin Global Üretim Açısından Önemi: Ülkelerarası İleri ve Geri Bağ Katsayıları İle Ampirik Bir Analiz (The Importance of Turkey&#x27;s Foreign Trade in Intermediate Inputs for Global Production: An Empirical Analysis with Intercountry Forward and Backward Link Coefficients). Econanadolu 2024 (VII. Anadolu International Conference on Economics- EconAnadolu’24). 31.05.2024-02.06.2024, Eskişehir.</p>
-                                    </div>
-                                </article>
-                                <article class="publication-item" data-year="2024" data-type="conference">
-                                    <div class="publication-header">
-                                        <div class="publication-meta">
-                                            <span class="publication-type">🎤 Conference Paper</span>
-                                        </div>
-                                    </div>
-                                    <div class="publication-content">
-                                        <p class="publication-text">June 2024-…: Critical Insights in Agriculture (Associate Editor) 2016 October-2020 February: Akdeniz University Journal of Economics and</p>
-                                    </div>
-                                </article>
-                                <article class="publication-item" data-year="2024" data-type="conference">
-                                    <div class="publication-header">
-                                        <div class="publication-meta">
-                                            <span class="publication-type">🎤 Conference Paper</span>
-                                        </div>
-                                    </div>
-                                    <div class="publication-content">
-                                        <p class="publication-text">May 2023-April 2024:Visiting Research Fellow</p>
                                     </div>
                                 </article>
                             </div>
@@ -293,7 +243,7 @@
                                         </div>
                                     </div>
                                     <div class="publication-content">
-                                        <p class="publication-text">Expectations”, Mehmet Zanbak, <strong>Selim Çağatay</strong>, Şebnem Arık, Beyhan Akay, Woman and Criminal Justice Journal , cilt.33, ss.1-29, 2023. DOI: <a href="https://doi.org/10.1080/08974454.2023.2291640." target="_blank">10.1080/08974454.2023.2291640.</a> “Impact assessment of Agri-Environment-Climate Measure (M10) of RDP 2014-2020 on</p>
+                                        <p class="publication-text">"The Relationship Between Poverty and Violence Against Women: Causality Contrary to Expectations", Mehmet Zanbak, <strong>Selim Çağatay</strong>, Şebnem Arık, Beyhan Akay, Woman and Criminal Justice Journal , cilt.33, ss.1-29, 2023. DOI: <a href="https://doi.org/10.1080/08974454.2023.2291640" target="_blank">10.1080/08974454.2023.2291640</a></p>
                                     </div>
                                 </article>
                                 <article class="publication-item" data-year="2023" data-type="journal">
@@ -303,7 +253,7 @@
                                         </div>
                                     </div>
                                     <div class="publication-content">
-                                        <p class="publication-text">Polish farmers’ perception of environmental and climatic policies implementation”, Jaromir Krzyszczak, Piotr Baranowski, Krzysztof Lamorski, Cezary Sławiński , Anna Siedliska, Waldemar Bojar, Wojciech Żarski, Jacek Żarski, Renata Kuśmierek-Tomaszewska, Ahmet Ali Koç, <strong>Selim Çağatay</strong>, Peyman Uysal, Christos Staboulis, Nastis Stefanos A., Theofilou Asterios, Mattas Konstadinos, Carlos Leyva, Pablo Báez-González, Álvaro Ojeda Roldán, Obdulia Parra, Przemysław Tkaczyk, International Agrophysics Journal, V. 37, 311-323, 2023. “Göçle Gelen Nüfusun Eğitim Seviyesinin İl Yaşam Standardi Üzerindeki Etkilerinin</p>
+                                        <p class="publication-text">"Impact assessment of Agri-Environment-Climate Measure (M10) of RDP 2014-2020 on Polish farmers' perception of environmental and climatic policies implementation", Jaromir Krzyszczak, Piotr Baranowski, Krzysztof Lamorski, Cezary Sławiński, Anna Siedliska, Waldemar Bojar, Wojciech Żarski, Jacek Żarski, Renata Kuśmierek-Tomaszewska, Ahmet Ali Koç, <strong>Selim Çağatay</strong>, Peyman Uysal, Christos Staboulis, Nastis Stefanos A., Theofilou Asterios, Mattas Konstadinos, Carlos Leyva, Pablo Báez-González, Álvaro Ojeda Roldán, Obdulia Parra, Przemysław Tkaczyk, International Agrophysics Journal, V. 37, 311-323, 2023.</p>
                                     </div>
                                 </article>
                                 <article class="publication-item" data-year="2023" data-type="journal">
@@ -313,7 +263,7 @@
                                         </div>
                                     </div>
                                     <div class="publication-content">
-                                        <p class="publication-text">Ampirik Analizi (The Effects of the Education Level of the Migrant Population on the Provincial Living Standards Empirical Analysis)”, Nevin Taştekin, <strong>Selim Çağatay</strong> ve Şebnem Arık, Sosyoyloji Araştırmaları Dergisi, Cilt 26, Sayı 2, s. 254-272, 2023. “Girdi-Çıktı Analizinde Varsayımsal Çıkarma Yöntemi: Batı Akdeniz Bölgesi’nde (TR61)</p>
+                                        <p class="publication-text">"Göçle Gelen Nüfusun Eğitim Seviyesinin İl Yaşam Standardi Üzerindeki Etkilerinin Ampirik Analizi (The Effects of the Education Level of the Migrant Population on the Provincial Living Standards Empirical Analysis)", Nevin Taştekin, <strong>Selim Çağatay</strong> ve Şebnem Arık, Sosyoyloji Araştırmaları Dergisi, Cilt 26, Sayı 2, s. 254-272, 2023.</p>
                                     </div>
                                 </article>
                                 <article class="publication-item" data-year="2023" data-type="journal">
@@ -323,7 +273,7 @@
                                         </div>
                                     </div>
                                     <div class="publication-content">
-                                        <p class="publication-text">Sektörel Kapanmanın Etki Analizi (Hypothetical Extraction Method in Input-Output Analysis: Western Mediterranean Region (TR61) Impact Analysis of Sectoral Closure)”, Zafer B. Gül, Şebnem Arık, Mehmet Kula, <strong>Selim Çağatay</strong>, Şükrü Erdem, Sosyoekonomi Dergisi, Cilt 31(56), s. 241-277, 2023. “Environmental and Economic Impact Analysis of Reducing Greenhouse Gas</p>
+                                        <p class="publication-text">"Girdi-Çıktı Analizinde Varsayımsal Çıkarma Yöntemi: Batı Akdeniz Bölgesi'nde (TR61) Sektörel Kapanmanın Etki Analizi (Hypothetical Extraction Method in Input-Output Analysis: Western Mediterranean Region (TR61) Impact Analysis of Sectoral Closure)", Zafer B. Gül, Şebnem Arık, Mehmet Kula, <strong>Selim Çağatay</strong>, Şükrü Erdem, Sosyoekonomi Dergisi, Cilt 31(56), s. 241-277, 2023.</p>
                                     </div>
                                 </article>
                             </div>
@@ -339,7 +289,7 @@
                                         </div>
                                     </div>
                                     <div class="publication-content">
-                                        <p class="publication-text">Emissions Via Energy Substitution and Carbon Tax”, Reyhan Özeş Özgür, <strong>Selim Çağatay</strong>, Journal of Research in Economics, Cilt 6(1), s. 46-60, 2022. “Yurtiçi Göçmenlerin Demografik Özelliklerinin Sektörel Ücretler Üzerindeki Etkisi:</p>
+                                        <p class="publication-text">"Environmental and Economic Impact Analysis of Reducing Greenhouse Gas Emissions Via Energy Substitution and Carbon Tax", Reyhan Özeş Özgür, <strong>Selim Çağatay</strong>, Journal of Research in Economics, Cilt 6(1), s. 46-60, 2022.</p>
                                     </div>
                                 </article>
                                 <article class="publication-item" data-year="2022" data-type="journal">
@@ -349,7 +299,7 @@
                                         </div>
                                     </div>
                                     <div class="publication-content">
-                                        <p class="publication-text">Türkiye’de İl Düzeyinde Ekonometrik Bir Analiz (The Effect of Demographic Characteristics of Domestic Migrants on Sectoral Wages: An Econometric Analysis at the Provincial Level in Turkey)”, Nevin Taştekin ve <strong>Selim Çağatay</strong>, Çalışma ve Toplum Dergisi, Cilt 2(73), p. 965-978, 2022.</p>
+                                        <p class="publication-text">"Yurtiçi Göçmenlerin Demografik Özelliklerinin Sektörel Ücretler Üzerindeki Etkisi: Türkiye'de İl Düzeyinde Ekonometrik Bir Analiz (The Effect of Demographic Characteristics of Domestic Migrants on Sectoral Wages: An Econometric Analysis at the Provincial Level in Turkey)", Nevin Taştekin ve <strong>Selim Çağatay</strong>, Çalışma ve Toplum Dergisi, Cilt 2(73), p. 965-978, 2022.</p>
                                     </div>
                                 </article>
                                 <article class="publication-item" data-year="2022" data-type="conference">
@@ -375,7 +325,7 @@
                                         </div>
                                     </div>
                                     <div class="publication-content">
-                                        <p class="publication-text">Çikti Tablosu İle Analizi (Regional Input of the Effects of the Covid-19 Pandemic on the Economy of the Western Mediterranean Region- Analysing with Output Table)&quot;, Şebnem Arik, Zafer Barış Gül, Mehmet Kula, Şükrü Erdem, <strong>Selim Çağatay</strong>, Hacettepe University İİBF Dergisi, 2021, Cilt 39 (4), Sayfa: 537-559. “Increasing Number of Children and Poverty: A Multidimensional Approach”, Ege</p>
+                                        <p class="publication-text">"Covid-19 Pandemisinin Bati Akdeniz Bölge Ekonomisine Etkilerinin Bölgesel Girdi-Çikti Tablosu İle Analizi (Regional Input of the Effects of the Covid-19 Pandemic on the Economy of the Western Mediterranean Region- Analysing with Output Table)", Şebnem Arik, Zafer Barış Gül, Mehmet Kula, Şükrü Erdem, <strong>Selim Çağatay</strong>, Hacettepe University İİBF Dergisi, 2021, Cilt 39 (4), Sayfa: 537-559.</p>
                                     </div>
                                 </article>
                                 <article class="publication-item" data-year="2021" data-type="journal">
@@ -2483,6 +2433,7 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="cv.html">CV</a></li>
                         <li><a href="publications.html">Publications</a></li>
+                        <li><a href="research-grants.html">Research Grants</a></li>
                         <li><a href="gallery.html">Gallery</a></li>
                     </ul>
                 </div>
