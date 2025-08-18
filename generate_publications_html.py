@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Generate publications.html with real data from parsed CV
+Updated to include Research Grants navigation
 """
 
 import json
@@ -67,13 +68,18 @@ def generate_html():
     <meta name="description" content="Dr. Selim Çağatay - Publications and Research Papers">
     <meta name="keywords" content="publications, research papers, academic articles, journals">
     <meta name="author" content="Dr. Selim Çağatay">
+    
+    <!-- Cache-busting headers for development -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <title>Publications - Dr. Selim Çağatay</title>
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=2.0.0">
     
     <!-- Favicon placeholder -->
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
@@ -107,6 +113,9 @@ def generate_html():
                     </li>
                     <li class="nav-item">
                         <a href="publications.html" class="nav-link active">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="research-grants.html" class="nav-link">Research Grants</a>
                     </li>
                     <li class="nav-item">
                         <a href="gallery.html" class="nav-link">Gallery</a>
@@ -330,6 +339,7 @@ def generate_html():
                         <li><a href="index.html">Home</a></li>
                         <li><a href="cv.html">CV</a></li>
                         <li><a href="publications.html">Publications</a></li>
+                        <li><a href="research-grants.html">Research Grants</a></li>
                         <li><a href="gallery.html">Gallery</a></li>
                     </ul>
                 </div>
@@ -451,10 +461,11 @@ def main():
     
     print(f"Publications page generated: {output_path}")
     print("Features included:")
-    print("- Real publication data from CV")
+    print("- Real publication data from publications.txt")
     print("- Search functionality")
     print("- Year and type filtering")
     print("- Publication statistics")
+    print("- Research Grants navigation link")
     print("- Responsive design")
     print("- Academic styling")
 

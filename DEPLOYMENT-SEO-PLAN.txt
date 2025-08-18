@@ -1,0 +1,216 @@
+🚀 Prof. Dr. Selim Çağatay Web Sitesi - Deployment ve SEO Planı
+================================================================
+
+## Phase 1: Pre-Deployment Optimization (1-2 gün)
+
+### 1.1 Teknik Hazırlık
+- Git Repository Setup: GitHub repository oluşturma ve kodu push etme
+- Dosya Optimizasyonu: 
+  - Görsellerin optimize edilmesi (WebP formatına çevirme)
+  - CSS/JS minification
+  - Gereksiz dosyaların temizlenmesi
+- Responsive Test: Tüm cihazlarda görünüm kontrolü
+- Browser Compatibility: Cross-browser test
+
+### 1.2 Performance Optimization
+- Image Optimization: Gallery'deki 200+ görselin sıkıştırılması
+- Lazy Loading: Görseller için lazy loading implementasyonu
+- Code Splitting: JavaScript dosyalarının optimize edilmesi
+
+## Phase 2: Vercel Deployment (1 gün)
+
+### 2.1 Vercel Setup
+- Vercel hesabı oluşturma
+- GitHub repository'yi Vercel'e bağlama
+- Build settings konfigürasyonu
+- Environment variables setup (eğer gerekirse)
+
+### 2.2 Domain Configuration
+- Custom domain setup (selimcagatay.com önerisi)
+- SSL sertifikası otomatik aktivasyonu
+- DNS konfigürasyonu
+
+## Phase 3: SEO Foundation (2-3 gün)
+
+### 3.1 Meta Tags Optimization
+Her sayfa için özelleştirilmiş meta tags:
+<!-- Example meta tags -->
+<meta name="description" content="Specific page description">
+<meta name="keywords" content="Relevant keywords">
+<meta property="og:title" content="Page Title">
+<meta property="og:description" content="Page Description">
+<meta property="og:image" content="Relevant image">
+<meta name="twitter:card" content="summary_large_image">
+
+### 3.2 Structured Data (Schema.org)
+- Person Schema: Akademik profil için
+- Organization Schema: Akdeniz Üniversitesi için
+- Article Schema: Publications için
+- Research Project Schema: Grants için
+
+### 3.3 Technical SEO
+- Sitemap.xml güncelleme ve optimize etme
+- Robots.txt optimize etme
+- Canonical URLs ekleme
+- Internal Linking stratejisi
+
+## Phase 4: Content & Academic SEO (2-3 gün)
+
+### 4.1 Academic SEO Specifics
+- Google Scholar optimizasyonu
+- ORCID entegrasyonu
+- Research keywords optimizasyonu
+- University affiliation vurgusu
+
+### 4.2 Content Optimization
+- Publication titles için SEO-friendly formatlar
+- Research areas için keyword optimization
+- Biography SEO optimization
+- Alt text for all images
+
+## Phase 5: Analytics & Monitoring (1 gün)
+
+### 5.1 Analytics Setup
+- Google Analytics 4 kurulumu
+- Google Search Console setup
+- Conversion tracking (CV download, contact form)
+
+### 5.2 Performance Monitoring
+- PageSpeed Insights optimization
+- Core Web Vitals monitoring
+- Uptime monitoring
+
+## Phase 6: Post-Launch SEO (Ongoing)
+
+### 6.1 Local SEO
+- Google My Business (eğer uygunsa)
+- Academic directories submission
+- University listing optimization
+
+### 6.2 Content Strategy
+- Research blog ekleme (opsiyonel)
+- Regular content updates
+- News section (opsiyonel)
+
+### 6.3 Link Building
+- Academic networking
+- Conference websites
+- Research collaboration links
+- University department links
+
+## 🎯 Priority SEO Keywords
+
+### Primary Keywords:
+- "Selim Çağatay"
+- "Agricultural Economics Turkey"
+- "Akdeniz University Economics"
+- "Rural Development Research"
+- "Economic Policy Analysis"
+
+### Long-tail Keywords:
+- "Professor Agricultural Economics Antalya"
+- "Turkish Economic Research Publications"
+- "Circular Economy Research Turkey"
+- "Geographical Indications Rural Development"
+
+## 🛠️ Tools & Technologies Needed
+
+### Development Tools:
+- GitHub (version control)
+- Vercel CLI (deployment)
+- ImageOptim (image compression)
+
+### SEO Tools:
+- Google Search Console
+- Google Analytics
+- Schema Markup Validator
+- PageSpeed Insights
+
+### Monitoring Tools:
+- GTmetrix (performance)
+- Screaming Frog (technical SEO)
+- Google Lighthouse (audit)
+
+## 📊 Success Metrics
+
+### Technical Metrics:
+- Page Load Speed: < 3 seconds
+- Mobile Performance Score: > 90
+- SEO Score: > 95
+
+### SEO Metrics:
+- Google indexing: 100% of pages
+- Search visibility: Academic keywords ranking
+- Organic traffic: Month-over-month growth
+
+## 💰 Estimated Costs
+
+- Vercel Hosting: $0 (Hobby plan) - $20/month (Pro plan)
+- Domain: ~$15/year
+- SEO Tools: $0-$100/month (depending on needs)
+
+## ⏰ Timeline Summary
+
+- Week 1: Pre-deployment optimization + Vercel setup
+- Week 2: SEO foundation + Content optimization  
+- Week 3: Analytics setup + Post-launch monitoring
+- Ongoing: Content updates + SEO maintenance
+
+## 📋 Detailed Action Items
+
+### Immediate Actions (Bu hafta):
+1. GitHub repository oluştur
+2. Görselleri optimize et (gallery klasöründeki 200+ resim)
+3. Meta tags'leri tüm sayfalara ekle
+4. Sitemap.xml'i güncelle
+5. Vercel hesabı aç ve deployment yap
+
+### Short-term Actions (Gelecek hafta):
+1. Google Analytics kurulumu
+2. Google Search Console kurulumu
+3. Structured data ekleme
+4. Performance optimization
+5. Domain satın alma ve bağlama
+
+### Long-term Actions (Aylik):
+1. SEO performance monitoring
+2. Content updates
+3. Academic directory submissions
+4. Link building activities
+5. Analytics review ve optimization
+
+## 🚨 Critical Notes
+
+1. Deployment öncesi mutlaka tüm linkleri test et
+2. Gallery'deki görseller çok büyük - optimize etmek zorunlu
+3. Academic SEO için ORCID ve Google Scholar entegrasyonu kritik
+4. Mobile-first approach kullan
+5. Page speed çok önemli - 3 saniyeden fazla olmamalı
+
+## 📞 Support Resources
+
+- Vercel Documentation: https://vercel.com/docs
+- Google Search Console Help: https://support.google.com/webmasters
+- Schema.org Academic Person: https://schema.org/Person
+- Google Analytics Academy: https://analytics.google.com/analytics/academy/
+
+## 🎯 Success Indicators
+
+### Month 1:
+- Site live ve hızlı çalışıyor
+- Google'da indexlendi
+- Basic analytics çalışıyor
+
+### Month 3:
+- Academic keywords için ranking
+- Organic traffic artışı
+- Core Web Vitals yeşil
+
+### Month 6:
+- Top 10 ranking academic keywords için
+- Regular academic visitor traffic
+- Strong technical SEO score
+
+---
+Bu plan Ocak 2025'te hazırlanmıştır.
+Son güncelleme: Web sitesi publications ve research grants sayfaları güncellendikten sonra.

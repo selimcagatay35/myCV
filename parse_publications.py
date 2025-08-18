@@ -3,6 +3,7 @@
 """
 Publication Parser for Prof. Dr. Selim Çağatay's CV
 Extracts and organizes publications by category and year
+Updated to handle new publications.txt format with Research Grants section
 """
 
 import re
@@ -20,6 +21,8 @@ def extract_year_from_text(text):
         r'cilt\.?\s*\d+.*?(\d{4})',  # Turkish volume patterns
         r'pp?\.\s*\d+-\d+,?\s*(\d{4})',  # Page patterns
         r's[sa]?\.\s*\d+-\d+,?\s*(\d{4})',  # Turkish page patterns
+        r'(\d{4})\.',  # Year followed by period
+        r',\s*(\d{4})',  # Year after comma
     ]
     
     for pattern in year_patterns:
@@ -53,8 +56,8 @@ def parse_journal_articles(text):
         
         # Start of new article (usually starts with quote or author name)
         if (line.startswith('"') or 
-            any(name in line for name in ['Çağatay', 'Cagatay']) or
-            re.match(r'^[A-Z]', line)):
+            any(name in line for name in ['Çağatay', 'Cagatay', 'Çağatay, S', 'Cagatay, S']) or
+            re.match(r'^[A-Z]', line) and not line.startswith('DOI:')):
             if current_article:
                 articles.append(clean_text(current_article))
             current_article = line
@@ -65,7 +68,7 @@ def parse_journal_articles(text):
     if current_article:
         articles.append(clean_text(current_article))
     
-    return articles
+    return [article for article in articles if article.strip()]
 
 def parse_books_and_volumes(text):
     """Parse books and edited volumes section"""
@@ -84,7 +87,7 @@ def parse_books_and_volumes(text):
         # Start of new book entry
         if (re.match(r'^[A-Z]', line) or 
             'eds.' in line or
-            any(publisher in line.lower() for publisher in ['routledge', 'elma', 'tepge', 'lambert'])):
+            any(publisher in line.lower() for publisher in ['routledge', 'elma', 'tepge', 'lambert', 'akdeniz'])):
             if current_book:
                 books.append(clean_text(current_book))
             current_book = line
@@ -95,7 +98,7 @@ def parse_books_and_volumes(text):
     if current_book:
         books.append(clean_text(current_book))
     
-    return books
+    return [book for book in books if book.strip()]
 
 def parse_book_chapters(text):
     """Parse book chapters section"""
@@ -125,7 +128,7 @@ def parse_book_chapters(text):
     if current_chapter:
         chapters.append(clean_text(current_chapter))
     
-    return chapters
+    return [chapter for chapter in chapters if chapter.strip()]
 
 def parse_research_reports(text):
     """Parse research reports and discussion papers section"""
@@ -154,7 +157,7 @@ def parse_research_reports(text):
     if current_report:
         reports.append(clean_text(current_report))
     
-    return reports
+    return [report for report in reports if report.strip()]
 
 def parse_conference_papers(text):
     """Parse conference papers section"""
@@ -184,7 +187,36 @@ def parse_conference_papers(text):
     if current_paper:
         papers.append(clean_text(current_paper))
     
-    return papers
+    return [paper for paper in papers if paper.strip()]
+
+def parse_research_grants(text):
+    """Parse research grants section"""
+    grants = []
+    lines = text.split('\n')
+    current_grant = ""
+    
+    for line in lines:
+        line = line.strip()
+        if not line:
+            if current_grant:
+                grants.append(clean_text(current_grant))
+                current_grant = ""
+            continue
+        
+        # Start of new grant (usually starts with TÜBİTAK, BAKA, etc.)
+        if (any(org in line for org in ['TÜBİTAK', 'BAKA', 'ICMPD', 'AFAD', 'EU', 'Akdeniz', 'OSB', 'ATSO', 'EBRD', 'FEMISE', 'OECD', 'UNDP', 'World Bank', 'FAO']) or
+            re.match(r'^[A-Z]', line)):
+            if current_grant:
+                grants.append(clean_text(current_grant))
+            current_grant = line
+        else:
+            if current_grant:
+                current_grant += " " + line
+    
+    if current_grant:
+        grants.append(clean_text(current_grant))
+    
+    return [grant for grant in grants if grant.strip()]
 
 def organize_by_year(publications, category):
     """Organize publications by year"""
@@ -211,15 +243,15 @@ def organize_by_year(publications, category):
     
     return year_dict
 
-def read_cv_file():
-    """Read and parse the CV file"""
-    cv_path = "/Users/mertcagatay/Web Development Projects/SelimCagatayWebpage/images/gallery/Profile /CVtext.txt"
+def read_publications_file():
+    """Read and parse the publications.txt file"""
+    file_path = "/Users/mertcagatay/Web Development Projects/SelimCagatayWebpage/publications.txt"
     
     try:
-        with open(cv_path, 'r', encoding='utf-8') as file:
+        with open(file_path, 'r', encoding='utf-8') as file:
             content = file.read()
     except UnicodeDecodeError:
-        with open(cv_path, 'r', encoding='latin-1') as file:
+        with open(file_path, 'r', encoding='latin-1') as file:
             content = file.read()
     
     # Find section markers
@@ -232,7 +264,17 @@ def read_cv_file():
     for i, line in enumerate(lines):
         line = line.strip()
         
-        if line == "Journal Articles:":
+        if line == "Research Grants":
+            if current_section:
+                sections[current_section] = '\n'.join(section_content)
+            current_section = "research_grants"
+            section_content = []
+        elif line == "Publications":
+            if current_section:
+                sections[current_section] = '\n'.join(section_content)
+            current_section = None
+            section_content = []
+        elif line == "Journal Articles:":
             if current_section:
                 sections[current_section] = '\n'.join(section_content)
             current_section = "journal_articles"
@@ -257,7 +299,7 @@ def read_cv_file():
                 sections[current_section] = '\n'.join(section_content)
             current_section = "conference"
             section_content = []
-        elif line in ["Technical Works:", "Invited Speaker:"]:
+        elif line in ["Technical Works:", "Invited Speaker:", "Poster:"]:
             if current_section:
                 sections[current_section] = '\n'.join(section_content)
             current_section = None
@@ -272,15 +314,23 @@ def read_cv_file():
     return sections
 
 def main():
-    """Main function to parse CV and organize publications"""
-    print("Parsing CV file...")
+    """Main function to parse publications file and organize publications"""
+    print("Parsing publications.txt file...")
     
-    # Read CV sections
-    sections = read_cv_file()
+    # Read file sections
+    sections = read_publications_file()
     
     # Parse each section
     all_publications = defaultdict(list)
+    all_grants = []
     
+    # Parse research grants
+    if 'research_grants' in sections:
+        grants = parse_research_grants(sections['research_grants'])
+        all_grants = grants
+        print(f"Found {len(grants)} research grants")
+    
+    # Parse publications sections
     if 'journal_articles' in sections:
         articles = parse_journal_articles(sections['journal_articles'])
         year_dict = organize_by_year(articles, 'journal')
@@ -314,7 +364,7 @@ def main():
     # Sort years in descending order
     sorted_years = sorted([year for year in all_publications.keys() if year != 'unknown'], reverse=True)
     
-    # Create output structure
+    # Create output structure for publications
     organized_publications = {
         'years': sorted_years,
         'publications': dict(all_publications),
@@ -333,10 +383,21 @@ def main():
         }
     }
     
-    # Save to JSON file for use in HTML generation
-    output_path = "/Users/mertcagatay/Web Development Projects/SelimCagatayWebpage/publications_data.json"
-    with open(output_path, 'w', encoding='utf-8') as f:
+    # Create output structure for research grants
+    organized_grants = {
+        'grants': all_grants,
+        'total_count': len(all_grants)
+    }
+    
+    # Save publications to JSON file
+    publications_output_path = "/Users/mertcagatay/Web Development Projects/SelimCagatayWebpage/publications_data.json"
+    with open(publications_output_path, 'w', encoding='utf-8') as f:
         json.dump(organized_publications, f, ensure_ascii=False, indent=2)
+    
+    # Save research grants to JSON file
+    grants_output_path = "/Users/mertcagatay/Web Development Projects/SelimCagatayWebpage/research_grants_data.json"
+    with open(grants_output_path, 'w', encoding='utf-8') as f:
+        json.dump(organized_grants, f, ensure_ascii=False, indent=2)
     
     print(f"Parsed {organized_publications['total_count']} publications:")
     print(f"- Journal Articles: {organized_publications['categories']['journal']}")
@@ -345,7 +406,8 @@ def main():
     print(f"- Conference Papers: {organized_publications['categories']['conference']}")
     print(f"- Research Reports: {organized_publications['categories']['report']}")
     print(f"Years covered: {min(sorted_years)} - {max(sorted_years)}")
-    print(f"Data saved to: {output_path}")
+    print(f"Publications data saved to: {publications_output_path}")
+    print(f"Research grants data saved to: {grants_output_path}")
 
 if __name__ == "__main__":
     main()

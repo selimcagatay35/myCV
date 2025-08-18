@@ -1,485 +1,373 @@
 Research Grants
-TÜBİTAK (223K233): “Döngüsel Ekonomi Prensipleri ile Avrupa Yeşil Mutabakatı 
-Sektörel Karbon Eşiklerine Uyum: Türkiye İçin Alternatif Öneriler (Compliance with European Green Deal Sectoral Carbon Thresholds via Circular Economy Principles: Alternative Proposals for Turkey)”, Consultant, September 2023.
+TÜBİTAK (223K233): “Döngüsel Ekonomi Prensipleri ile Avrupa Yeşil Mutabakatı Sektörel Karbon Eşiklerine Uyum: Türkiye İçin Alternatif Öneriler (Compliance with European Green Deal Sectoral Carbon Thresholds via Circular Economy Principles: Alternative Proposals for Turkey)”, Consultant, September 2023.
+
 BAKA (Batı Akdeniz Kalkınma Ajansı) ve Kalkınma Ajansları Genel Müdürlüğü: “6 Şubat 2023 
 Kahramanmaraş Depreminin Kısa ve Uzun Dönem Ekonomik Etkilerinin Analizi (6 February 2023 Analysis of Short and Long Term Economic Impacts of Kahramanmaraş Earthquake)”, Researcher, March 2023.
-TÜBİTAK (121K927): “Covid-19 Krizinin Sektörel Esneklik Kapasitesi ve Yeni Firsatlar 
-Bağlaminda Antalya'daki Küçük Ve Orta Büyüklükteki İşletmeler (Kobi) 
-Üzerinden Değerlendirilmesi (Evaluation through Sectoral Resilience Capacity and New Opportunities of Small and Medium-sized Enterprises (SMEs) in Antalya in the Context of in the Covid-19 Crisis)”, Researcher, March 2022.
-TÜBİTAK (121K529): “Türkiye’de Başlıca Sebzelerin Tedarik Zinciri Aşamalarında Fiyat 
-Geçirgenlikleri ve Pazar Gücü Analizi: Gıda Enflasyonu için Politika Önerileri (Price Pass-through and Market Power Analysis of Major Vegetables at Supply Chain in Turkey: Policy Recommendations for Food Inflation)”, Researcher, November 2022.
-ICMPD and Göç İdaresi Başkanlığı: ““Sustainable Migration Management through 
-Supporting the Implementation of Development sensitive Migration Policies and Initiatives in Turkey (SUMMIT)”, Senior Expert, March 2022.
-AFAD: “Doğal Afetlerin  Ekonomik Etkilerinin Belirlenmesinde Kullanılacak 
-Metodolojinin Geliştirilmesi Ar-Ge Projesi (Development of the Methodology to be used in Impacts of Natural Disasters: A R&D Project)”, Senior Expert, October 2021. 
-TÜBİTAK (120K548): “COVID-19 Pandemisinden Kaynaklanan Dış ve İç Ekonomik 
-Gelişmelerin Türkiye Üzerindeki Olumsuz Etkilerinin Tahmini: Bu Etkilerin Giderilmesi için Alternatif Politika Paketlerinin Önerilmesi (Estimation of the Negative External and Domestic Economic Impacts of the COVID-19 Pandemic on Turkey: Proposing Alternative Policy Packages to Mitigate These Impacts)”, Project Coordinator, 1 July-31 December 2020.
-BAKA (Batı Akdeniz Kalkınma Ajansı): “Covid-19 Pandemisinin Bati Akdeniz Bölge 
-Ekonomisine Etkileri (TR61 Girdi-Çikti Tablosu İle Senaryo Analizleri) (Effects of Covid-19 Pandemic on Western Mediterranean Region Economy (Scenario Analyses with TR61 Input-Output Table))”, Project Coordinator, 15 June-23 October 2020.
+
+TÜBİTAK (121K927): “Covid-19 Krizinin Sektörel Esneklik Kapasitesi ve Yeni Firsatlar Bağlaminda Antalya'daki Küçük Ve Orta Büyüklükteki İşletmeler (Kobi) Üzerinden Değerlendirilmesi (Evaluation through Sectoral Resilience Capacity and New Opportunities of Small and Medium-sized Enterprises (SMEs) in Antalya in the Context of in the Covid-19 Crisis)”, Researcher, March 2022.
+
+TÜBİTAK (121K529): “Türkiye’de Başlıca Sebzelerin Tedarik Zinciri Aşamalarında Fiyat Geçirgenlikleri ve Pazar Gücü Analizi: Gıda Enflasyonu için Politika Önerileri (Price Pass-through and Market Power Analysis of Major Vegetables at Supply Chain in Turkey: Policy Recommendations for Food Inflation)”, Researcher, November 2022.
+
+ICMPD and Göç İdaresi Başkanlığı: ““Sustainable Migration Management through Supporting the Implementation of Development sensitive Migration Policies and Initiatives in Turkey (SUMMIT)”, Senior Expert, March 2022.
+
+AFAD: “Doğal Afetlerin Ekonomik Etkilerinin Belirlenmesinde Kullanılacak Metodolojinin Geliştirilmesi Ar-Ge Projesi (Development of the Methodology to be used in Impacts of Natural Disasters: A R&D Project)”, Senior Expert, October 2021.
+ 
+TÜBİTAK (120K548): “COVID-19 Pandemisinden Kaynaklanan Dış ve İç Ekonomik Gelişmelerin Türkiye Üzerindeki Olumsuz Etkilerinin Tahmini: Bu Etkilerin Giderilmesi için Alternatif Politika Paketlerinin Önerilmesi (Estimation of the Negative External and Domestic Economic Impacts of the COVID-19 Pandemic on Turkey: Proposing Alternative Policy Packages to Mitigate These Impacts)”, Project Coordinator, 1 July-31 December 2020.
+
+BAKA (Batı Akdeniz Kalkınma Ajansı): “Covid-19 Pandemisinin Bati Akdeniz Bölge Ekonomisine Etkileri (TR61 Girdi-Çikti Tablosu İle Senaryo Analizleri) (Effects of Covid-19 Pandemic on Western Mediterranean Region Economy (Scenario Analyses with TR61 Input-Output Table))”, Project Coordinator, 15 June-23 October 2020.
+
 EU Horizon 2020 (816078). “Agent-based support tool for the development of agriculture 
-policies (AGRICORE)”, Expert, September 2019-….
-Akdeniz University (SBA-2019-4780): “Düzey1 Bölgelerinde Tüketicilerin Gıda 
-Maddelerini E-Ticaret Yoluyla Satın Almalarını Etkileyen Arz ve Talep Yönlü Faktörlerin Belirlenmesi (Determination of Supply and Demand-Side Factors Affecting the Food Purchasing Behaviour of Consumers through E-Commerce in Nuts 1 Regions)”, Project Coordinator, May 2019-….
-OSB (Antalya Organized Industrial Region): “Jobs of Future”, Project Coordinator, 1st 
-Oct. 2018-28th Feb. 2019.
-ATSO (Antalya Chamber of Trade and Industry): “Antalya 4.0”, Project Coordinator, 1st 
-March 2018-31st Dec. 2018.
-TÜBİTAK (118K244): “The Analysis of the Potential Impacts of the Transatlantic Trade 
-and Investment Partnership Agreement on Turkey’s International Trade”, Project Coordinator, 15th Dec. 2018-15th Sep. 2019.
-EBRD and İzmir Development Agency: “Key Agricultural Risk Assessment”, Key Expert, 
-November 2017-June 2018.
-TÜBİTAK (114K513): “Analysis of Efficient Open-Innovation Process: Manufacturing 
-Industry Case Study in Turkey”, Project Coordinator, Oct 2014-May 2016.
-Akdeniz University (SBA-2014-19): “Impacts of Geographical Indications on Rural 
-Development: The Cases of Gaziantep and Siirt Provinces”, Project Coordinator, Nov 2014-Nov 2015.
-Western Mediterranean Development Agency: “3rd International Antalya Geographical 
-Indications Seminar”, Project Coordinator, Dec 2012-Mar 2013.
-Ministry of Food, Agriculture and Livestock: “Impacts of Bio-fuel Production on Agricultural 
-Sector in Turkey”, Project Coordinator, Jun 2012-Dec 2012.
-FEMISE (Forum Euroméditerranéen des Instituts de Sciences Économiques) (FEM35-
-04): “Tourism Industry as an Engine for Export-Led Growth and Social Development: Analyzing Its Main Characteristics and Future Prospects for 
-Mediterranean Countries”, Principal Expert, Jan 2012-Nov 2012. 
-FEMISE (FEM35-03): “Macroeconomic Allocations and International Factor Mobility: 
-A Comparative Assessment of Major Trade Areas”, Principal Expert, Jan 2012-
-Nov 2012. 
-FEMISE (FEM34-30-CP2010): “Analyzing the Immigration-Induced Changes in 
-Product Diversity and Trade Patterns: The Case of the EU-Mediterranean-
-Eastern Europe Zone”, Project Coordinator, Apr 2011- May 2012.
-FEMISE (FEM34-21-CP2010): “Convergence beyond the economic sphere: Effects and 
-feedbacks of Euro-Med integration”, Principal Expert, Apr 2011-May 2012.	
-TÜBİTAK (110K445): “Measuring Poverty from the Perspective of Capabilities 
-Approach: An Empirical Analysis on Missing Dimensions of Poverty”, Principal 
-Expert, Mar 2011-June 2012.
-OECD: “The OECD Methodology of Estimating Commodity Market Price Support 
-Estimates for Turkey”, Principal Expert, Jun 201-Aug 2010.
-TÜBİTAK (110K303): “Union for the Mediterranean” agreement and Efficient 
-Assessment of Direct Investment and Export Potential of Turkey in the Southern 
-Mediterranean”, Project Coordinator, Sep 2010-May 2012. 
-Akdeniz University (A100320129): “Union for the Mediterranean Agreement: Analysis of 
-Possible Changes in Good and Services Flow from Turkey to Partner Countries”,
-Project Coordinator, Jun 2010-May 2011.
-Akdeniz University (A100320130): “Building a Tourism Industry Focused Computable 
-General Equilibrium Model for Turkey to Carry Out Policy Analysis”, Project 
-Coordinator, Sep 2010-May 2012.
-EU FP7 (245243): “Sustainable Agri-Food Systems and Rural Development in the 
-Mediterranean Countries (SUSTAINMED)”, Coordinator of the Partner Country Turkey, June 2009-May 2012.
-TÜBİTAK (108K266): “Modeling the Impact of Developments and Potential Changes in 
-World and Turkey’s Bioenergy Markets on Turkey’s Crop and Livestock Sectors 
-and Producing Alternative Bioenergy Policies for Turkey ”, Project Coordinator, 
-Sep 2008-Mar 2010.	
-TÜBİTAK (107K421): “Testing Asymmetric Supply Response in Turkey and Finding the 
-Effect of Migration From Rural to Urban Areas on Asymmetry”, Project 
-Coordinator, Feb 2008-May 2009.
-Poverty and Economic Policy Research Network (110347): “Intra-household Resource 
-Allocation: Status of Women and Investment in Children, A Regional Comparison 
-In Turkey”, Project Coordinator, Jan 2007-Nov 2008. 
-TÜBİTAK (107K180): “Testing Separability Principle in Turkish Agricultural Labor 
-Market”, Project Coordinator, Aug 2007-Apr 2008.
-UNDP & Turkish Ministry of Agriculture and Rural Affairs: “Assessing the Feasibility and 
-Evaluating the Economic Impacts of Deficiency Payment System as an Agricultural Support Instrument in Turkey”, Principal Expert, Dec 2005-July 2006.
-World Bank & The Undersecretary of the Treasury of Turkish Republic: “Calculation and analysis 
-of agricultural income and analysis of quantitative household income and 
-consumption expenditure survey: the Agricultural and Reform Implementation 
-Project”, Principal Expert, June 2003-May 2006.
-The State Planning Organization: “Analyzing the income distribution and structure of labor 
-market in the provinces Çorum, Samsun, Tokat, Amasya: the Development of 
-Yesilirmak Region”, Principal Expert, Jun 2004-Sept 2004.
-FAO, UN: “Developing a conceptual framework for agricultural CountryStat database 
-with reference to the specific needs of policy makers in Turkey and to the 
-FAOStat database at FAO: FAOSTAT2”, Principal Expert, Nov 2003-April 2004.
-Agribusiness and Economics Research Unit, Lincoln University: “Upgrading and enhancing the 
-	capacity of the applied framework used in modeling trade and domestic 
-	agricultural policies. Analyzing and reporting the changing agricultural trade 
-	patterns between the EU and New Zealand as a result of the ongoing changes in 
-	the CAP”, Research Economist,  Sept 2002-Aug 2004.
-FAO, UN & Organization of Blacksea Economic Cooperation (FAO TCP/REP/2901): “BSEC 
-Trade Facilitation”, Principal Expert, May 2003-Oct 2003.
-Agribusiness and Economics Research Unit, Lincoln University: “Developing the capacity to be 
-used for domestic agricultural and trade policy modeling and analysis with a 
-specific emphasis on the EU, Turkey and New Zealand policies”, Research 
-Economist, Dec 2000-Aug 2002. 
-Agribusiness and Economics Research Unit, Lincoln University: “The Impact on the Turkish 
-Agricultural Sector of the Potential Extension of the Customs Union Agreement 
-with the EU to Cover Agricultural Commodities”, Principal Expert, June 2001-
-Sept 2001.
-Agribusiness and Economics Research Unit, Lincoln University: "The Impacts on New Zealand 
-Agriculture of Alternative Liberalization Paths for European Union (EU) Tariff 
-Quotas on Dairy, Beef and Sheepmeat Products”, Principal Expert, Feb 2001-June 2001.
-International Trade Policy Research Center, Lincoln University: "The Value of the EU Sheepmeat 
-and Goat Meat Quota", Research Economist, Oct 1998-Mar 1999.
-FAO, UN & Turkish Ministry of Agriculture and Rural Affairs: "Assistance for Agricultural 
-Policy Reform in Turkey Relating to GATT and EU Agreements”, Research 
-Assistant, June 1996-Feb 1997.
-OECD & Turkish Ministry of Agriculture and Rural Affairs: "Calculations of Producer and 
-Consumer Subsidy Equivalents for Turkey", Research Assistant, Nov 1992-Oct 
-1993. 
-Organization of Southeast Anatolian Project, Prime Ministry & Agriculture and Food International 
-Consulting Co., Bonn: "Marketing of Agricultural Products and Planning of Crop 
-Pattern with the Integration of Marketing and Crop Pattern Planning Study in GAP (Southeastern Anatolian Project)", Research Assistant, Nov 1991-May 1992.
+policies (AGRICORE)”, Expert, September 2019-September 2024.
+
+Akdeniz University (SBA-2019-4780): “Düzey1 Bölgelerinde Tüketicilerin Gıda Maddelerini E-Ticaret Yoluyla Satın Almalarını Etkileyen Arz ve Talep Yönlü Faktörlerin Belirlenmesi (Determination of Supply and Demand-Side Factors Affecting the Food Purchasing Behaviour of Consumers through E-Commerce in Nuts 1 Regions)”, Project Coordinator, May 2019-December 2024.
+
+OSB (Antalya Organized Industrial Region): “Jobs of Future”, Project Coordinator, 1st Oct. 2018-28th Feb. 2019.
+
+ATSO (Antalya Chamber of Trade and Industry): “Antalya 4.0”, Project Coordinator, 1st March 2018-31st Dec. 2018.
+
+TÜBİTAK (118K244): “The Analysis of the Potential Impacts of the Transatlantic Trade and Investment Partnership Agreement on Turkey’s International Trade”, Project Coordinator, 15th Dec. 2018-15th Sep. 2019.
+
+EBRD and İzmir Development Agency: “Key Agricultural Risk Assessment”, Key Expert, November 2017-June 2018.
+
+TÜBİTAK (114K513): “Analysis of Efficient Open-Innovation Process: Manufacturing Industry Case Study in Turkey”, Project Coordinator, Oct 2014-May 2016.
+
+Akdeniz University (SBA-2014-19): “Impacts of Geographical Indications on Rural Development: The Cases of Gaziantep and Siirt Provinces”, Project Coordinator, Nov 2014-Nov 2015.
+
+Western Mediterranean Development Agency: “3rd International Antalya Geographical Indications Seminar”, Project Coordinator, Dec 2012-Mar 2013.
+
+Ministry of Food, Agriculture and Livestock: “Impacts of Bio-fuel Production on Agricultural Sector in Turkey”, Project Coordinator, Jun 2012-Dec 2012.
+
+FEMISE (Forum Euroméditerranéen des Instituts de Sciences Économiques) (FEM35-04): “Tourism Industry as an Engine for Export-Led Growth and Social Development: Analyzing Its Main Characteristics and Future Prospects for Mediterranean Countries”, Principal Expert, Jan 2012-Nov 2012. 
+
+FEMISE (FEM35-03): “Macroeconomic Allocations and International Factor Mobility: A Comparative Assessment of Major Trade Areas”, Principal Expert, Jan 2012-Nov 2012.
+ 
+FEMISE (FEM34-30-CP2010): “Analyzing the Immigration-Induced Changes in Product Diversity and Trade Patterns: The Case of the EU-Mediterranean-Eastern Europe Zone”, Project Coordinator, Apr 2011- May 2012.
+
+FEMISE (FEM34-21-CP2010): “Convergence beyond the economic sphere: Effects and feedbacks of Euro-Med integration”, Principal Expert, Apr 2011-May 2012.
+
+TÜBİTAK (110K445): “Measuring Poverty from the Perspective of Capabilities Approach: An Empirical Analysis on Missing Dimensions of Poverty”, Principal Expert, Mar 2011-June 2012.
+
+OECD: “The OECD Methodology of Estimating Commodity Market Price Support Estimates for Turkey”, Principal Expert, Jun 201-Aug 2010.
+
+TÜBİTAK (110K303): “Union for the Mediterranean” agreement and Efficient Assessment of Direct Investment and Export Potential of Turkey in the Southern Mediterranean”, Project Coordinator, Sep 2010-May 2012. 
+
+Akdeniz University (A100320129): “Union for the Mediterranean Agreement: Analysis of Possible Changes in Good and Services Flow from Turkey to Partner Countries”, Project Coordinator, Jun 2010-May 2011.
+
+Akdeniz University (A100320130): “Building a Tourism Industry Focused Computable General Equilibrium Model for Turkey to Carry Out Policy Analysis”, Project Coordinator, Sep 2010-May 2012.
+
+EU FP7 (245243): “Sustainable Agri-Food Systems and Rural Development in the Mediterranean Countries (SUSTAINMED)”, Coordinator of the Partner Country Turkey, June 2009-May 2012.
+
+TÜBİTAK (108K266): “Modeling the Impact of Developments and Potential Changes in World and Turkey’s Bioenergy Markets on Turkey’s Crop and Livestock Sectors and Producing Alternative Bioenergy Policies for Turkey ”, Project Coordinator, Sep 2008-Mar 2010.	
+
+TÜBİTAK (107K421): “Testing Asymmetric Supply Response in Turkey and Finding the Effect of Migration From Rural to Urban Areas on Asymmetry”, Project Coordinator, Feb 2008-May 2009.
+
+Poverty and Economic Policy Research Network (110347): “Intra-household Resource Allocation: Status of Women and Investment in Children, A Regional Comparison In Turkey”, Project Coordinator, Jan 2007-Nov 2008. 
+
+TÜBİTAK (107K180): “Testing Separability Principle in Turkish Agricultural Labor Market”, Project Coordinator, Aug 2007-Apr 2008.
+
+UNDP & Turkish Ministry of Agriculture and Rural Affairs: “Assessing the Feasibility and Evaluating the Economic Impacts of Deficiency Payment System as an Agricultural Support Instrument in Turkey”, Principal Expert, Dec 2005-July 2006.
+
+World Bank & The Undersecretary of the Treasury of Turkish Republic: “Calculation and analysis of agricultural income and analysis of quantitative household income and consumption expenditure survey: the Agricultural and Reform Implementation Project”, Principal Expert, June 2003-May 2006.
+
+The State Planning Organization: “Analyzing the income distribution and structure of labor market in the provinces Çorum, Samsun, Tokat, Amasya: the Development of Yesilirmak Region”, Principal Expert, Jun 2004-Sept 2004.
+
+FAO, UN: “Developing a conceptual framework for agricultural CountryStat database with reference to the specific needs of policy makers in Turkey and to the FAOStat database at FAO: FAOSTAT2”, Principal Expert, Nov 2003-April 2004.
+
+Agribusiness and Economics Research Unit, Lincoln University: “Upgrading and enhancing the capacity of the applied framework used in modeling trade and domestic agricultural policies. Analyzing and reporting the changing agricultural trade 	patterns between the EU and New Zealand as a result of the ongoing changes in the CAP”, Research Economist,  Sept 2002-Aug 2004.
+
+FAO, UN & Organization of Blacksea Economic Cooperation (FAO TCP/REP/2901): “BSEC Trade Facilitation”, Principal Expert, May 2003-Oct 2003.
+
+Agribusiness and Economics Research Unit, Lincoln University: “Developing the capacity to be used for domestic agricultural and trade policy modeling and analysis with a specific emphasis on the EU, Turkey and New Zealand policies”, Research Economist, Dec 2000-Aug 2002. 
+
+Agribusiness and Economics Research Unit, Lincoln University: “The Impact on the Turkish Agricultural Sector of the Potential Extension of the Customs Union Agreement with the EU to Cover Agricultural Commodities”, Principal Expert, June 2001-Sept 2001.
+
+Agribusiness and Economics Research Unit, Lincoln University: "The Impacts on New Zealand Agriculture of Alternative Liberalization Paths for European Union (EU) Tariff Quotas on Dairy, Beef and Sheepmeat Products”, Principal Expert, Feb 2001-June 2001.
+
+International Trade Policy Research Center, Lincoln University: "The Value of the EU Sheepmeat and Goat Meat Quota", Research Economist, Oct 1998-Mar 1999.
+
+FAO, UN & Turkish Ministry of Agriculture and Rural Affairs: "Assistance for Agricultural Policy Reform in Turkey Relating to GATT and EU Agreements”, Research Assistant, June 1996-Feb 1997.
+
+OECD & Turkish Ministry of Agriculture and Rural Affairs: "Calculations of Producer and Consumer Subsidy Equivalents for Turkey", Research Assistant, Nov 1992-Oct 1993. 
+
+Organization of Southeast Anatolian Project, Prime Ministry & Agriculture and Food International Consulting Co., Bonn: "Marketing of Agricultural Products and Planning of Crop Pattern with the Integration of Marketing and Crop Pattern Planning Study in GAP (Southeastern Anatolian Project)", Research Assistant, Nov 1991-May 1992.
+
+
 
 
 Publications
 Journal Articles:
 “Assessment of the Devastating Kahramanmaraş Earthquake: Estimation of Economic Loss and Identification of Sectors Behind the Spillover Effects”, Selim Çağatay, Şebnem Arık, Zafer Barış Gül, Şükrü Erdem, Mehmet Kula, Sosyoekonomi, (under review).
-“A Synthesis on Impact Assessment Models from the Perspective of Evolution of the 	EU Common Agricultural Policy”, Çağatay, S., Koç, A.A., Bayaner, A., Uysal, P. 	and Arslan, S., Tarım Ekonomisi Araştırmaları Dergisi, cilt.30, sa.1, ss.69-87, 2024.
-“A Synthesis on Agent-Based Impact Assessment Models from the Perspective of the 	EU Rural Development Policy Measures”, Ali Koç, Selim Çağatay, Mario 	Veneziani, Pablo Baez Gonzales, Carlos Leyva Guerrero, Peyman Uysal,  Rosalia 	Filippini, Journal of Agricultural Sciences, 30(4), p. 628-643, 2024. 	
-	DOI: 10.15832/ankutbd.1287221
-“Fossil fuel and resource use impacts of raw material substitution and recycling in 	tourism sector in Türkiye: evidence from circular economy adjusted input-output 	matrix”, Hasan Gül, Selim Çağatay, William C. Gartner, Current Issues in Tourism, 	July 2024. DOI: 10.1080/13683500.2024.2376887.
+
+“A Synthesis on Impact Assessment Models from the Perspective of Evolution of the EU Common Agricultural Policy”, Çağatay, S., Koç, A.A., Bayaner, A., Uysal, P. and Arslan, S., Tarım Ekonomisi Araştırmaları Dergisi, cilt.30, sa.1, ss.69-87, 2024.
+
+“A Synthesis on Agent-Based Impact Assessment Models from the Perspective of the EU Rural Development Policy Measures”, Ali Koç, Selim Çağatay, Mario Veneziani, Pablo Baez Gonzales, Carlos Leyva Guerrero, Peyman Uysal,  Rosalia 	Filippini, Journal of Agricultural Sciences, 30(4), p. 628-643, 2024. DOI: 10.15832/ankutbd.1287221
+
+“Fossil fuel and resource use impacts of raw material substitution and recycling in tourism sector in Türkiye: evidence from circular economy adjusted input-output matrix”, Hasan Gül, Selim Çağatay, William C. Gartner, Current Issues in Tourism, 	Vol. 28 (15), p. 2480-2499, 2025. DOI: 10.1080/13683500.2024.2376887.
+
 “The Relationship Between Poverty and Violence Against Women: Causality Contrary to 
 Expectations”, Mehmet Zanbak, Selim Çağatay, Şebnem Arık, Beyhan Akay, Woman and Criminal Justice Journal , cilt.33, ss.1-29, 2023. DOI: 10.1080/08974454.2023.2291640.
+
 “Impact assessment of Agri-Environment-Climate Measure (M10) of RDP 2014-2020 on 
-Polish farmers’ perception of environmental and climatic policies implementation”, Jaromir Krzyszczak, Piotr Baranowski, Krzysztof Lamorski, Cezary Sławiński , Anna Siedliska, Waldemar Bojar, Wojciech Żarski, Jacek Żarski, Renata Kuśmierek-Tomaszewska, Ahmet Ali Koç, Selim Çağatay, Peyman Uysal, Christos Staboulis, Nastis Stefanos A., Theofilou Asterios, Mattas  Konstadinos, Carlos  Leyva, Pablo Báez-González, Álvaro Ojeda Roldán, Obdulia Parra, Przemysław Tkaczyk, International Agrophysics Journal, V. 37, 311-323, 2023.
-“Göçle Gelen Nüfusun Eğitim Seviyesinin İl Yaşam Standardi Üzerindeki Etkilerinin 
-Ampirik Analizi (The Effects of the Education Level of the Migrant Population on the Provincial Living Standards Empirical Analysis)”, Nevin Taştekin, Selim Çağatay ve Şebnem Arık, Sosyoyloji Araştırmaları Dergisi, Cilt 26, Sayı 2, s. 254-272, 2023.
-“Girdi-Çıktı Analizinde Varsayımsal Çıkarma Yöntemi: Batı Akdeniz Bölgesi’nde (TR61) 
-Sektörel Kapanmanın Etki Analizi (Hypothetical Extraction Method in Input-Output Analysis: Western Mediterranean Region (TR61) Impact Analysis of Sectoral Closure)”, Zafer B. Gül, Şebnem Arık, Mehmet Kula, Selim Çağatay, Şükrü Erdem, Sosyoekonomi Dergisi, Cilt 31(56), s. 241-277, 2023.
-“Environmental and Economic Impact Analysis of Reducing Greenhouse Gas 
-Emissions Via Energy Substitution and Carbon Tax”, Reyhan Özeş Özgür, Selim Çağatay, Journal of Research in Economics, Cilt 6(1), s. 46-60, 2022.
- “Yurtiçi Göçmenlerin Demografik Özelliklerinin Sektörel Ücretler Üzerindeki Etkisi:
-Türkiye’de İl Düzeyinde Ekonometrik Bir Analiz (The Effect of Demographic Characteristics of Domestic Migrants on Sectoral Wages: An Econometric Analysis at the Provincial Level in Turkey)”, Nevin Taştekin ve Selim Çağatay, Çalışma ve Toplum Dergisi, Cilt 2(73), p. 965-978, 2022.
-"Covid-19 Pandemisinin Bati Akdeniz Bölge Ekonomisine Etkilerinin Bölgesel Girdi-
-Çikti Tablosu İle Analizi (Regional Input of the Effects of the Covid-19 Pandemic on the Economy of the Western Mediterranean Region- Analysing with Output Table)", Şebnem Arik, Zafer Barış Gül, Mehmet Kula, Şükrü Erdem,  Selim Çağatay, Hacettepe University İİBF Dergisi, 2021, Cilt 39 (4), Sayfa: 537-559.
- “Increasing Number of Children and Poverty: A Multidimensional Approach”, Ege 
-Akademik Bakış Dergisi, . Zanbak M. ve Çağatay S., 21(4), 299-317, 2021.
+Polish farmers’ perception of environmental and climatic policies implementation”, Jaromir Krzyszczak, Piotr Baranowski, Krzysztof Lamorski, Cezary Sławiński, Anna Siedliska, Waldemar Bojar, Wojciech Żarski, Jacek Żarski, Renata Kuśmierek-Tomaszewska, Ahmet Ali Koç, Selim Çağatay, Peyman Uysal, Christos Staboulis, Nastis Stefanos A., Theofilou Asterios, Mattas  Konstadinos, Carlos  Leyva, Pablo Báez-González, Álvaro Ojeda Roldán, Obdulia Parra, Przemysław Tkaczyk, International Agrophysics Journal, V. 37, 311-323, 2023.
+
+“Göçle Gelen Nüfusun Eğitim Seviyesinin İl Yaşam Standardi Üzerindeki Etkilerinin Ampirik Analizi (The Effects of the Education Level of the Migrant Population on the Provincial Living Standards Empirical Analysis)”, Nevin Taştekin, Selim Çağatay ve Şebnem Arık, Sosyoyloji Araştırmaları Dergisi, Cilt 26, Sayı 2, s. 254-272, 2023.
+
+“Girdi-Çıktı Analizinde Varsayımsal Çıkarma Yöntemi: Batı Akdeniz Bölgesi’nde (TR61) Sektörel Kapanmanın Etki Analizi (Hypothetical Extraction Method in Input-Output Analysis: Western Mediterranean Region (TR61) Impact Analysis of Sectoral Closure)”, Zafer B. Gül, Şebnem Arık, Mehmet Kula, Selim Çağatay, Şükrü Erdem, Sosyoekonomi Dergisi, Cilt 31(56), s. 241-277, 2023.
+
+“Environmental and Economic Impact Analysis of Reducing Greenhouse Gas Emissions Via Energy Substitution and Carbon Tax”, Reyhan Özeş Özgür, Selim Çağatay, Journal of Research in Economics, Cilt 6(1), s. 46-60, 2022.
+
+ “Yurtiçi Göçmenlerin Demografik Özelliklerinin Sektörel Ücretler Üzerindeki Etkisi: Türkiye’de İl Düzeyinde Ekonometrik Bir Analiz (The Effect of Demographic Characteristics of Domestic Migrants on Sectoral Wages: An Econometric Analysis at the Provincial Level in Turkey)”, Nevin Taştekin ve Selim Çağatay, Çalışma ve Toplum Dergisi, Cilt 2(73), p. 965-978, 2022.
+
+"Covid-19 Pandemisinin Bati Akdeniz Bölge Ekonomisine Etkilerinin Bölgesel Girdi-Çıktı Tablosu İle Analizi (Regional Input of the Effects of the Covid-19 Pandemic on the Economy of the Western Mediterranean Region- Analysing with Output Table)", Şebnem Arik, Zafer Barış Gül, Mehmet Kula, Şükrü Erdem,  Selim Çağatay, Hacettepe University İİBF Dergisi, 2021, Cilt 39 (4), Sayfa: 537-559.
+
+ “Increasing Number of Children and Poverty: A Multidimensional Approach”, Ege Akademik Bakış Dergisi, . Zanbak M. ve Çağatay S., 21(4), 299-317, 2021.
+
  “Covid-19 Pandemisinin Sektörel Kapanma Etkileri: Varsayımsal Çıkarma (Hypothetical 
-Extraction) Yöntemi ile Analiz? (Sectoral Closure Effects of Covid-19 Pandemic: Hypothetical Extraction Method?")”, İktisat ve Toplum Dergisi, Gül, Z.B., Selim 
-Çağatay, Celal Taşdoğan, Çağaçan Değer, Şebnem Arık, Hüsnü Can Dural, No 124, Şubat, 2021.
-“Transatlantik Ticaret ve Yatırım Ortaklığı Anlaşmasının Çeşitli Mamul Eşya Endüstrisi 
-Dış Ticaretine Olası Etkileri (Possible Foreign Trade Effects of Transatlantic Trade and Investment Partnership Agreement on Miscellaneous Manufactured Articles )”, Ekonomik Yaklaşım, Öner Öz, Selim Çağatay, Erhan Pişkin, 31(114): 51-95, 2020.
-“Determinants of Industry and Region Based Open Innovation in Turkey”, Istanbul 
-Business Research, Seyfettinoğlu, Ü., Arık, Ş. & Çağatay, S., vol. 49 (1), pp. 1-35, 2020.
- “Karbon Vergisinin İktisadi Daralma Etkilerinin Giderilmesi İçin Alternatif Politika 
-Önerileri: Türkiye İçin Sosyal Hesaplar Matrisi Temelinde Bir Analiz (Alternative Policy Proposals for Eliminating the Economic Contraction Effects of Carbon Tax: An Analysis Based on the Social Accounts Matrix for Turkey)”, Dokuz September Üniversitesi Sosyal Bilimler Enstitüsü Dergisi, Reyhan Özeş, Selim Çağatay, 22(1): 171-197, 2020.
-“İktisat Bölümlerinin Giderek Daha Az Tercih Edilmesi, İktisat Böülümü Mezunlarının 
-İş Bulamaması Normal Mi? (Is It Normal That Graduates of Economics Departments Cannot Find a Job and thoese Departments are Less Preferred?)”, İktisat ve Toplum Dergisi, Selim Çağatay, Mehmet Zanbak, Ümit K. Seyfettinoğlu, No 104, June, 2019.
-“Sanayi Politikası Olarak Açık Yenilik (Open Innovation as Industrial Policy)”, İktisat 
-ve Toplum Dergisi, Seyfettinoğlu, Ü., Arık, Ş. ve Çağatay, S., Number 105-106, 
-(2019).
+Extraction) Yöntemi ile Analiz? (Sectoral Closure Effects of Covid-19 Pandemic: Hypothetical Extraction Method?")”, İktisat ve Toplum Dergisi, Gül, Z.B., Selim Çağatay, Celal Taşdoğan, Çağaçan Değer, Şebnem Arık, Hüsnü Can Dural, No 124, Şubat, 2021.
+
+“Transatlantik Ticaret ve Yatırım Ortaklığı Anlaşmasının Çeşitli Mamul Eşya Endüstrisi Dış Ticaretine Olası Etkileri (Possible Foreign Trade Effects of Transatlantic Trade and Investment Partnership Agreement on Miscellaneous Manufactured Articles )”, Ekonomik Yaklaşım, Öner Öz, Selim Çağatay, Erhan Pişkin, 31(114): 51-95, 2020.
+
+“Determinants of Industry and Region Based Open Innovation in Turkey”, Istanbul Business Research, Seyfettinoğlu, Ü., Arık, Ş. & Çağatay, S., vol. 49 (1), pp. 1-35, 2020.
+
+“Karbon Vergisinin İktisadi Daralma Etkilerinin Giderilmesi İçin Alternatif Politika Önerileri: Türkiye İçin Sosyal Hesaplar Matrisi Temelinde Bir Analiz (Alternative Policy Proposals for Eliminating the Economic Contraction Effects of Carbon Tax: An Analysis Based on the Social Accounts Matrix for Turkey)”, Dokuz September Üniversitesi Sosyal Bilimler Enstitüsü Dergisi, Reyhan Özeş, Selim Çağatay, 22(1): 171-197, 2020.
+
+“İktisat Bölümlerinin Giderek Daha Az Tercih Edilmesi, İktisat Böülümü Mezunlarının İş Bulamaması Normal Mi? (Is It Normal That Graduates of Economics Departments Cannot Find a Job and thoese Departments are Less Preferred?)”, İktisat ve Toplum Dergisi, Selim Çağatay, Mehmet Zanbak, Ümit K. Seyfettinoğlu, No 104, June, 2019.
+
+“Sanayi Politikası Olarak Açık Yenilik (Open Innovation as Industrial Policy)”, İktisat ve Toplum Dergisi, Seyfettinoğlu, Ü., Arık, Ş. ve Çağatay, S., Number 105-106, (2019).
+
 “Türkiye’de Gerçekleştirilen İnovasyon Odaklı Çalışmalara İlişkin Yazın Özeti: Ampirik 
 Bulgular, Problemler, Öneriler (Literature Review on Innovation-Focused Studies Conducted in Turkey: Empirical Findings, Problems, Suggestions)”, EFIL Journal, S. Çağatay ve R. Özeş, Vol 2(6), 2019. 
- “Remittances Impacts on Schooling in Jordan: Analyses with respect to Migrant 
-Destination”, New Medit Journal, Selim Çağatay, Mehmet Mert, Onur 
-Koska, Andrés Artal-Tur, No: 2, (2019).
-“İller Arasında Farklılaşan Sosyoekonomik Yapının Orta Gelir Tuzağına Etkileri (The 
-Effects of Differentiated Socioeconomic Structure among Provinces on Middle Income Trap)”, İktisat ve Toplum Dergisi, Çağatay, S., Zanbak, M. and Seyfettinoğlu, Ü., Number 81, p. 7-13, (2018).
- “Sera Gazı Azaltımı için Alternatif Karbon Vergisi Uygulamaları Etki Analizi (Impact 
-Analysis of Alternative Carbon Tax Policies to Reduce Greenhouse Gas Emissions)”, METU Studies in Development, Özeş, R. and S. Çağatay, Vol 45 (December), 2018.
- “Analyzing the Impact of Targeted Bio-Ethanol Blending Ratio in Turkey”, Bio-Based 
-and Applied Economics, S. Çağatay, C. Taşdoğan, R. Özeş, Vol 6 (2), p. 209-227, (2017).
-"Coğrafi İşaretler: Kırsal Kalkınmanın Vazgeçilmez Aracı (Geographical Indications: An 
-Indispensable Tool for Rural Development)", İktisat ve Toplum, Zanbak 
-M., Çağatay S., 8(90), ss.14-27, (2018). http://www.iktisatvetoplum.com/iktisat-	ve-toplum-dergisi-90-sayi/
-“Coğrafi İşaretler ve Marka Değerine Sahip Ürünlere Yönelik Tüketici Algısı: Finike 
-Portakalı ve Antalya Tavşan Yüreği Zeytini Örnekleri (Consumer Perception 
-towards Geographical Indications and Products with Brand Value: Finike Orange and Antalya Rabbit Heart Olive Cases)”, Tarım Ekonomisi Araştırmaları Dergisi, Cilt 3(1), June, s 52-65, Mısra Çakaloğlu ve S. Çağatay 2017.
-"Ulaştırma Sektörü ve Hanehalkı Enerji Tüketiminde Alternatif Enerji Kullanımının 
-Emisyon ve Ekonomik Etkileri (Economic and Emission Impacts of Alternative Energy Use in Transportation Industry and Household Energy Consumption)", METU (Middle East Technical University) Studies in Development, August, Özeş, R. and Çağatay S. 2015.
- “Impact Analysis of Demand-Driven Shocks in Turkey’s Tourism Industry within the 
-Framework of Social Accounting Matrix”, Tourism Economics, Vol. 21(1), Gül, 
-H. and S. Çağatay. 2015.
-“International Migration, Remittances, and the Human Capital Formation of Egyptian 
-Children”, International Review of Economics & Finance, Vol. 28, p.38-50, 
-Koska, O. A., Saygin, P.Ö., Çağatay, S. and Artal-Tur, A. 2013.
-““Yetenek” Yaklaşımı Temelinde Yoksulluğun Ölçülmesi: Mersin ve Erzurum İllerinde 
-Yoksulluğun Kayıp Boyutları (The "Capability" Approach to Poverty 
-Measurement: Missing Dimensions of Poverty in Mersin and Erzurum Provinces)”, İktisat, İşletme ve Finans journal, Vol. 28 (327), p. 9-40. Zanbak, M. ve Çağatay, S. 2013. 
-“La migración y el efecto de creación de comercio”, Foreign Affairs Latinoamerica, 
-volumen 12, número 3, p. 71-80, julio-septiembre, Pallardó, V., Artal, A. ve 
-Cagatay, S., 2012.
-“Hane İçi Kaynak Dağılımının Yoksul Olma Olasılığı ve Yoksulluk Açığı Üzerindeki 
-Etkisi: Türkiye’de Kentsel Kesim İçin Bir Uygulama (The Effects of Household 
-Resource Allocation on the Probability of Being Poor and the Poverty Gap 
-Impact: An Application for Urban Areas in Turkey)”, Sosyoloji Araştırmaları 
-Dergisi, V. 15, Sayı 1, p. 1-15, Spring, Çağatay, S. ve Zanbak, M., 2012.
-“Karbondioksit emisyonu üzerinden çevre baskısı değerlendirmesi: Çevresel Kuznets 
-eğrisine panel veri uygulaması (Evaluation of Environmental Pressure on 
-Carbondioxide Emissions : Kuznets Curve Analysis by using Panel Data)”, İktisat, İşletme ve Finans journal, V. 27 (314), p.35-72, Tutulmaz, O., Şahinöz, A. ve Çağatay, S. 2012.
-“The determinants of foreign direct investment outflows from the European Union 
-countries”, Economics Bulletin, Vol. 31, No. 3, p. 2653-66, Mıhçı, H., Cagatay, 
-S. and Koska, O. 2011.
-"Biyo-Yakıt Piyasalarındaki Gelişmeler: Global Kısmi Denge Modeli ile Etki Analizi 
-(Developments in Bio-fuel Markets: Impact Analysis by Utilizing a Global Partial Equilibrium Model)", METU (Middle East Technical University) Studies in Development, August, Kıymaz, T., Cagatay, S. and Bilgin, D. 2010.
-“Assessment Of Sustainability Of The European Union And Turkish Agricultural 
-Sectors”, New Medit, Vol  IX, n.3, Mollavelioğlu, Ş., Mıhçı, H., Çağatay, S. and 
-Ulucan, A., 2010.
-“Demographic and Structural Effects on Labor Demand in Incomplete Markets: Testing 
-	“Seperability Hypothesis” in Turkish Agricultural Labor Markets”, İktisat, İşletme ve 
-	Finans journal, V. 25 (292), p.71-95, Saygın, P.Ö. ve Çağatay, S. 2010.
-“2001-2008 Yıllarında Türkiye’de Uygulanan Alternatif Tarım Politikalarının Gelir Çarpan 
-	Analizi ve Politika Önerileri (Income Multiplier Analysis of Alternative 
-	Agricultural Policies Implemented in Turkey in 2001-2008 and Policy 
-	Recommendations)”, Akdeniz University Economics and Administrative Sciences 
-	Journal, V 19., Taşdoğan, C., Çağatay, S. and Şahinöz, A., 2010.
-“Tarım Sigortalarının Geleceği (Future of Agriculture and Agricultural Insurance), 
-forthcoming in TSEV Sigorta Araştırmaları Dergisi, March, Kıymaz, T. and S. 
-Çağatay 2009.
-“Possible Effect on the EU and Turkey of Set-Aside Removal and Severe Draught”, New 
-Medit, Vol. VIII, n.2, p.46-56, Kıymaz, T. and S. Çağatay, 2009.
-“Dünya Ticaret Örgütü Kısıtları Kapsamında Türk Tarımda Fark Ödeme Desteği 
-	Uygulaması (Deficiency Payment Support in Turkish Agriculture under World 
-	Trade Organisation Constraints)”, Akdeniz University Economics and Administrative 
-	Sciences Journal Vol. 7 (15). pp. 87-111, Teoman, Ö. and S. Çağatay, 2008.
-“Genetic Modification Technology 	and Producer Returns: The Impacts of Productivity, 
-	Preferences and Technology Uptake”, Review of Agricultural Economics, Vol. 30 (4), 
-	Saunders, C., W. Kaye-Blake and S. Cagatay, 2008.
-“Trade Liberalization and Greenhouse Gas Emissions: The Case of Dairying in the EU 
-	and New Zealand”, Australian Journal of Agricultural and Resource Economics, Vol. 50 
-	(4), pp. 538-555, Saunders, C., A. Wreford and S. Cagatay, 2006.
-“Restructuring Sugar Beet Market in Turkey: Increasing Transfer Efficiency via 
-Decreasing Distortion”, New Medit, Vol. V, n. 3, p.4-15, Cagatay, S and Ö. 
-Teoman, 2006.
-“Degree of Environmental Stringency and Impact on Trade Patterns”, Journal of Economic 
-Studies, Vol. 33 (1), p.30-51, Cagatay, S. and H. Mihci, 2006.
+ 
+“Remittances Impacts on Schooling in Jordan: Analyses with respect to Migrant Destination”, New Medit Journal, Selim Çağatay, Mehmet Mert, Onur Koska, Andrés Artal-Tur, No: 2, (2019).
+
+“İller Arasında Farklılaşan Sosyoekonomik Yapının Orta Gelir Tuzağına Etkileri (The Effects of Differentiated Socioeconomic Structure among Provinces on Middle Income Trap)”, İktisat ve Toplum Dergisi, Çağatay, S., Zanbak, M. and Seyfettinoğlu, Ü., Number 81, p. 7-13, (2018).
+
+ “Sera Gazı Azaltımı için Alternatif Karbon Vergisi Uygulamaları Etki Analizi (Impact Analysis of Alternative Carbon Tax Policies to Reduce Greenhouse Gas Emissions)”, METU Studies in Development, Özeş, R. and S. Çağatay, Vol 45 (December), 2018.
+
+ “Analyzing the Impact of Targeted Bio-Ethanol Blending Ratio in Turkey”, Bio-Based and Applied Economics, S. Çağatay, C. Taşdoğan, R. Özeş, Vol 6 (2), p. 209-227, (2017).
+
+"Coğrafi İşaretler: Kırsal Kalkınmanın Vazgeçilmez Aracı (Geographical Indications: An Indispensable Tool for Rural Development)", İktisat ve Toplum, Zanbak M., Çağatay S., 8(90), ss.14-27, (2018). http://www.iktisatvetoplum.com/iktisat-ve-toplum-dergisi-90-sayi/
+
+“Coğrafi İşaretler ve Marka Değerine Sahip Ürünlere Yönelik Tüketici Algısı: Finike Portakalı ve Antalya Tavşan Yüreği Zeytini Örnekleri (Consumer Perception towards Geographical Indications and Products with Brand Value: Finike Orange and Antalya Rabbit Heart Olive Cases)”, Tarım Ekonomisi Araştırmaları Dergisi, Cilt 3(1), June, s 52-65, Mısra Çakaloğlu ve S. Çağatay 2017.
+
+"Ulaştırma Sektörü ve Hanehalkı Enerji Tüketiminde Alternatif Enerji Kullanımının Emisyon ve Ekonomik Etkileri (Economic and Emission Impacts of Alternative Energy Use in Transportation Industry and Household Energy Consumption)", METU (Middle East Technical University) Studies in Development, August, Özeş, R. and Çağatay S. 2015.
+
+ “Impact Analysis of Demand-Driven Shocks in Turkey’s Tourism Industry within the Framework of Social Accounting Matrix”, Tourism Economics, Vol. 21(1), Gül, H. and S. Çağatay. 2015.
+
+“International Migration, Remittances, and the Human Capital Formation of Egyptian Children”, International Review of Economics & Finance, Vol. 28, p.38-50, Koska, O. A., Saygin, P.Ö., Çağatay, S. and Artal-Tur, A. 2013.
+
+““Yetenek” Yaklaşımı Temelinde Yoksulluğun Ölçülmesi: Mersin ve Erzurum İllerinde Yoksulluğun Kayıp Boyutları (The "Capability" Approach to Poverty Measurement: Missing Dimensions of Poverty in Mersin and Erzurum Provinces)”, İktisat, İşletme ve Finans journal, Vol. 28 (327), p. 9-40. Zanbak, M. ve Çağatay, S. 2013. 
+
+“La migración y el efecto de creación de comercio”, Foreign Affairs Latinoamerica, volumen 12, número 3, p. 71-80, julio-septiembre, Pallardó, V., Artal, A. ve Cagatay, S., 2012.
+
+“Hane İçi Kaynak Dağılımının Yoksul Olma Olasılığı ve Yoksulluk Açığı Üzerindeki Etkisi: Türkiye’de Kentsel Kesim İçin Bir Uygulama (The Effects of Household Resource Allocation on the Probability of Being Poor and the Poverty Gap Impact: An Application for Urban Areas in Turkey)”, Sosyoloji Araştırmaları Dergisi, V. 15, Sayı 1, p. 1-15, Spring, 
+
+Çağatay, S. ve Zanbak, M., 2012. “Karbondioksit emisyonu üzerinden çevre baskısı değerlendirmesi: Çevresel Kuznets eğrisine panel veri uygulaması (Evaluation of Environmental Pressure on Carbondioxide Emissions : Kuznets Curve Analysis by using Panel Data)”, İktisat, İşletme ve Finans journal, V. 27 (314), p.35-72, Tutulmaz, O., Şahinöz, A. ve Çağatay, S. 2012.
+
+“The determinants of foreign direct investment outflows from the European Union countries”, Economics Bulletin, Vol. 31, No. 3, p. 2653-66, Mıhçı, H., Cagatay, S. and Koska, O. 2011.
+
+"Biyo-Yakıt Piyasalarındaki Gelişmeler: Global Kısmi Denge Modeli ile Etki Analizi (Developments in Bio-fuel Markets: Impact Analysis by Utilizing a Global Partial Equilibrium Model)", METU (Middle East Technical University) Studies in Development, August, Kıymaz, T., Cagatay, S. and Bilgin, D. 2010.
+
+“Assessment Of Sustainability Of The European Union And Turkish Agricultural Sectors”, New Medit, Vol  IX, n.3, Mollavelioğlu, Ş., Mıhçı, H., Çağatay, S. and Ulucan, A., 2010.
+
+“Demographic and Structural Effects on Labor Demand in Incomplete Markets: Testing “Seperability Hypothesis” in Turkish Agricultural Labor Markets”, İktisat, İşletme ve Finans journal, V. 25 (292), p.71-95, Saygın, P.Ö. ve Çağatay, S. 2010.
+
+“2001-2008 Yıllarında Türkiye’de Uygulanan Alternatif Tarım Politikalarının Gelir Çarpan Analizi ve Politika Önerileri (Income Multiplier Analysis of Alternative Agricultural Policies Implemented in Turkey in 2001-2008 and Policy Recommendations)”, Akdeniz University Economics and Administrative Sciences Journal, V 19., Taşdoğan, C., Çağatay, S. and Şahinöz, A., 2010.
+
+“Tarım Sigortalarının Geleceği (Future of Agriculture and Agricultural Insurance), forthcoming in TSEV Sigorta Araştırmaları Dergisi, March, Kıymaz, T. and S. Çağatay 2009.
+
+“Possible Effect on the EU and Turkey of Set-Aside Removal and Severe Draught”, New Medit, Vol. VIII, n.2, p.46-56, Kıymaz, T. and S. Çağatay, 2009.
+
+“Dünya Ticaret Örgütü Kısıtları Kapsamında Türk Tarımda Fark Ödeme Desteği Uygulaması (Deficiency Payment Support in Turkish Agriculture under World Trade Organisation Constraints)”, Akdeniz University Economics and Administrative Sciences Journal Vol. 7 (15). pp. 87-111, Teoman, Ö. and S. Çağatay, 2008.
+
+“Genetic Modification Technology 	and Producer Returns: The Impacts of Productivity, Preferences and Technology Uptake”, Review of Agricultural Economics, Vol. 30 (4), 	Saunders, C., W. Kaye-Blake and S. Cagatay, 2008.
+
+“Trade Liberalization and Greenhouse Gas Emissions: The Case of Dairying in the EU and New Zealand”, Australian Journal of Agricultural and Resource Economics, Vol. 50 (4), pp. 538-555, Saunders, C., A. Wreford and S. Cagatay, 2006.
+
+“Restructuring Sugar Beet Market in Turkey: Increasing Transfer Efficiency via Decreasing Distortion”, New Medit, Vol. V, n. 3, p.4-15, Cagatay, S and Ö. Teoman, 2006.
+
+“Degree of Environmental Stringency and Impact on Trade Patterns”, Journal of Economic Studies, Vol. 33 (1), p.30-51, Cagatay, S. and H. Mihci, 2006.
+
 “The Impact Of Environmental Stringency on Foreign Direct Investments of the OECD 
 Countries”, International Journal of Environmental Assessment Policy and Management, Vol. 7 (4), p.679-704, Mihci, H., S. Cagatay and O. Koska, 2005.
-“An Empirical, Small Scale “Traded-Nontraded Goods” Model for New Zealand”, 
-Economic Modelling, Vol. 21 (6), p. 991-98, Cagatay, S. and R. Lattimore, 2004.
-"Trade and the Environment: Economic and environmental impacts of global dairy trade 
-liberalisation", International Journal of Environmental Assessment Policy and Management, 
-Vol 6 (3), p.339-365, Saunders, C.S. and S. Cagatay, 2004.
-“Industrial Pollution, Environmental Suffering and Policy Measures: An Index of 
-Environmental Sensitivity Performance (IESP)”, International Journal of 
-Environmental Assessment Policy and Management, Vol. 5 (2), p.205-245, Çağatay, S., 
-and H. Mıhçı, 2003.
-“Commercial Release of GM Food Products in New Zealand: Using a Partial Equilibrium 
-	Trade Model to Assess the 	Impact on Producer Returns in NZ”, Australian 
-	Journal of Agricultural and Resource Economics, Vol. 47 (2), p.233-259, Saunders, C. and 
-	S. Cagatay, 2003.
-"Agricultural Multi-Country, Multi-Commodity Trade Models", METU (Middle East 
-	Technical University) Studies in Development, No. 23 (2), Ankara, Çağatay, S., 1996.
+
+“An Empirical, Small Scale “Traded-Nontraded Goods” Model for New Zealand”, Economic Modelling, Vol. 21 (6), p. 991-98, Cagatay, S. and R. Lattimore, 2004.
+
+"Trade and the Environment: Economic and environmental impacts of global dairy trade liberalisation", International Journal of Environmental Assessment Policy and Management, Vol 6 (3), p.339-365, Saunders, C.S. and S. Cagatay, 2004.
+
+“Industrial Pollution, Environmental Suffering and Policy Measures: An Index of Environmental Sensitivity Performance (IESP)”, International Journal of Environmental Assessment Policy and Management, Vol. 5 (2), p.205-245, Çağatay, S., and H. Mıhçı, 2003.
+
+“Commercial Release of GM Food Products in New Zealand: Using a Partial Equilibrium Trade Model to Assess the 	Impact on Producer Returns in NZ”, Australian Journal of Agricultural and Resource Economics, Vol. 47 (2), p.233-259, Saunders, C. and S. Cagatay, 2003.
+
+"Agricultural Multi-Country, Multi-Commodity Trade Models", METU (Middle East Technical University) Studies in Development, No. 23 (2), Ankara, Çağatay, S., 1996.
 
 Books and Edited Volumes:
-Antalya 4.0, Antalya Ticaret ve Sanayi Odası, Erdem, M.Ş., Çağatay, S. and Sekreter, S. 
-(eds.), 2019.
-The Dynamics of Growth in Emerging Economies: The Case of Turkey, Routledge, London, 
-Wigley, A.A. and Çağatay, S. (eds.), 2019.
-Economics of International Environmental Agreements: A Critical Approach, Routledge, London, 
-Kayalıca, Ö., Çağatay, S. and Mıhçı, H. (eds.), 2017.
-Kırsal Kalkınmada Coğrafi İşaretlerin Etkisi: Gaziantep ve Siirt İlleri Örneği (The Effect of 
-Geographical Indications in Rural Development: The Case of Gaziantep and Siirt Provinces), 
-Tarımsal Ekonomi ve Politika Geliştirme Enstitüsü, Yayın No: 284, Başaran, D. 
-ve Çağatay, S., 2017.
-Yapısal Sorunlar Perspektifinden Gıda Enflasyonu (Food Inflation from the Perspective of Structural 
-Problems), TÜSİAD, Yayın No: TÜSİAD-T/2016,09 – 578, September, İstanbul, 
-Çağatay, S. and Mert, M., 2016.
-Türkiye ve Diğer Akdeniz Ülkelerinde Coğrafi İşaretler ve Yerel Gıda Değer Zincirlerinin Yönetişimi 
-(Geographical Indications and Governance of Local Food Value Chains in Turkey and Other 
-Mediterranean Countries), Elma Basım, İstanbul, Tekelioğlu, Y., Tozanlı S. and 
-Çağatay S. (eds.), 2013.
-Gouvernance des chaines de valeur, produits de terroir agroalimentaires et indications géographiques en 
-Turquie et dans les autres pays Méditerranéens, Elma Basım, İstanbul, Tekelioğlu, Y., 
-Tozanlı S. and Çağatay S. (eds.), 2013.
-Indications Géographiques, Dynamiques Socio-Economiques et Patrimoine Bio-Culturel en Turquie et 
-dans les Pays Méditerranéens, Options Méditerranéens Serie A, Ilbert, H., Tekelioglu, 
-Y., Cagatay, S. and Tozanlı, S. (eds.), 2012.
-Dünya ve Türkiye Biyo-enerji Piyasalarındaki Gelişmelerin ve Potansiyel Değişikliklerin Türk Tarım 
-ve Hayvancılık Sektörleri Üzerindeki Etkilerinin Modellenmesi ve Türkiye için Biyo-enerji 
-Politika Alternatiflerinin Oluşturulması (Modeling Effects of Developments and Potential 
-Changes in World and Turkish Bio-energy Markets on Turkish Agricultural and Livestock Industries and Creating Policy Suggestions), TEPGE Yayınları No: 204,  June, Çağatay, S., Kıymaz, T., Koç, A., Bölük, G. and Bilgin D., 2012.
-The 1984 Economic Reforms in New Zealand: A Comparative Analysis, Lambert Academic 
-	Publishing, Germany, Çağatay, S., 2010.
-Tarım ve Tarım Sigortalarının Geleceği (Future of Agriculture and Agricultural Insurance), 
-	Türk Sigorta Enstitüsü Vakfı, İstanbul, Çağatay, S., 2008.
-Tarımda Yeni Politika Arayışları: Fark Ödeme (New Policy Search in Agriculture: Deficiency Payment), 
-	Türkiye Ziraat Odaları Birliği (TZOB), Ankara, Şahinöz A., S. Çağatay, Ö. Teoman 
-	and T. Kıymaz, 2005.
-Uluslararası Karşılaştırmalı, Sayıların Diliyle Türkiye (Turkey in Numbers with International 
-	Comparison, Türkiye Ticaret Odaları ve Borsalar Birliği-Turkish Unity of Trade 
-Chambers and Markets) publications, no. 314:01, Ankara, Erdemil, C., S. Işık, and S. Çağatay, 1996.
+Antalya 4.0, Antalya Ticaret ve Sanayi Odası, Erdem, M.Ş., Çağatay, S. and Sekreter, S. (eds.), 2019.
+
+The Dynamics of Growth in Emerging Economies: The Case of Turkey, Routledge, London, Wigley, A.A. and Çağatay, S. (eds.), 2019.
+
+Economics of International Environmental Agreements: A Critical Approach, Routledge, London, Kayalıca, Ö., Çağatay, S. and Mıhçı, H. (eds.), 2017.
+
+Kırsal Kalkınmada Coğrafi İşaretlerin Etkisi: Gaziantep ve Siirt İlleri Örneği (The Effect of Geographical Indications in Rural Development: The Case of Gaziantep and Siirt Provinces), Tarımsal Ekonomi ve Politika Geliştirme Enstitüsü, Yayın No: 284, Başaran, D. ve Çağatay, S., 2017.
+
+Yapısal Sorunlar Perspektifinden Gıda Enflasyonu (Food Inflation from the Perspective of Structural Problems), TÜSİAD, Yayın No: TÜSİAD-T/2016,09 – 578, September, İstanbul, Çağatay, S. and Mert, M., 2016.
+
+Türkiye ve Diğer Akdeniz Ülkelerinde Coğrafi İşaretler ve Yerel Gıda Değer Zincirlerinin Yönetişimi (Geographical Indications and Governance of Local Food Value Chains in Turkey and Other Mediterranean Countries), Elma Basım, İstanbul, Tekelioğlu, Y., Tozanlı S. and Çağatay S. (eds.), 2013.
+
+Gouvernance des chaines de valeur, produits de terroir agroalimentaires et indications géographiques en Turquie et dans les autres pays Méditerranéens, Elma Basım, İstanbul, Tekelioğlu, Y., Tozanlı S. and Çağatay S. (eds.), 2013.
+
+Indications Géographiques, Dynamiques Socio-Economiques et Patrimoine Bio-Culturel en Turquie et dans les Pays Méditerranéens, Options Méditerranéens Serie A, Ilbert, H., Tekelioglu, Y., Cagatay, S. and Tozanlı, S. (eds.), 2012.
+
+Dünya ve Türkiye Biyo-enerji Piyasalarındaki Gelişmelerin ve Potansiyel Değişikliklerin Türk Tarım ve Hayvancılık Sektörleri Üzerindeki Etkilerinin Modellenmesi ve Türkiye için Biyo-enerji Politika Alternatiflerinin Oluşturulması (Modeling Effects of Developments and Potential Changes in World and Turkish Bio-energy Markets on Turkish Agricultural and Livestock Industries and Creating Policy Suggestions), TEPGE Yayınları No: 204,  June, Çağatay, S., Kıymaz, T., Koç, A., Bölük, G. and Bilgin D., 2012.
+
+The 1984 Economic Reforms in New Zealand: A Comparative Analysis, Lambert Academic Publishing, Germany, Çağatay, S., 2010.
+
+Tarım ve Tarım Sigortalarının Geleceği (Future of Agriculture and Agricultural Insurance), Türk Sigorta Enstitüsü Vakfı, İstanbul, Çağatay, S., 2008.
+
+Tarımda Yeni Politika Arayışları: Fark Ödeme (New Policy Search in Agriculture: Deficiency Payment), Türkiye Ziraat Odaları Birliği (TZOB), Ankara, Şahinöz A., S. Çağatay, Ö. Teoman and T. Kıymaz, 2005.
+
+Uluslararası Karşılaştırmalı, Sayıların Diliyle Türkiye (Turkey in Numbers with International Comparison, Türkiye Ticaret Odaları ve Borsalar Birliği-Turkish Unity of Trade Chambers and Markets) publications, no. 314:01, Ankara, Erdemil, C., S. Işık, and S. Çağatay, 1996.
 
 Chapters in Books:
-“Analysis of Market Power in the Supply Chain of Cucumber in Greenhouse Cultivation” 
-in Koç, Ş.A. and Şiriner, İ. (eds.), Essays on Economics and Political Economy, IJOPEC, Publication, İstanbul, Önder, K., Aytekin, M., Akın, B., Hatırlı, S.A., Çağatay, S. and Demirel, O. (2024).
-“Introduction to Production and Resource Use” in Özata, E. and Eruygur, O. (eds.), 
-Agricultural Economics, Anadolu University Printing house, Eskişehir, Çağatay, S. (2024).
-“Antalya Sanayii ve Dijital Dönüşüm-Endüstri 4.0 (Antalya Industry and Digital 
-Transformation-Industry 4.0)” in Erdem, M.Ş., Çağatay, S. and Sekreter, S. (eds.), Antalya 4.0, Antalya Ticaret ve Sanayi Odası, Çağatay, S., Çetin, K., Töngür, Ü. and Tuncay A. (2019).
-“Impacts of Inter-regional and International Trade on Regional Per Capita Income Gap 
-in Turkey”, in Wigley, A.A. and Çağatay, S. (eds.), The Dynamics of Growth in 
-Emerging Economies: The Case of Turkey, Routledge, London, Gül, Z.B. and Çağatay, 
-S. (2019).
- “Carbon Dioxide Emissions in the Carbon Cycle Frame: What will the Future Look 
-Like?” in Kayalıca, Ö., Çağatay, S. and Mıhçı, H. (eds.), Economics of International 
-Environmental Agreements: A Critical Approach, Routledge, London, Onur Tutulmaz and Selim Çağatay (2017).
-“To What Extent are Rural Development Policies Compatible with Achieving 
-Sustainable Agriculture in Turkey?” in M. Petit, E. Montaigne, F.E Hadad-
-Gauthier, J.M.G. Alvarez-Coque and K. Mattas (eds.) Sustainable Agricultural 
-Development, Springer, Çağatay, S., Kıymaz, T. and Özeş, R., (2015).
-“What Variables Do Better Explain the Dynamics of Migrants´ Remittance Inflows?: A 
-Panel Data Approach for the MENA Region” in Andrés Artal-Tur, Giovanni 
-Peri, Francisco Requena-Silvente (eds.) The Socio-Economic Impact of Migration flows: 
-Effects on Trade, Remittnces, Output, and the Labor Market, Springer, Andrés Artal-Tur, 
-Jordi Bacaría-Colom, Selim Çağatay, and Vicente Pallardó-López, (2014).
-“Analyzing the Immigration-Induced Changes in Product Diversity and Trade 
-Patterns: The Case of the EU-Mediterranean-Eastern Europe Zone”, in 
-Andrés Artal-Tur, Giovanni Peri, Francisco Requena-Silvente (eds.) The Socio-
-Economic Impact of Migration flows: Effects on Trade, Remittnces, Output, and the Labor 
-Market, Springer, Çağatay, S, S. Değirmen, M. Genç, O.A. Koska, B. Lucke and 
-P.Ö. Saygın, (2014).
-“Binyıl Kalkınma Hedefleri” ve Türkiye: Seçilmiş Göstergelerde Kır ve Kent Ayrımında 
-Kat Edilen Mesafe (Millennium Development Goals and Turkey: Measures in Selected Indicators in Rural and Urban Areas)”, sayfa 205-228, içinde Hakan Mıhçı (ed.) İktisada Dokunmak, İbrahim Tanyeri’ye Armağan, Phoenix Yayınevi, Ankara, Çağatay, S. and M. Zanbak, (2011).
-“Measuring Sectoral Share of Green House Gases (Ghgs) Emissions from Fossil Fuel 
-Consumption and Offering Solutions: The Case of Turkey”, Chapter 2 in Maria 
-Llop (ed.) Air Pollution: Economic Modelling and Control Policies, Bentham Books, Bhutto, N. and S. Çağatay, 2010.
-“Faktör Piyasaları ve Gelir Dağılımı”, Bölüm 20 içinde S. Işık, M. Aslan, C. Dişbudak, A. 
-Ateş ve K. Türkcan (eds.) Mikro İktisat (Microeconomics) (2. Basımdan çeviri), Palme Yayıncılık, Ankara, Çağatay, S., 2010.
+“Analysis of Market Power in the Supply Chain of Cucumber in Greenhouse Cultivation” in Koç, Ş.A. and Şiriner, İ. (eds.), Essays on Economics and Political Economy, IJOPEC, Publication, İstanbul, Önder, K., Aytekin, M., Akın, B., Hatırlı, S.A., Çağatay, S. and Demirel, O. (2024).
+
+“Introduction to Production and Resource Use” in Özata, E. and Eruygur, O. (eds.), Agricultural Economics, Anadolu University Printing house, Eskişehir, Çağatay, S. (2024). 
+
+“Antalya Sanayii ve Dijital Dönüşüm-Endüstri 4.0 (Antalya Industry and Digital Transformation-Industry 4.0)” in Erdem, M.Ş., Çağatay, S. and Sekreter, S. (eds.), Antalya 4.0, Antalya Ticaret ve Sanayi Odası, Çağatay, S., Çetin, K., Töngür, Ü. and Tuncay A. (2019).
+
+“Impacts of Inter-regional and International Trade on Regional Per Capita Income Gap in Turkey”, in Wigley, A.A. and Çağatay, S. (eds.), The Dynamics of Growth in Emerging Economies: The Case of Turkey, Routledge, London, Gül, Z.B. and Çağatay, S. (2019).
+
+ “Carbon Dioxide Emissions in the Carbon Cycle Frame: What will the Future Look Like?” in Kayalıca, Ö., Çağatay, S. and Mıhçı, H. (eds.), Economics of International Environmental Agreements: A Critical Approach, Routledge, London, Onur Tutulmaz and Selim Çağatay (2017).
+
+“To What Extent are Rural Development Policies Compatible with Achieving Sustainable Agriculture in Turkey?” in M. Petit, E. Montaigne, F.E Hadad-Gauthier, J.M.G. Alvarez-Coque and K. Mattas (eds.) Sustainable Agricultural Development, Springer, Çağatay, S., Kıymaz, T. and Özeş, R., (2015).
+
+“What Variables Do Better Explain the Dynamics of Migrants´ Remittance Inflows?: A Panel Data Approach for the MENA Region” in Andrés Artal-Tur, Giovanni Peri, Francisco Requena-Silvente (eds.) The Socio-Economic Impact of Migration flows: Effects on Trade, Remittences, Output, and the Labor Market, Springer, Andrés Artal-Tur, Jordi Bacaría-Colom, Selim Çağatay, and Vicente Pallardó-López, (2014).
+
+“Analyzing the Immigration-Induced Changes in Product Diversity and Trade Patterns: The Case of the EU-Mediterranean-Eastern Europe Zone”, in Andrés Artal-Tur, Giovanni Peri, Francisco Requena-Silvente (eds.) The Socio-Economic Impact of Migration flows: Effects on Trade, Remittnces, Output, and the Labor Market, Springer, Çağatay, S, S. Değirmen, M. Genç, O.A. Koska, B. Lucke and P.Ö. Saygın, (2014).
+
+“Binyıl Kalkınma Hedefleri” ve Türkiye: Seçilmiş Göstergelerde Kır ve Kent Ayrımında Kat Edilen Mesafe (Millennium Development Goals and Turkey: Measures in Selected Indicators in Rural and Urban Areas)”, sayfa 205-228, içinde Hakan Mıhçı (ed.) İktisada Dokunmak, İbrahim Tanyeri’ye Armağan, Phoenix Yayınevi, Ankara, Çağatay, S. and M. Zanbak, (2011).
+
+“Measuring Sectoral Share of Green House Gases (Ghgs) Emissions from Fossil Fuel Consumption and Offering Solutions: The Case of Turkey”, Chapter 2 in Maria Llop (ed.) Air Pollution: Economic Modelling and Control Policies, Bentham Books, Bhutto, N. and S. Çağatay, 2010.
+
+“Faktör Piyasaları ve Gelir Dağılımı”, Bölüm 20 içinde S. Işık, M. Aslan, C. Dişbudak, A. Ateş ve K. Türkcan (eds.) Mikro İktisat (Microeconomics) (2. Basımdan çeviri), Palme Yayıncılık, Ankara, Çağatay, S., 2010.
 
 Research Reports and Discussion Papers:
-Çağatay, S., Seyfettinoğlu, Ü. ve Zanbak, M., 2015. Batı Akdeniz Bölgesi Tarım 
-Sektöründe Gelişmeler: Sektörün İç ve Dış Pazar Etkinliği, Rekabet Gücü Ve 
-Sürdürülebilirliği (Developments in the Western Mediterranean Region Agriculture Sector: Domestic and Foreign Market Efficiency of the Sector, Competitiveness and Sustainability), BAGEV, July, Antalya.
-Matleena Kniivilä, Samir Mili, A. Ait El Mekki, Kyösti Arovuori, Moncef Ben Saïd, 
-Selim Çağatay, Paula Horne, Taylan Kıymaz, Abderraouf Laajimi, Javier Martinez-Vega, Perttu Pyykkönen, Ibrahim Soliman, Boubaker Thabet (2013). “Sustainable Agriculture and Forestry in the Mediterranean Partner Countries and Turkey: Factors, Indicators and Challanges”, PTT Working Papers 151, Helsinki 2013
-Andres, A., Çağatay, S. and Gonaim, A., 2013. “Tourism Industry as an Engine for 
-	Export-Led Growth and Social Development: Analyzing Its Main Characteristics and Future 
-	Prospects for Mediterranean Countries”, Project 	Report No. FEM35-04 for FEMISE (Forum Euroméditerranéen des Instituts de Sciences Économiques).
-Lucke, B., Çağatay, S. and Genç, M., 2013. “Macroeconomic Allocations and International Factor 
-	Mobility: A Comparative Assessment of Major Trade Areas”, Project Report No. 
-	FEM35-03 for FEMISE (Forum Euroméditerranéen des Instituts de Sciences 
-	Économiques).
-Çağatay, S., Lucke, B., Genç, M. and Değirmen, S, 2013. “Analyzing the Immigration-
-	Induced Changes in Product Diversity and Trade Patterns: The Case of the EU-
-	Mediterranean-Eastern Europe Zone”, Project Report No. FEM34-30 for FEMISE 
-	(Forum Euroméditerranéen des Instituts de Sciences Économiques).
-Çağatay, S., Taşdoğan, C. and Özeş, R., 2012. “Türkiye Akaryakıt Tüketiminde Biyo-
-Yakıt Kullanım Hedeflerine Yönelik Etki-Değerlendirme Analizi: Sektörel ve Bölüşüm 
-Etkileri (Impact Analysis of Targets Regarding Bio-fuel Use ın Turkey’s Fuel Consumption: 
-Sectoral and Distribution Impacts)”, TEPGE, MARA, Ankara.
-Lucke, B., Değirmen., S. and Çağatay, S., 2012. “Convergence beyond the economic sphere: Effects 
-	and feedbacks of Euro-Med integration”, Project Report No. FEM34-21-CP2010 for 
-	FEMISE (Forum Euroméditerranéen des Instituts de Sciences Économiques).
-Çağatay, S., Erdem, Ş., Koska, O. and Mert, M., 2012. “Akdeniz için Birlik Anlaşması: 
-Türkiye'den Partner Ülkelre Mal ve Hizmet Akışındaki Olası Değişikliklerin Analizi (Union for the Mediterranean Agreement: Analysis of Possible Changes in Good and Services Flow from Turkey to Partner Countries)”, Project Report No. A100320129 for Akdeniz University, Scientific Research and Project Development Department. 
-Çağatay, S., Erdem, Ş., Koska, O. and Mert, M., 2011. “Akdeniz İçin Birlik Anlaşması ve 
-Türkiye'nin Güney Akdeniz'deki Doğrudan Yatırım ve İhracat Potansiyelinin Etkin Değerlendirilmesi  (Union for the Mediterranean Agreement and Efficient Assessment of Direct Investment and Export Potential of Turkey in the Southern Mediterranean”, Project Report No. 110K303 for The Scientific and Technological Research Council of Turkey (TÜBİTAK), 	Social Sciences and Humanities Research Group (SOBAG).
-Çağatay, S., 2010. “The OECD Methodology of Estimating Commodity Market 
-Price Support Estimates for Turkey”, OECD.
-Çağatay, S, Kıymaz, T., Koç, A., Bölük, G. and Bilgin, D., 2010. “Dünya ve Türkiye Biyo-
-enerji Piyasalarındaki Gelişmelerin ve Potansiyel Değişikliklerin Türk Tarım ve Hayvancılık 
-Sektörleri Üzerindeki Etkilerinin Modellenmesi ve Türkiye için Biyo-enerji Politika 
-Alternatiflerinin Oluşturulması (Modeling Effects of Developments and Potential 
-Changes in World and Turkish Bio-energy Markets on Turkish Agricultural and Livestock Industries and Creating Policy Suggestions),”, Project Report No. 108K266 for The Scientific and Technological Research Council of 	Turkey (TÜBİTAK), Social Sciences and Humanities Research Group.
-Çağatay, S., P.Ö. Saygın, 2009. “Türkiye’de Tarımsal Asimetrik Arz Tepkisinin Test 
-Edilmesi ve Kırsal Kesimden Kentlere Olan İç Göçün Asimetri Üzerindeki Etkisinin 
-Bulunması (Testing Agricultural Asymmetric Supply Response in Turkey: Finding The Effect of Internal Migration from Rural Areas to Urban Areas on Asymmetry)”, Project Report No. 107K421 for The Scientific and Technological Research Council of Turkey (TÜBİTAK), Social Sciences and Humanities Research Group (SOBAG).
-Çağatay, S., P.Ö. Saygın, 2008. “Türkiye’de Tarımsal İşgücü Piyasalarında “Ayrılabilirlik 
-İlkesi”nin Test Edilmesi (Testing the "Principle of Separability" in Agricultural Labour Markets in Turkey)”, Project Report No. 107K180 for The Scientific and Technological Research Council of Turkey (TÜBİTAK), Social Sciences and Humanities Research Group (SOBAG).
-Şahinöz, A., S. Çağatay and Ö. Teoman, 2007. “Türkiye’de Tarimsal Destekleme 
-Politikası Aracı Olarak Fark Ödeme Sistemi’nin Uygulanabilirliğinin” Tartışılması ve Sistemin İktisadi Analizi (The Applicability of Deficiency Payment System as an Agricultural Support Policy Instrument in Turkey Discussion and Economic Analysis of the System), MARA Agricultural Economics Research Institute, Research report No. 7627, Ankara.
-Çağatay, S., 2006. “Household Income, Consumption Expenditures and Household 
-Wealth”, Background paper for Agricultural Reform and Implementation Project.
-Saunders, C., S. Cagatay and A.P. Moxey, 2004. “Trade and the Environment: Economic and 
-	Environmental Impacts of Global Dairy Trade Liberalization”, Agribusiness and 
-	Economics Research Unit, Research Papers, No: 267, Commerce Division, 
-	Lincoln University.
-Cagatay, S., 2003. “Developing and Structuring “CountryStat” in Turkey: Determining the 
-Requirements, from Policy Analysts` Point of View”, Background paper for FAOSTAT2, 
-FAO.
-Çağatay, S., and A. Guzel, 2003. “Review of Agriculture and Trade Policies in Turkey”, 
-	Background Paper for TCP/REP/2901, FAO.
-Saunders, C., W. Kaye-Blake and S. Cagatay, 2003. “Economic Impacts on New Zealand of GM 
-	Crops: Results from Partial Equilibrium Modeling”, Agribusiness and Economics 
-	Research Unit, Research Papers, No: 261, Commerce Division, Lincoln University.
-Cagatay, S. and C. Saunders, 2003. “Lincoln Trade and Environment Model (LTEM): Linking 
-	Trade and the Environment”, Agribusiness and Economics Research Unit, Research 
-	Papers, No: 263, Commerce Division, Lincoln University.
-Cagatay, S. and C. Saunders, 2003. “Lincoln Trade and Environment Model (LTEM): An 
-	Agricultural Multi-Country, Multi-Commodity Partial Equilibrium Framework”, 
-	Agribusiness and Economics Research Unit, Research Papers, No: 254, 
-	Commerce Division, Lincoln University.
-Saunders, C. and S. Cagatay, 2001. The Impacts on New Zealand Agriculture of Alternative 
-Liberalization Paths for European Union (EU) Tariff Quotas on Dairy, Beef and Sheepmeat 
-Products, prepared for the Ministry of Foreign Affairs and Trade (MFAT), New 
-Zealand.
-Çağatay, S. and R. Lattimore, 1998. “A New Zealand Trade Share Database, 1966-96”, 
-	AERU (Agribusiness and Economics Research Unit) Research Report No. 
-	239, Lincoln University, November.
-Çağatay, S., 1996. “Analysis of Turkish Agricultural and Related Sectors’ Databases and Designing 
-a Functional Database for Policy Analysis for MARA (The Turkish Ministry of Agriculture 
-and Rural Affairs)”, Working Paper for TCP/TUR/4552, FAO.
-Saunders, C. and S. Çağatay, 2001. “Economic Analysis of Issues Surrounding Commercial Release of 
-	GM Food Products in New Zealand”, Commerce Division Discussion Papers, No: 94, 
-	Lincoln University.
-Çağatay, S. and R. Lattimore, 1999. “New Zealand Trade Liberalization, Unemployment and Real 
-	Wages”, Commerce Division Discussion Papers, No: 79, Lincoln University.
-Lattimore, R. and S. Çağatay, 1999. “Trade and Wages in Australia”, Commerce 
-	Division Discussion Papers, No: 78, Lincoln University.
+Çağatay, S., Seyfettinoğlu, Ü. ve Zanbak, M., 2015. Batı Akdeniz Bölgesi Tarım Sektöründe Gelişmeler: Sektörün İç ve Dış Pazar Etkinliği, Rekabet Gücü Ve Sürdürülebilirliği (Developments in the Western Mediterranean Region Agriculture Sector: Domestic and Foreign Market Efficiency of the Sector, Competitiveness and Sustainability), BAGEV, July, Antalya.
+
+Matleena Kniivilä, Samir Mili, A. Ait El Mekki, Kyösti Arovuori, Moncef Ben Saïd, Selim Çağatay, Paula Horne, Taylan Kıymaz, Abderraouf Laajimi, Javier Martinez-Vega, Perttu Pyykkönen, Ibrahim Soliman, Boubaker Thabet (2013). “Sustainable Agriculture and Forestry in the Mediterranean Partner Countries and Turkey: Factors, Indicators and Challanges”, PTT Working Papers 151, Helsinki 2013.
+
+Andres, A., Çağatay, S. and Gonaim, A., 2013. “Tourism Industry as an Engine for 	Export-Led Growth and Social Development: Analyzing Its Main Characteristics and Future Prospects for Mediterranean Countries”, Project 	Report No. FEM35-04 for FEMISE (Forum Euroméditerranéen des Instituts de Sciences Économiques).
+
+Lucke, B., Çağatay, S. and Genç, M., 2013. “Macroeconomic Allocations and International Factor Mobility: A Comparative Assessment of Major Trade Areas”, Project Report No. FEM35-03 for FEMISE (Forum Euroméditerranéen des Instituts de Sciences Économiques).
+
+Çağatay, S., Lucke, B., Genç, M. and Değirmen, S, 2013. “Analyzing the Immigration-Induced Changes in Product Diversity and Trade Patterns: The Case of the EU-Mediterranean-Eastern Europe Zone”, Project Report No. FEM34-30 for FEMISE (Forum Euroméditerranéen des Instituts de Sciences Économiques).
+
+Çağatay, S., Taşdoğan, C. and Özeş, R., 2012. “Türkiye Akaryakıt Tüketiminde Biyo-Yakıt Kullanım Hedeflerine Yönelik Etki-Değerlendirme Analizi: Sektörel ve Bölüşüm Etkileri (Impact Analysis of Targets Regarding Bio-fuel Use ın Turkey’s Fuel Consumption: Sectoral and Distribution Impacts)”, TEPGE, MARA, Ankara.
+
+Lucke, B., Değirmen., S. and Çağatay, S., 2012. “Convergence beyond the economic sphere: Effects and feedbacks of Euro-Med integration”, Project Report No. FEM34-21-CP2010 for FEMISE (Forum Euroméditerranéen des Instituts de Sciences Économiques).
+
+Çağatay, S., Erdem, Ş., Koska, O. and Mert, M., 2012. “Akdeniz için Birlik Anlaşması: Türkiye'den Partner Ülkelre Mal ve Hizmet Akışındaki Olası Değişikliklerin Analizi (Union for the Mediterranean Agreement: Analysis of Possible Changes in Good and Services Flow from Turkey to Partner Countries)”, Project Report No. A100320129 for Akdeniz University, Scientific Research and Project Development Department. 
+
+Çağatay, S., Erdem, Ş., Koska, O. and Mert, M., 2011. “Akdeniz İçin Birlik Anlaşması ve Türkiye'nin Güney Akdeniz'deki Doğrudan Yatırım ve İhracat Potansiyelinin Etkin Değerlendirilmesi  (Union for the Mediterranean Agreement and Efficient Assessment of Direct Investment and Export Potential of Turkey in the Southern Mediterranean”, Project Report No. 110K303 for The Scientific and Technological Research Council of Turkey (TÜBİTAK), 	Social Sciences and Humanities Research Group (SOBAG).
+
+Çağatay, S., 2010. “The OECD Methodology of Estimating Commodity Market Price Support Estimates for Turkey”, OECD.
+
+Çağatay, S, Kıymaz, T., Koç, A., Bölük, G. and Bilgin, D., 2010. “Dünya ve Türkiye Biyo-enerji Piyasalarındaki Gelişmelerin ve Potansiyel Değişikliklerin Türk Tarım ve Hayvancılık Sektörleri Üzerindeki Etkilerinin Modellenmesi ve Türkiye için Biyo-enerji Politika Alternatiflerinin Oluşturulması (Modeling Effects of Developments and Potential Changes in World and Turkish Bio-energy Markets on Turkish Agricultural and Livestock Industries and Creating Policy Suggestions),”, Project Report No. 108K266 for The Scientific and Technological Research Council of Turkey (TÜBİTAK), Social Sciences and Humanities Research Group.
+
+Çağatay, S., P.Ö. Saygın, 2009. “Türkiye’de Tarımsal Asimetrik Arz Tepkisinin Test Edilmesi ve Kırsal Kesimden Kentlere Olan İç Göçün Asimetri Üzerindeki Etkisinin Bulunması (Testing Agricultural Asymmetric Supply Response in Turkey: Finding The Effect of Internal Migration from Rural Areas to Urban Areas on Asymmetry)”, Project Report No. 107K421 for The Scientific and Technological Research Council of Turkey (TÜBİTAK), Social Sciences and Humanities Research Group (SOBAG).
+
+Çağatay, S., P.Ö. Saygın, 2008. “Türkiye’de Tarımsal İşgücü Piyasalarında “Ayrılabilirlik İlkesi”nin Test Edilmesi (Testing the "Principle of Separability" in Agricultural Labour Markets in Turkey)”, Project Report No. 107K180 for The Scientific and Technological Research Council of Turkey (TÜBİTAK), Social Sciences and Humanities Research Group (SOBAG).
+
+Şahinöz, A., S. Çağatay and Ö. Teoman, 2007. “Türkiye’de Tarimsal Destekleme Politikası Aracı Olarak Fark Ödeme Sistemi’nin Uygulanabilirliğinin” Tartışılması ve Sistemin İktisadi Analizi (The Applicability of Deficiency Payment System as an Agricultural Support Policy Instrument in Turkey Discussion and Economic Analysis of the System), MARA Agricultural Economics Research Institute, Research report No. 7627, Ankara.
+
+Çağatay, S., 2006. “Household Income, Consumption Expenditures and Household Wealth”, Background paper for Agricultural Reform and Implementation Project.
+
+Saunders, C., S. Cagatay and A.P. Moxey, 2004. “Trade and the Environment: Economic and Environmental Impacts of Global Dairy Trade Liberalization”, Agribusiness and Economics Research Unit, Research Papers, No: 267, Commerce Division, Lincoln University.
+
+Cagatay, S., 2003. “Developing and Structuring “CountryStat” in Turkey: Determining the Requirements, from Policy Analysts` Point of View”, Background paper for FAOSTAT2, FAO.
+
+Çağatay, S., and A. Guzel, 2003. “Review of Agriculture and Trade Policies in Turkey”, Background Paper for TCP/REP/2901, FAO.
+
+Saunders, C., W. Kaye-Blake and S. Cagatay, 2003. “Economic Impacts on New Zealand of GM Crops: Results from Partial Equilibrium Modeling”, Agribusiness and Economics Research Unit, Research Papers, No: 261, Commerce Division, Lincoln University.
+
+Cagatay, S. and C. Saunders, 2003. “Lincoln Trade and Environment Model (LTEM): Linking Trade and the Environment”, Agribusiness and Economics Research Unit, Research Papers, No: 263, Commerce Division, Lincoln University.
+
+Cagatay, S. and C. Saunders, 2003. “Lincoln Trade and Environment Model (LTEM): An Agricultural Multi-Country, Multi-Commodity Partial Equilibrium Framework”, Agribusiness and Economics Research Unit, Research Papers, No: 254, Commerce Division, Lincoln University.
+
+Saunders, C. and S. Cagatay, 2001. The Impacts on New Zealand Agriculture of Alternative Liberalization Paths for European Union (EU) Tariff Quotas on Dairy, Beef and Sheepmeat Products, prepared for the Ministry of Foreign Affairs and Trade (MFAT), New Zealand.
+
+Çağatay, S. and R. Lattimore, 1998. “A New Zealand Trade Share Database, 1966-96”, AERU (Agribusiness and Economics Research Unit) Research Report No. 239, Lincoln University, November.
+
+Çağatay, S., 1996. “Analysis of Turkish Agricultural and Related Sectors’ Databases and Designing a Functional Database for Policy Analysis for MARA (The Turkish Ministry of Agriculture and Rural Affairs)”, Working Paper for TCP/TUR/4552, FAO.
+
+Saunders, C. and S. Çağatay, 2001. “Economic Analysis of Issues Surrounding Commercial Release of GM Food Products in New Zealand”, Commerce Division Discussion Papers, No: 94, Lincoln University.
+
+Çağatay, S. and R. Lattimore, 1999. “New Zealand Trade Liberalization, Unemployment and Real Wages”, Commerce Division Discussion Papers, No: 79, Lincoln University.
+
+Lattimore, R. and S. Çağatay, 1999. “Trade and Wages in Australia”, Commerce Division Discussion Papers, No: 78, Lincoln University.
 
 Technical Works:
-Çağatays, S., 2008. WAEZ-World Agriculture, Environment and Energy Model, created 
-	by expanding the Lincoln Trade and Environment Model Software to 
-	endogenously incorporate diesel and electricity markets, Agribusiness and 
-	Economics Research Unit, Lincoln University, New Zealand.
-Çağatay, S., 2004. COUNTRYSTAT-TURKEY An agricultural Statistical Database, 
-created on EXCEL 7.0 for WINDOWS 2000 software and installed in Economic 
-and Social Development Department of the FAO, Rome, Italy.
-Çağatay, S., 1996. Comprehensive and Functional Database of Turkish Agricultural 
-	and Related Sectors, Created on EXCEL 7.0 for WINDOWS 95 software and 
-	Installed in Research, Planning and Co-ordination Council Department of 
-	The Turkish Ministry of Agriculture and Rural Affairs, Ankara, Turkey.
+Çağatays, S., 2008. WAEZ-World Agriculture, Environment and Energy Model, created by expanding the Lincoln Trade and Environment Model Software to endogenously incorporate diesel and electricity markets, Agribusiness and Economics Research Unit, Lincoln University, New Zealand.
+
+Çağatay, S., 2004. COUNTRYSTAT-TURKEY An agricultural Statistical Database, created on EXCEL 7.0 for WINDOWS 2000 software and installed in Economic and Social Development Department of the FAO, Rome, Italy.
+
+Çağatay, S., 1996. Comprehensive and Functional Database of Turkish Agricultural and Related Sectors, Created on EXCEL 7.0 for WINDOWS 95 software and Installed in Research, Planning and Co-ordination Council Department of The Turkish Ministry of Agriculture and Rural Affairs, Ankara, Turkey.
 
 Invited Speaker:
-Çağatay, S., 2016. “Open Innovation Experience of Manufacturing Industries in 
-Turkey”, invited lecture, September, Salerno University, Italy.
-Çağatay, S., 2016. “Regional Diversification and Middle Income Trap in Turkey”, 
-invited lecture, September, Salerno University, Italy.
-Cagatay S. and D. Atahan, 2006. “Impact of Agricultural Policy Reform on Regional 
-	Rural Poverty in Turkey”, invited lecture, November, Universidad European 
-	Miguel de Cervantes, Valladolid, Spain.
-Cagatay, S., 2006. “Turkey And The EU: Recent Economic Developments In Turkey 
-	And Turkey’s Expectations From the EU”, invited lecture, November 2006, 
-	Universidad Europea Miguel de Cervantes, Valladolid, Spain.
-Cagatay, S., 2003. “Developing and Structuring “CountryStat” in Turkey: 
-Determining the Requirements, from Policy Analysts` Point of View”, 
-	prepared as background paper for FAOSTAT’ project of the FAO.
+Çağatay, S., 2016. “Open Innovation Experience of Manufacturing Industries in Turkey”, invited lecture, September, Salerno University, Italy.
+
+Çağatay, S., 2016. “Regional Diversification and Middle Income Trap in Turkey”, invited lecture, September, Salerno University, Italy.
+
+Cagatay S. and D. Atahan, 2006. “Impact of Agricultural Policy Reform on Regional Rural Poverty in Turkey”, invited lecture, November, Universidad European Miguel de Cervantes, Valladolid, Spain.
+
+Cagatay, S., 2006. “Turkey And The EU: Recent Economic Developments In Turkey and Turkey’s Expectations From the EU”, invited lecture, November 2006, Universidad Europea Miguel de Cervantes, Valladolid, Spain.
+
+Cagatay, S., 2003. “Developing and Structuring “CountryStat” in Turkey: Determining the Requirements, from Policy Analysts` Point of View”, prepared as background paper for FAOSTAT’ project of the FAO.
 
 Conference Papers:
-Çakaloğlu, M. and Çağatay, S. (2024). Türkiye Ara Girdi Dış Ticaretinin Global Üretim 	Açısından Önemi: Ülkelerarası İleri ve Geri Bağ Katsayıları İle Ampirik Bir Analiz 	(The Importance of Turkey's Foreign Trade in Intermediate Inputs for Global 	Production: An Empirical Analysis with Intercountry Forward and Backward Link 	Coefficients). Econanadolu 2024 (VII. Anadolu International Conference on Economics-	EconAnadolu’24). 31.05.2024-02.06.2024, Eskişehir.
-Şahin, M.T., Ertürk, M., Çağatay, S., Özden Varol, Ç. ve Özelçi Eceral, T. (2022). Covid-
-19 Krizinin KOBİ’ler Üzerinde Etkisinin Sektörel Ölçekte Analizi: Antalya Örneği (Sectoral Scale Analysis of the Impact of Covid-19 Crisis on SMEs: The Case of Antalya). 21. Ulusal Bölge Bilimi ve Bölge Planlama Kongresi (21st National Regional Science and Regional Planning Congress). Gazi University, Ankara, May 2022.
-Filippini, R.; Veneziani, M.; Arfini, F.; Morelli, G.; Leyva G.C.; Baez, P.; Foglia, S.; Koc, 
-A.; Cagatay, S., 2021. Ontologies in the Agri-Food Sector: Why a New Approach is Needed? 11th AIEAA Congress, 16-17 June, Tuscia, Italy.
-Koç A.A., Çağatay S., Veneziani M., Báez-González, P., Leyva-Guerrero C., Uysal P., 
-Filippini R., 2021. A Synthesis on Agent-Based Impact Assessment Models from 
-the Perspective of the EU Rural Development Policy (RDP) Measures. 179th 
-EAAE Seminar, 09 and 10 September, Crete, Greece.
-Rosalia Filippini, Mario Veneziani, Filippo Arfini, Gianluca Morelli, Carlos Leyva 
-Guerrero, Pablo Baez, Sevastian Foglia, Giorgia Eranio, Ahmet Ali Koç, Selim 
+Çakaloğlu, M. and Çağatay, S. (2024). Türkiye Ara Girdi Dış Ticaretinin Global Üretim Açısından Önemi: Ülkelerarası İleri ve Geri Bağ Katsayıları İle Ampirik Bir Analiz (The Importance of Turkey's Foreign Trade in Intermediate Inputs for Global Production: An Empirical Analysis with Intercountry Forward and Backward Link Coefficients). Econanadolu 2024 (VII. Anadolu International Conference on Economics-EconAnadolu’24). 31.05.2024-02.06.2024, Eskişehir.
+
+Şahin, M.T., Ertürk, M., Çağatay, S., Özden Varol, Ç. ve Özelçi Eceral, T. (2022). Covid-19 Krizinin KOBİ’ler Üzerinde Etkisinin Sektörel Ölçekte Analizi: Antalya Örneği (Sectoral Scale Analysis of the Impact of Covid-19 Crisis on SMEs: The Case of Antalya). 21. Ulusal Bölge Bilimi ve Bölge Planlama Kongresi (21st National Regional Science and Regional Planning Congress). Gazi University, Ankara, May 2022.
+
+Filippini, R.; Veneziani, M.; Arfini, F.; Morelli, G.; Leyva G.C.; Baez, P.; Foglia, S.; Koc, A.; Cagatay, S., 2021. Ontologies in the Agri-Food Sector: Why a New Approach is Needed? 11th AIEAA Congress, 16-17 June, Tuscia, Italy.
+
+Koç A.A., Çağatay S., Veneziani M., Báez-González, P., Leyva-Guerrero C., Uysal P., Filippini R., 2021. A Synthesis on Agent-Based Impact Assessment Models from the Perspective of the EU Rural Development Policy (RDP) Measures. 179th EAAE Seminar, 09 and 10 September, Crete, Greece.
+
+Rosalia Filippini, Mario Veneziani, Filippo Arfini, Gianluca Morelli, Carlos Leyva Guerrero, Pablo Baez, Sevastian Foglia, Giorgia Eranio, Ahmet Ali Koç, Selim 
+
 Cagatay, 2021. Ontologies in agri-food sector: why a new approach is needed. 179th EAAE Seminar, 09 and 10 September, Crete, Greece.
-Çağatay, S., Koç, A.A., Bayaner, A., Uysal, P., Arslan, S. (2021) A Synthesis on Impact 
-Assessment Models from the Perspective of Evolution of the EU Common 
-Agricultural Policy, IntAgriCon2021 Conference, 12-14 August, Konya, Turkey.
+
+Çağatay, S., Koç, A.A., Bayaner, A., Uysal, P., Arslan, S. (2021) A Synthesis on Impact Assessment Models from the Perspective of Evolution of the EU Common Agricultural Policy, IntAgriCon2021 Conference, 12-14 August, Konya, Turkey.
+
 Çağatay, S., Arık, Ş., Gül, Z.B., Kula, M., Erdem, Ş. 2021. The Effects of Industrial 
 Shutdown during the Pandemic on the West Mediterranean Region Economy of Turkey, 13rd World Congress of the Regional Science Association International, 25-28 May.
+
 Dural, C., Şebnem Arık, Zafer Barış Gül, Çağaçan Değer, Celal Taşdoğan, Selim Çağatay, 
 2021. Covid-19’un Daraltıcı Etkilerinin Telafisi: Alternatif Politikaların Etki Analizi (Compensation for the Contractionary Effects of Covid-19: Impact Analysis of Alternative Policies), Türkiye Ekonomi Kurumu 7. Uluslararası Ekonomi Konferansı (Turkish Economic Association 7th International Economics Conference), 9-11 April, Online.
+
 Arık, Şebnem, Zafer Barış Gül, Mehmet Kula, Şükrü Erdem, Selim Çağatay, 2021. Covid-
 19 Pandemisinin Batı Akdeniz Bölge Ekonomisine Etkileri (Effects of the Covid-19 Pandemic on the Economy of the Western Mediterranean Region), Türkiye Ekonomi Kurumu 7. Uluslararası Ekonomi Konferansı (Turkish Economic Association 7th International Economics Conference), 9-11 April, Online.
+
 Özeş, R. ve Çağatay, S. 2020. Karbon Vergisinin İktisadi Daralma Etkilerinin Giderilmesi 
 İçin Alternatif Politika Önerileri: Türkiye İçin Sosyal Hesaplar Matrisi Temelinde Bir Analiz (Eliminating the Economic Contraction Effects of Carbon Tax Alternative Policy Recommendations for Turkey: An Analysis Based on the Social Accounts Matrix for Turkey), 19th International Conference of MEEA, 9-11/October, İstanbul.
+
 Selim Çağatay, Murat Genç, Erhan Pişkin, Öner Öz, 2019. The Impacts of Possible TTIP 
 Agreement on Turkey’s Foreign Trade, Presented at the ETSG (European Trade Study Group) 21st Annual Conference, September 12-14, Bern, Switzerland.
-Özeş, R. ve Çağatay, S. 2017. Sera Gazı Azaltımında Karbon Vergisi Seçeneği ve Nötr 
-Vergiler ile Türkiye’de İktisadi Büyümenin Sürdürülebilirliği (Sustainability of Economic Growth in Turkey with Carbon Tax Option and Tax Neutrality in Greenhouse Gas Mitigation)" EconAnadolu, 
-V. Anadolu International Conference in Economics 11-13 May 2017, Eskişehir.
-Dural, H.C. and S. Çağatay, 2016. Sosyo-Ekonomik Faktörlerin İl Bazında Göç 
-Etkisinin Mekansal Analizi (Spatial Analysis of the Impact of Socio-Economic Factors and Migration by Province), Türkiye Ekonomi Kurumu Uluslararası 
-Ekonomi Konferansı (Turkish Economic Association International Economics Conference), 20-
-22 October.
-Dural, H.C. and Çağatay, S., 2016. Changing Impact of Human Capital on Socio-
-Economic Development: Inferences from a Spatial Econometric Regression for 
-Provinces in Turkey, 2nd International Annual Meeting of Sosyoekonomi Society, 28-29 October, Amsterdam.
-Çağatay, S., 2016. Understanding Turkish Food and Beverages Industry Companies’ 
-Capability in Initiating Open Innovation Process and Its Relation with Firm 
-Performance, 10th International European Forum (Igls-Forum) 151st EAAE Seminar) on 
-System Dynamics and Innovation in Food Networks, February 15-19, Innsbruck-Igls, Austria.
-Taşdan, K., Çağatay, S. and Gökovalı, U., 2015. GI Products and Rural Development: 
-Product Reputation versus Territorial Quality in Southeastern Turkey presented at the 3rd International Symposium on Traditional Foods from Adriatic to Caucasus, 01-04 October, Sarajevo.
-Çağatay, S. and Dural, H.C., 2015. Impacts of Spatial Characteristics on Regional 
-Socio-economic Development Level in Turkey, presented in the 55th European 
-Congress of the Regional Science Association International, Lisbon, Portugal, 25-28 August.
-Taşdoğan, C., Çağatay, S. and Gül, Z.B., 2014. Son Teşvik Programında Tanımlanan 
-Stratejik Sektörlerin Dış Ticaret Açığı Ve İstihdam Üzerindeki Etkileri (The Effects of Strategic Sectors Defined in the Latest Incentive Programme on Foreign Trade Deficit and Employment), presented in the Türkiye Ekonomi Kurumu 5. Uluslararası Ekonomi Konferansı (Turkish Economic Association 5th International Economic Conference), 17-19 October 2014, Antalya, Turkey.
+
+Özeş, R. ve Çağatay, S. 2017. Sera Gazı Azaltımında Karbon Vergisi Seçeneği ve Nötr Vergiler ile Türkiye’de İktisadi Büyümenin Sürdürülebilirliği (Sustainability of Economic Growth in Turkey with Carbon Tax Option and Tax Neutrality in Greenhouse Gas Mitigation)" EconAnadolu, V. Anadolu International Conference in Economics 11-13 May 2017, Eskişehir.
+
+Dural, H.C. and S. Çağatay, 2016. Sosyo-Ekonomik Faktörlerin İl Bazında Göç Etkisinin Mekansal Analizi (Spatial Analysis of the Impact of Socio-Economic Factors and Migration by Province), Türkiye Ekonomi Kurumu Uluslararası Ekonomi Konferansı (Turkish Economic Association International Economics Conference), 20-22 October.
+
+Dural, H.C. and Çağatay, S., 2016. Changing Impact of Human Capital on Socio-Economic Development: Inferences from a Spatial Econometric Regression for Provinces in Turkey, 2nd International Annual Meeting of Sosyoekonomi Society, 28-29 October, Amsterdam.
+
+Çağatay, S., 2016. Understanding Turkish Food and Beverages Industry Companies’ Capability in Initiating Open Innovation Process and Its Relation with Firm Performance, 10th International European Forum (Igls-Forum) 151st EAAE Seminar) on System Dynamics and Innovation in Food Networks, February 15-19, Innsbruck-Igls, Austria.
+
+Taşdan, K., Çağatay, S. and Gökovalı, U., 2015. GI Products and Rural Development: Product Reputation versus Territorial Quality in Southeastern Turkey presented at the 3rd International Symposium on Traditional Foods from Adriatic to Caucasus, 01-04 October, Sarajevo.
+
+Çağatay, S. and Dural, H.C., 2015. Impacts of Spatial Characteristics on Regional Socio-economic Development Level in Turkey, presented in the 55th European Congress of the Regional Science Association International, Lisbon, Portugal, 25-28 August.
+
+Taşdoğan, C., Çağatay, S. and Gül, Z.B., 2014. Son Teşvik Programında Tanımlanan Stratejik Sektörlerin Dış Ticaret Açığı Ve İstihdam Üzerindeki Etkileri (The Effects of Strategic Sectors Defined in the Latest Incentive Programme on Foreign Trade Deficit and Employment), presented in the Türkiye Ekonomi Kurumu 5. Uluslararası Ekonomi Konferansı (Turkish Economic Association 5th International Economic Conference), 17-19 October 2014, Antalya, Turkey.
+
 Özeş, R. and Çağatay, S., 2014. Endüstriyel Faktör Yoğunluğu Ve İkili Dış Ticaretin 
 Faktör  İçeriği: Leontıef Paradoksu’ Nun Türkiye İçin Test Edilmesi (Factor Content of Industrial Factor Intensity and Bilateral Foreign Trade : Testing the Leontıef Paradox for Turkey), presented in the Türkiye Ekonomi Kurumu 5. Uluslararası Ekonomi Konferansı (Turkish Economic Association 5th International Economic Conference), 17-19 October 2014, Antalya, Turkey.
 Çağatay, S., M. Mert, O. Koska and P.Ö. Saygın, 2014. Remittances Impacts on 
@@ -638,152 +526,10 @@ ERC/METU (Economic Research Center/Middle East Technical University Conference i
 Economics III, September 8-11, Ankara, Turkey. 
 
 Poster:
-Taşdan, K., Çağatay, S. and Gökovalı, U., 2015. Producers' Perception towards GI 
-Products: Four Cases from Southeastern Turkey, poster presented at the 3rd International Symposium on Traditional Foods from Adriatic to Caucasus, 01-04 October, Sarajevo.
-Cagatay, S. and Kiymaz, T., 2010. “Are Feedstock Prices Independent from End-use 
-Decision? The Possible Price Divergence in the Medium Term when Agricultural 
-Land is Fixed”, Poster presented at the 84th Annual AES (Agricultural Economics 
-Society) Conference, 29-31 March, Edinburgh, UK.
-Çağatay, S., 2005. Measurement of Agriculture Based Environmental Pollution and 
-Corresponding Country Response: Index of Agriculture Based Environmental 
-Sensitivity Performance (IAESP). Poster presented at the 79th Annual AES 
-(Agricultural Economics Society) Conference, 04-06 April, Nottingham, UK.
+Taşdan, K., Çağatay, S. and Gökovalı, U., 2015. Producers' Perception towards GI Products: Four Cases from Southeastern Turkey, poster presented at the 3rd International Symposium on Traditional Foods from Adriatic to Caucasus, 01-04 October, Sarajevo.
+
+Cagatay, S. and Kiymaz, T., 2010. “Are Feedstock Prices Independent from End-use Decision? The Possible Price Divergence in the Medium Term when Agricultural Land is Fixed”, Poster presented at the 84th Annual AES (Agricultural Economics Society) Conference, 29-31 March, Edinburgh, UK.
+
+Çağatay, S., 2005. Measurement of Agriculture Based Environmental Pollution and Corresponding Country Response: Index of Agriculture Based Environmental Sensitivity Performance (IAESP). Poster presented at the 79th Annual AES (Agricultural Economics Society) Conference, 04-06 April, Nottingham, UK.
 
 
-Academic Services
-
-Editorship and Editorial Board Member:
-June 2024-…: Critical Insights in Agriculture (Associate Editor)
-2016 October-2020 February: Akdeniz University Journal of Economics and 
-Administrative Sciences (Editor)
-2012 January-September 2018: New MEDIT (Editorial Board Member)
-2011 August-January 2013: Akdeniz University Journal of Economics and 
-Administrative Sciences (Editor)
-2008 August-2011 August: Journal of Development and Agricultural Economics (Assoc. 
-Editor)
-
-Reviewer for:
-Women’s Studies International Forum, Istanbul Business Research; Energy Economics; Environment and Development Economics; Journal of International Trade and Economic Development; Journal of Economics and International Finance; New Medit; International Journal of Environmental Assessment Policy and Management; International Journal of Productivity and Performance Management; Journal of Economic Studies; Hacettepe University Journal of Economics and Administrative Sciences; Akdeniz University Journal of Economics and Administrative Sciences; Dokuz September University Faculty of Business Journal; Ekonomik Yaklaşım; International Journal of Manpower; World Review of Political Economy
-
-Professional Association Memberships:
-Economic Modeling Network; Turkish Economic Association; Regional Science Association International; European Regional Science Association; European Association of Agricultural Economists 
-
-Organized Conferences/Seminars:
-4. Uluslararası Antalya Coğrafi İşaretler Semineri (4th International Antalya Geographical Indications Seminar), 27-28 October 2016, Antalya-Turkey
-Türkiye ve Diğer Akdeniz Ülkelerinde Coğrafi İşaretler: Gelişme Eğilimleri, Sorunlar ve Beklentiler (Geographical indications in Turkey and in other Mediterranean countries: Developments, Problems and Solutions)
-
-3. Uluslararası Antalya Coğrafi İşaretler Semineri (3rd International Antalya Geographical Indications Seminar), 10-14 October 2012, Antalya-Turkey
-Türkiye ve Diğer Akdeniz Ülkelerinde Coğrafi İşaretler ve Yerel Gıda Değer Zincirlerinin Yönetişimi (Governance of local food value chains and geographical indications in Turkey and in other Mediterranean countries)
-
-2. Uluslararası Antalya Coğrafi İşaretler Semineri (2nd International Antalya Geographical Indications Seminar), 16-18 December 2010, Antalya-Turkey
-Türkiye ve diğer Akdeniz ülkelerinde coğrafi işaretler, sosyo-ekonomik hareketlilik ve biyo-kültürel özvarlık (Séminaire international d’Antalya Indications Geographiques, Dynamiques Socio-Economiques Et Patrimoıne Bio-Culturel En Turquie Et Dans Les Pays Mediterraneens) 
-
-1. Uluslararası Antalya Coğrafi İşaretler Semineri (1st International Antalya Geographical Indications Seminar), 24-26 Nisan 2008, Antalya-Turkey
-Akdeniz ülkelerinde yöresel ürünler, coğrafi işaretler ve sürdürülebilir bölgesel kalkınma (Local Products, Geographical Indications and Sustainable Regional Development in Mediterranean Countries)
-
-Teaching and Research Positions:
-May 2023-April 2024:Visiting Research Fellow
-			Canterbury University, Department of Economics and Finance
-			Christchurch, New Zealand
-Sep. 2016-Jun. 2019:	Part time Professor
-			International Antalya University, Department of Economics
-			Microeconomics; Advanced Microeconomics; Labor Economics
-May 2012-…:		Full-time Professor
-			Akdeniz University, Department of Economics, Antalya, Turkey 
-			Advanced Microeconomics;	Agricultural Economics; 
-			Microeconomics; Macroeconomics; Mathematical Economics
-Sep. 2009-Jun. 2010:	Part-time Associate Professor
-			Middle East Technical University, Northern Cyprus Campus, 
-			Dept. of Economics, Güzelyurt, Northern Cyprus Turkish Rep.
-			Environmental Economics; 	Natural Resource Economics; 
-			Mathematics for Economists
-Jun. 2008-Aug. 2008:Visiting Research Fellow
-			Lincoln University, Agribusiness and Economics Research Unit
-			Christchurch, New Zealand
-Aug. 2007-May 2012:Full-time Associate Professor
-			Akdeniz University, Department of Economics, Antalya, Turkey 
-			Advanced Microeconomics; Agricultural Economics
-May 2006-July 2007: Full-time Associate Professor
-			Hacettepe University, Department of Economics, Ankara, Turkey 
-Microeconomics; Agricultural Economics; 	Structure of Turkish 
-Economy; Computable General Equilibrium Models; Natural 
-Resource and Environmental Economics
-Sep. 2006-Jun. 2007: Part time Associate Professor
-			Lefke European University, Department. of Economics, 
-			Northern Cyprus Turkish Republic
-Mathematics for Business and Economics; Introduction to 
-Economics
-Feb. 2006-Jul. 2006:	Part time Assistant Professor
-			Başkent University, Department of Economics, Ankara, Turkey
-Environmental and Natural resource Economics
-Sep. 2005-Feb. 2006: Full-time Assistant Professor
-			Middle East Technical University, Northern Cyprus Campus, 
-			Dept. of Economics, Güzelyurt, Northern Cyprus Turkish Rep.
-Introduction to Economics; Microeconomics
-Aug. 2002-Apr. 2006:Full-time Assistant Professor
-			Hacettepe University, Department of Economics, Ankara, Turkey
-Nov. 1993-Feb 1997: Research and Teaching Assistant
-			Department of Economics, Hacettepe University, Ankara, Turkey
-Windows based spreedsheet and word processor softwares
-
-Administrative Positions: 
-Oct. 2016-Jun. 2021	Chair, Department of Economics, Faculty of Economics and 
-Administrative Sciences, Akdeniz University, Turkey
-Oct. 2016-Jun. 2019	Executive Board Member, Faculty of Economics and 
-Administrative Sciences, Akdeniz University, Turkey
-Oct. 2016-Jun. 2021	Board Member, Faculty of Economics and Administrative Sciences, 
-			Akdeniz University, Turkey
-Sep. 2015-May 2018	Executive Board Member, The European Union Research 
-Centre, Akdeniz University, Turkey.
-Jan. 2009-Dec. 2012	Director, Centre for Economics Research on Mediterranean 
-			Countries, Faculty of Economics and Administrative Sciences, 
-			Akdeniz University, Turkey.
-Mar. 2008-Dec. 2008 Vice Director, Centre for Economic Research on Mediterranean 
-			Countries, Faculty of Economics and Administrative Sciences, 
-			Akdeniz University, Turkey.
-Nov. 2007-Dec. 2008 Vice Chair, Department of Economics, Faculty of Economics and 
-Administrative Sciences, Akdeniz University, Turkey.
-Nov. 2007-Nov. 2009 Faculty Executive Board Member, Faculty of Economics and 
-Administrative Sciences, Akdeniz University, Turkey.
-Dec. 2006-July 2007	Member of Education Commission of the Hacettepe University, 			Representative of the Faculty of Economics and Administrative 
-			Sciences, Hacettepe University, Turkey
-Apr. 2005-Dec. 2006 Vice Chair, Department of Economics, Faculty of Economics and 
-Administrative Sciences, Hacettepe University, Turkey.
-
-Supervised M.Sc. and Ph.d. Dissertations
-M.Sc.:
-1) Çevresel Regülasyonlarin Dış Ticaret Ve Yabancı Doğrudan Yatırımlar Üzerindeki Etkisi (Effects of Environmental Regulations on Foreign Trade and Foreign Direct Investment), Emre Belge, Hacettepe University, Department of Economics. Selected to be the third best Master’s Thesis in the 10th Traditional Foreign Trade Week Organized by Undersecretary of Foreign Trade, Turkey (completed). 
-2) Yoksulluk: Kavramlar, Ölçüm Yöntemleri ve Türkiye’de Kırsal Yoksulluğu Belirleyen Faktörler (Poverty: Concept, Measurement Methodologies and Factors that Determine Rural Poverty in Turkey), Duygu Atahan, Hacettepe University, Department of Economics (completed).
-3) Türkiye’de İller Bazında Otomobil Talebinin Belirlenmesine İlişkin Panel Veri Analizi (A Panel Econometric Approach to Determine the Automobile Demand at Province Level in Turkey), Şebnem Hançer, Hacettepe University, Department of Economics (completed).
-4) Kırsal Kesim Hanehalkı Finansal Yapısı, Tarımsal Destekler ve Tarım Sektörü Yatırımları Etkileşimi: Türkiye İçin Mikro Data ile Uygulama (Interaction between Financial Structure of the Rural Households, Agricultural Support and Agricultural Investment: An Application for Turkey with Micro Level Data), Ali Altıner, Akdeniz University, Department of Economics (completed).
-5) Gıda Sanayi Dış Ticaretinde Belirleyici Faktörlerin Analizi: Türkiye İçin Panel YerçOctoberi Ticaret Modeli Uygulaması (Analysis of Factors that Determine Food Industry Foreign Trade: A Panel Gravity Model for Turkey), Hamit Candan, Akdeniz University, Department of Economics (completed).
-6) Dünya Biyo-Enerji Piyasalarındaki Gelişmelerin Türkiye Tarım Sektörü Üzerindeki Etkileri: Kısmi Denge Tarım Ticaret Modeli ile Etki Analizi (Impact of Developments in World Bio-Energy Markets on Turkey’s Agricultural Sector: An Impact Assessment by Using a Partial Equilibrium Agricultural Trade Model), Derya Bilgin, Akdeniz University, Department of Economics. (completed)
-7) Türk Gıda Sanayinin Uluslararası Rekabet Avantajının “Çift Elmas” Yaklaşımı ile Analizi (Analysis of International Competitiveness of Turkish Food Industry by Using Double Diamond Approach), Belgin Cakir, Akdeniz University, Department of Economics (completed).
-8) Tarımsal İşlem Maliyetlerinin Arz Tepkisi Üzerindeki Etkisi: Türkiye için Zaman Kesiti Analizi (Effect of Agricultural Transaction Costs on Supply Response: A Cross Section Analysis for Turkey), Sinan Veziroglu, Akdeniz University, Department of Economics (completed).
-9) Tarım Sektöründe Geçimlik Üretim Ve İşlem Maliyetleri İlişkisi: Türkiye İçin Ampirik Uygulama (The Relationship Between Subsistence Production In Agriculture And Transaction Costs: An Empirical Case Study For Turkey), Cenk Fidan, Akdeniz University, Department of Economics (completed).
-10) Finike Portakalının Sürdürülebilir Rekabetinin Araştırılması: Değer Zinciri Analizi (An Assessment on Sustainable Competitiveness of Finike Orange: Value Chain Analysis), Celal Bülbül, Akdeniz University, Department of Economics (completed).
-11) Akdeniz İçin Birlik Anlaşması: Türkiye, Avrupa Birliği Ve Güney Akdeniz Ülkeleri Arasındaki Tarımsal Ticaretin Olası Değişim Yönlerinin Saptanması (Union for the Mediterranean Agreement: Determining the Changing Agricultural Trade Patterns among Turkey, the European Union and southern Mediterranean Countries), Özgür Kuşçu, Akdeniz University, Department of Economics (completed).
-12) Kamu Tercihi Teorisi ve Seçmen Davranışları: Türkiye için Ampirik Bir Analiz (Public Choice Theory and Voters Behavior: An Empirical Analsis for Turkey), Dilşad Tokatlıoğlu, Akdeniz University, Department of Economics (completed).
-13) Değişen Enerji Politikalarının Ekonomi ve Sera Gazı Emisyonları Üzerindeki Etkisi: Türkiye İçin Bir Çevresel Girdi-Çıktı Analizi (Economic and Emission Impacts of Changing Energy Policies: An Environmental Input-Output Model for Turkey), Reyhan Özeş, Akdeniz University, Department of Economics (completed).
-14) Türkiye'de Mekansal Özelliklerin Bölgelerin Sosyo-ekonomik Gelişmişlik Düzeyleri Üzerindeki Etkisi (Impacts of Spatial Characteristics in Turkey on Regions’ Socio-economic Development Level), Hüsnü Can Dural, Akdeniz University, Department of Economics (completed).
-15) Marka Ürünler, Coğrafi İşaret ve Tüketici Algısı (Brand Products, Geographical Indications and Consumer Perception), Mısra Çakaloğlu, Akdeniz University, Department of Economics (completed).
-16) Kırsal Kalkınmada Coğrafi İşaretlerin Etkisi: Gaziantep ve Siirt İlleri Örneği (Impacts of Geographical Indications on Rural Development: Case Studies of Gaziantep and Siirt Provinces), Derya Başaran, Akdeniz University, Department of Economics (completed).
-17) Bireylerde gıda güvenliği algısını etkileyen faktörlerin belirlenmesi (Detecting the factors affecting the food safety perception in the individuals), Çiğdem Toktaş, Akdeniz University, Department of Economics (completed).
-18) Coğrafi işaret tescilinin Antep fıstığı uluslararası rekabet gücü üzerindeki etkisinin ölçülmesi (Measuring the impact of geographical indication registration on international competitiveness of Antep pistachio), Nihal Beypınar, Akdeniz University, Department of Economics (completed).
-19) Malatya ve Mersin Taze Kayısı Karşılaştırmalı Değer Zinciri Analizi (Comparative Value Chain Analysis of Malatya and Mersin Fresh Apricot), Gökhan Aktoprak, Akdeniz University, Department of Economics (completed).
-20) Aydın İnciri, Ege Sultani Üzümü ve Giresun Fındığı İhracat Performansının Değerlendirilmesi: İhracatın Faktör Dekompozisyonu ve Pazar Kayma Hesapları (Evaluation of Export Performance of Aydın Fig, Aegean Sultani Grape and Giresun Hazelnut: Factor Decomposition of Exports and Market Shift Analysis), Mutlu Eğe, Akdeniz University, Department of Economics (completed).
-21) Tüketicilerin Gıda Maddelerini E-Ticaret Yoluyla Satın Almalarını Etkileyen Arz Ve Talep Yönlü Faktörlerin Belirlenmesi (Determination of Supply and Demand Side Factors Affecting Consumers' Purchase of Foodstuffs through E-Commerce), Deniz Öztürk, Akdeniz University, Department of Economics (completed).
-
-
-Ph.d.:
-1) Building Environmental Input-Output Model for Turkey with Special Focus on Agri-Food Sectors, Niaz Bhutto, Hacettepe University, Department of Economics (completed).
-2) Dünya Tarım Piyasalarında Serbestleşmenin Türk Tarımına Fiyat ve Gelir Yönünden Yansıması (Liberalization in World Agricultural Markets and Reflection on Prices and Income in Turkish Agricultural Sector), Taylan Kıymaz, Hacettepe University, Department of Economics (completed).
-3) Sosyal Hesaplar Matrisi ve Çok Sektörlü Makro Modeller Çerçevesinde Türkiye'de Tarımsal Politikaların Analizi (Analysis of Turkey's Agricultural Policies by Social Accounting Matrix and Multi-Sectoral Macro Models), Celal Taşdoğan, Hacettepe University, Department of Economics (completed).
-4) Türkiye’de Turizm Politikalarının Sosyal Hesaplar Matrisi Çerçevsinde Değerlendirilmesi (Evaluation of Turkish Tourism Industry Policies in the Social Accounting Matrix Framework), Hasan Gül, Akdeniz University, Department of Economics (completed).
-5) Yapabilirlik” Yaklaşımı Perspektifi ile Yoksulluğun Ölçülmesi: Yoksulluğun Kayıp Boyutları Üzerine Ampirik Bir Uygulama (Measuring Poverty with Capabilities Approach: An Empirical Application on Missing Dimensions on Poverty), Mehmet Zanbak, Akdeniz University, Department of Economics (completed).
-6) Kurumsal Yapının Ekonomik Performans Üzerindeki Etkileri (Effects of Institutional Structure on Economic Performance), Süreyya Kovacı, Akdeniz University, Department of Economics (completed).
-7) Türkiye’de Karbon Vergisi ve Ticareti Politikalarının Ekonomik Küçülme Etkilerinin Ölçülmesi: Alternatif Çözüm Önerileri (Measuring the Economic Contraction Effects of Carbon Tax and Carbon Trade Policies in Turkey: Alternative Policy Measures), Reyhan Özeş, Akdeniz University, Department of Economics (completed).
-8) Türkiye'de Iç Hat Hava Taşimaciliği Talebini Belirleyen Faktörlerin Ekonometrik Analizi (Econometric analysis of the factors that determine demand for domestic transportation in Turkey), Aytaç Aras, Akdeniz University, Department of Economics (completed).
-9) Türkiye`de İç Göçün İşgücü Piyasası ve Beşeri Sermaye Etkisi (Impacts of domestic migration in Turkey on labor market and human capital), Nevin Taştekin, Akdeniz University, Department of Economics (completed).
-10) Transatlantik Ticaret Ve Yatırım Ortaklığı Anlaşmasının Türkiye Dış Ticaretine Olası Etkileri: Karşıt Olgusal Bir Analiz (Possible Effects of the Transatlantic Trade and Investment Partnership Agreement on Turkey's Foreign Trade: A Counterfactual Analysis), Öner Öz, Akdeniz University, Department of Economics (completed).
-11) Küresel Değer Zinciri ve Bölüşüm: Türkiye için Çok Bölgeli Girdi-Çikti Analizi (Global Value Chain and Distribution: A Multi-regional Input-Output Analysis for Turkey), Mısra Çakaloğlu, Akdeniz University, Department of Economics (completed).
