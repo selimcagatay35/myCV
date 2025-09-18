@@ -1,0 +1,10 @@
+Instagram Aktif/
+node_modules/
+.git/
+*.log
+.DS_Store
+.env*
+*.md
+*.txt
+*.docx
+*.py
