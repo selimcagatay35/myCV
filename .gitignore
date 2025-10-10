@@ -19,3 +19,4 @@ Thumbs.db
 EOF < /dev/null# Large files (over 100MB)
 *.mp4
 **/84.mp4
+.vercel
