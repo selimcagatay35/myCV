@@ -1,0 +1,16 @@
+{
+  "name": "selim-cagatay-website",
+  "version": "2.0.0",
+  "description": "Academic website for Prof. Dr. Selim Çağatay",
+  "scripts": {
+    "validate": "node validate-build.js",
+    "test": "npm run validate",
+    "deploy": "git add -A && git commit -m 'Update website' && git push origin main"
+  },
+  "keywords": ["academic", "website", "professor", "economics"],
+  "author": "Prof. Dr. Selim Çağatay",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
