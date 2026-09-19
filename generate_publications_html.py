@@ -26,8 +26,9 @@ def format_publication_text(text, category):
         text = re.sub(r'\bin\s+([^,]+),', r'in <em>\1</em>,', text)
     
     # Format DOIs as links
-    text = re.sub(r'DOI:\s*(10\.\d+/[^\s,]+)', 
-                  r'DOI: <a href="https://doi.org/\1" target="_blank">\1</a>', text)
+    # Trailing sentence punctuation is not part of the DOI
+    text = re.sub(r'DOI:\s*(10\.\d+/[^\s,]*[^\s,.;:)])([.;:)]*)',
+                  r'DOI: <a href="https://doi.org/\1" target="_blank">\1</a>\2', text)
     
     return text
 

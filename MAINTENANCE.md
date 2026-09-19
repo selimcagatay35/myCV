@@ -17,8 +17,8 @@
 #### When Adding New Pages:
 1. **Use template.html** as your starting point
 2. **Always include version parameters**:
-   - CSS: `css/style.css?v=2.0.1`
-   - JS: `js/script.js?v=2.0.1`
+   - CSS: `css/style.css?v=2.0.2`
+   - JS: `js/script.js?v=2.0.2`
 3. **Update navigation** in all existing pages
 4. **Run validation** before committing
 
@@ -39,10 +39,10 @@
 #### Emergency CSS Fix:
 ```bash
 # 1. Find inconsistent links
-grep -r "css/style.css" *.html | grep -v "v=2.0.1"
+grep -r "css/style.css" *.html | grep -v "v=2.0.2"
 
 # 2. Update version in all files
-find . -name "*.html" -exec sed -i '' 's/css\/style\.css"/css\/style.css?v=2.0.1"/g' {} \;
+find . -name "*.html" -exec sed -i '' 's/css\/style\.css"/css\/style.css?v=2.0.2"/g' {} \;
 
 # 3. Validate fix
 node validate-build.js

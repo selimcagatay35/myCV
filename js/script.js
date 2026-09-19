@@ -476,7 +476,8 @@ function makePublicationsClickable() {
         
         // Add click event listener
         publication.addEventListener('click', function(e) {
-            // Prevent default if it's not already a link
+            // Let real links inside the card (e.g. DOI) open on their own
+            if (e.target.closest('a')) return;
             if (publication.tagName !== 'A') {
                 e.preventDefault();
                 window.open(linkInfo.url, '_blank', 'noopener,noreferrer');
@@ -520,12 +521,9 @@ function getBestPublicationLink(publication) {
     
     // 2. Check for DOI in text (enhanced detection for multiple formats)
     const doiPatterns = [
-        /DOI:\s*([^\s,().]+)/i,                          // Standard DOI: format
-        /doi\.org\/([^\s,().]+)/i,                       // Direct doi.org links
-        /https?:\/\/doi\.org\/([^\s,().]+)/i,            // Full DOI URLs
-        /https?:\/\/dx\.doi\.org\/([^\s,().]+)/i,        // dx.doi.org URLs
-        /\bdoi:([^\s,().]+)/i,                           // Simple doi: format
-        /digital\s+object\s+identifier[:\s]*([^\s,().]+)/i // Full DOI text
+        /DOI:\s*(10\.\d{4,}\/[^\s,]+)/i,                // Standard DOI: format
+        /doi\.org\/(10\.\d{4,}\/[^\s,]+)/i,             // doi.org / dx.doi.org links
+        /\b(10\.\d{4,}\/[^\s,]+)/                        // Bare DOI (10.xxxx/...)
     ];
     
     for (const pattern of doiPatterns) {
