@@ -6,6 +6,7 @@ node_modules/
 .env*
 *.md
 *.txt
+!robots.txt
 *.docx
 *.py
 validate-build.js
