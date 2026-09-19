@@ -2,6 +2,6 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://selimcagatay.edu.tr/sitemap.xml
+Sitemap: https://www.selimcagatay.com/sitemap.xml
 
 # Allow all content

@@ -16,8 +16,8 @@ const HTML_FILES = [
     'gallery.html'
 ];
 
-const REQUIRED_CSS_LINK = 'css/style.css?v=2.0.0';
-const REQUIRED_JS_LINK = 'js/script.js?v=2.0.0';
+const REQUIRED_CSS_LINK = 'css/style.css?v=2.0.1';
+const REQUIRED_JS_LINK = 'js/script.js?v=2.0.1';
 
 function validateHTMLFile(filename) {
     const filePath = path.join(__dirname, filename);

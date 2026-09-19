@@ -448,7 +448,7 @@ function updatePublicationStats() {
     const totalPubs = document.querySelectorAll('.publication-item').length;
     const journalPubs = document.querySelectorAll('.publication-item[data-type="journal"]').length;
     const conferencePubs = document.querySelectorAll('.publication-item[data-type="conference"]').length;
-    const bookPubs = document.querySelectorAll('.publication-item[data-type="book"]').length;
+    const bookPubs = document.querySelectorAll('.publication-item[data-type="book"], .publication-item[data-type="chapter"]').length;
     
     const totalElement = document.getElementById('totalPublications');
     const journalElement = document.getElementById('journalArticles');
@@ -968,7 +968,7 @@ function getRandomPhotos(images, count) {
     return shuffled.slice(0, Math.min(count, shuffled.length)).map(img => ({
         src: img.src,
         alt: img.alt,
-        caption: img.getAttribute('data-caption') || img.alt,
+        caption: img.getAttribute('data-caption') || '',
         title: img.closest('.gallery-item').querySelector('.gallery-info h3')?.textContent || img.alt
     }));
 }
